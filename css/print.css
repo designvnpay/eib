@@ -1,0 +1,101 @@
+@media print { 
+   @page {
+      margin: 0;
+   }
+   body {
+      margin: 1.6cm;
+   }
+}
+body {
+   font-family: "Times New Roman", Times, serif;
+   background-color: #fff;
+   color: #000000;
+   line-height: 1.2em;
+   font-size: 1em;
+   margin: 0px;
+}
+a {
+   color: #000;
+   text-decoration: none;
+}
+#print-area {
+   font-family: "Times New Roman", Times, serif;
+   padding: 0.8cm;
+   width: 21cm;
+   min-height: 29.7cm;
+   margin: 0 auto;
+}
+.table-print {
+   border: 1pt solid #000;
+   width: 100%;
+   border-collapse: collapse;
+}
+.table-print td {
+   border: 1pt solid #000;
+   padding: 5px 10px;
+}
+.text-center {
+   text-align: center;
+}
+.mt-5 {
+   margin-top: 5px;
+}
+.mb-5 {
+   margin-bottom: 5px;
+}
+.mt-15 {
+   margin-top: 15px;
+}
+.mb-15 {
+   margin-bottom: 15px;
+}
+.mt-20 {
+   margin-top: 20px;
+}
+.mb-20 {
+   margin-bottom: 20px;
+}
+.b {
+   font-weight: bold;
+}
+.i {
+   font-style: italic;
+}
+.undeline {
+   text-decoration: none;
+}
+p {
+   margin-top: 0px;
+   margin-bottom: 0.3em;
+}
+.color-green {
+   color: #00502f;
+}
+.header-area {
+   margin: 10px 0px;
+   text-align: center;
+   position: relative;
+}
+.header-area .logo {
+   margin-bottom: 45px;
+   height: 100px;
+}
+.contact-area {
+   position: absolute;
+   top: 108px;
+   left: 50%;
+   margin-left: 24px;
+   font-size: 0.8em;
+   line-height: 1.1em;
+   text-align: right;
+}
+.titlepage {
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 15px;
+   text-transform: uppercase;
+   line-height: 1.3em;
+}
+.fontsize1 {
+   font-size: 0.8em;
+}

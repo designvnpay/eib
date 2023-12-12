@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="ic_eye-open-active" opacity="0.7">
+    <rect id="Rectangle_3984" data-name="Rectangle 3984" width="16" height="16" fill="none"/>
+    <g id="Group_7060" data-name="Group 7060" transform="translate(2 3)">
+      <path id="Path_10211" data-name="Path 10211" d="M6.025,11.028c2.708,0,4.815-2.332,5.718-3.687a1.468,1.468,0,0,0,0-1.73C10.84,4.332,8.733,2,6.025,2S1.21,4.332.307,5.687a1.354,1.354,0,0,0,0,1.655C1.21,8.7,3.317,11.028,6.025,11.028Zm0-6.771A2.217,2.217,0,0,1,8.282,6.514,2.217,2.217,0,0,1,6.025,8.771,2.217,2.217,0,0,1,3.768,6.514,2.217,2.217,0,0,1,6.025,4.257Z" transform="translate(-0.025 -2)" fill="#a48450"/>
+    </g>
+  </g>
+</svg>

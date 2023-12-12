@@ -1,0 +1,27 @@
+<svg id="ic_ADSL" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x2="0.989" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.134" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6274" data-name="Rectangle 6274" width="48" height="48" rx="16" fill="none"/>
+  <g id="Group_19073" data-name="Group 19073" transform="translate(-236 -1614)">
+    <path id="Union_44" data-name="Union 44" d="M-3723,13a2,2,0,0,1-2-2V-1a2,2,0,0,1,2-2h2v-8.5a1.5,1.5,0,0,1,1.5-1.5,1.5,1.5,0,0,1,1.5,1.5V-3h19a2,2,0,0,1,2,2V11a2,2,0,0,1-2,2Z" transform="translate(3971 1638)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_6280" data-name="Rectangle 6280" width="22" height="10" rx="1" transform="translate(249 1638)" fill="#fff7e5"/>
+    <g id="Rectangle_6282" data-name="Rectangle 6282" transform="translate(252 1641)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="2" height="2" rx="1" stroke="none"/>
+      <rect x="0.75" y="0.75" width="0.5" height="0.5" rx="0.25" fill="none"/>
+    </g>
+    <g id="Rectangle_6283" data-name="Rectangle 6283" transform="translate(256 1641)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="2" height="2" rx="1" stroke="none"/>
+      <rect x="0.75" y="0.75" width="0.5" height="0.5" rx="0.25" fill="none"/>
+    </g>
+    <g id="Rectangle_6284" data-name="Rectangle 6284" transform="translate(260 1641)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="2" height="2" rx="1" stroke="none"/>
+      <rect x="0.75" y="0.75" width="0.5" height="0.5" rx="0.25" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg id="ic_search" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="M-Size_Icons_Search-ico" data-name="M-Size/Icons/Search-ico" transform="translate(-11 -11)">
+    <rect id="Rectangle_5517" data-name="Rectangle 5517" width="24" height="24" rx="8" transform="translate(11 11)" fill="none"/>
+    <g id="Group_19243" data-name="Group 19243" transform="translate(2 2)">
+      <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(14 14)" fill="none" stroke="rgba(255,255,255,0.87)" stroke-width="1.6">
+        <circle cx="6.4" cy="6.4" r="6.4" stroke="none"/>
+        <circle cx="6.4" cy="6.4" r="5.6" fill="none"/>
+      </g>
+      <line id="Line_729" data-name="Line 729" x2="4" y2="4" transform="translate(24 24)" fill="none" stroke="rgba(255,255,255,0.87)" stroke-width="1.6"/>
+    </g>
+  </g>
+</svg>

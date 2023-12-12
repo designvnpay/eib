@@ -1,0 +1,17 @@
+<svg id="ic_tau" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_340" data-name="Rectangle 340" width="24" height="24" fill="#fff" opacity="0"/>
+  <g id="home_ic_datvetau" transform="translate(4 1.5)">
+    <g id="Stroke_1" data-name="Stroke 1" transform="translate(2.433 5.831)">
+      <path id="Path_5" data-name="Path 5" d="M8.9,5.622H2.811A2.811,2.811,0,1,1,2.811,0H8.9a2.811,2.811,0,0,1,0,5.622Z" fill="none"/>
+      <path id="Path_6" data-name="Path 6" d="M8.9,4.322A1.511,1.511,0,1,0,8.9,1.3H2.811a1.511,1.511,0,1,0,0,3.022H8.9m0,1.3H2.811A2.811,2.811,0,1,1,2.811,0H8.9a2.811,2.811,0,1,1,0,5.622Z" fill="#c2a87c"/>
+    </g>
+    <path id="Stroke_5" data-name="Stroke 5" d="M0,.225H2.7" transform="translate(6.936 0.18)" fill="none" stroke="#c2a87c" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_7" data-name="Stroke 7" d="M0,.225H4.5" transform="translate(6.035 18.938)" fill="none" stroke="#c2a87c" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Stroke_9" data-name="Stroke 9" d="M0,.225H8.107" transform="translate(4.233 20.29)" fill="none" stroke="#c2a87c" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Stroke_11" data-name="Stroke 11" d="M0,.225H1.351" transform="translate(3.784 13.984)" fill="none" stroke="#c2a87c" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_13" data-name="Stroke 13" d="M0,.225H1.351" transform="translate(11.439 13.984)" fill="none" stroke="#c2a87c" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_15" data-name="Stroke 15" d="M0,3.1,2.264,0" transform="translate(2.703 17.569)" fill="none" stroke="#c2a87c" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_17" data-name="Stroke 17" d="M0,0,2.508,3.1" transform="translate(11.362 17.569)" fill="none" stroke="#c2a87c" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_3" data-name="Stroke 3" d="M9.458,15.494H6.3A6.3,6.3,0,0,1,0,9.189V6.3A6.3,6.3,0,0,1,6.305,0H9.458a6.3,6.3,0,0,1,6.305,6.305V9.189a6.3,6.3,0,0,1-6.305,6.305Z" transform="translate(0.405 2.075)" fill="none" stroke="#c2a87c" stroke-miterlimit="10" stroke-width="1.3"/>
+  </g>
+</svg>

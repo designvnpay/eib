@@ -1,0 +1,26 @@
+<svg id="invoice_ic02" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.134" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6274" data-name="Rectangle 6274" width="48" height="48" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <g id="Group_19072" data-name="Group 19072" transform="translate(-167.525 -1613)">
+    <g id="Group_19071" data-name="Group 19071" transform="translate(-1)">
+      <g id="Group_19068" data-name="Group 19068" transform="translate(0 -4)">
+        <path id="Path_16509" data-name="Path 16509" d="M12-4c2.162,0,12,9.82,12,17S18.627,26,12,26,0,20.18,0,13,9.838-4,12-4Z" transform="translate(180 1630)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_19069" data-name="Group 19069" transform="translate(3 -1)">
+        <path id="Path_16510" data-name="Path 16510" d="M9-4c1.154,0,9,8.477,9,14S13.971,20,9,20,0,15.523,0,10,7.846-4,9-4Z" transform="translate(180 1630)" fill="#fff7e5" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+      </g>
+      <path id="Path_16511" data-name="Path 16511" d="M3912.294,1644.716a8.711,8.711,0,0,0-2.708,5.851" transform="translate(-3895.885 478.263) rotate(-7)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_16512" data-name="Path 16512" d="M3911.171,1644.716a5.1,5.1,0,0,0-1.584,3.424" transform="matrix(-0.985, -0.174, 0.174, -0.985, 3761.749, 3944.224)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <g id="Group_19070" data-name="Group 19070" transform="translate(3.05 -7)">
+      <path id="Path_16510-2" data-name="Path 16510" d="M5-4c.641,0,5,4.71,5,7.778A5.3,5.3,0,0,1,5,9.333,5.3,5.3,0,0,1,0,3.778C0,.71,4.359-4,5-4Z" transform="translate(191 1634)" fill="#f9c734"/>
+    </g>
+  </g>
+</svg>

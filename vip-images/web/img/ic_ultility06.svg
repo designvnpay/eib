@@ -1,0 +1,9 @@
+<svg id="Icon_24px_Login_Khuyen_mai" data-name="Icon 24px / Login  / Khuyen mai" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_6396" data-name="Rectangle 6396" width="24" height="24" fill="none"/>
+  <g id="Group_19772" data-name="Group 19772" transform="translate(-3589.572 -908)">
+    <path id="Exclusion_16" data-name="Exclusion 16" d="M16.143,4.286H9.214V0h6.929a1,1,0,0,1,1,1V3.286A1,1,0,0,1,16.143,4.286Zm-8.215,0H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0H7.928V4.285Z" transform="translate(3593 916.143)" fill="rgba(255,255,255,0.87)"/>
+    <path id="Exclusion_17" data-name="Exclusion 17" d="M1,0H12.714a1,1,0,0,1,1,1V6.714a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0Z" transform="translate(3594.714 921.286)" fill="rgba(255,255,255,0.87)"/>
+    <path id="Path_16471" data-name="Path 16471" d="M11,6.286H7.143A2.143,2.143,0,1,1,7.143,2C10.143,2,11,6.286,11,6.286Z" transform="translate(3590.571 909)" fill="rgba(255,255,255,0.87)"/>
+    <path id="Path_16472" data-name="Path 16472" d="M12,6.286h3.857a2.143,2.143,0,0,0,0-4.286C12.857,2,12,6.286,12,6.286Z" transform="translate(3589.571 909)" fill="rgba(255,255,255,0.87)"/>
+  </g>
+</svg>

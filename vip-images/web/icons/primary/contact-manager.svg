@@ -1,0 +1,18 @@
+<svg id="contact-manager" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x2="0.989" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.134" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6170" data-name="Rectangle 6170" width="64" height="64" fill="none"/>
+  <g id="Group_18972" data-name="Group 18972" transform="translate(-524.001 -830)">
+    <g id="Group_18971" data-name="Group 18971" transform="translate(540 842.448)">
+      <rect id="Rectangle_6147" data-name="Rectangle 6147" width="31.862" height="40.552" rx="2" fill="url(#linear-gradient)"/>
+      <path id="Exclusion_5" data-name="Exclusion 5" d="M22.172,31.862H7.241V0H22.172a1,1,0,0,1,1,1V30.862A1,1,0,0,1,22.172,31.862Zm-17.827,0H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0H4.345V31.861Z" transform="translate(4.344 4.345)" fill="#fff7e5" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <path id="Path_16351" data-name="Path 16351" d="M25.6,30.272l-2.59-1.553a1.834,1.834,0,0,0-1.888,0l-2.59,1.553A1.013,1.013,0,0,1,17,29.4V18.835A1.834,1.834,0,0,1,18.835,17H25.3a1.834,1.834,0,0,1,1.835,1.835V29.4A1.013,1.013,0,0,1,25.6,30.272Z" transform="translate(541.828 824)" fill="#f9c734"/>
+  </g>
+</svg>

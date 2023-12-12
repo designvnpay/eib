@@ -1,0 +1,20 @@
+<svg id="invoice_ic01" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.108" y1="0.093" x2="0.867" y2="0.874" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7ed9ff"/>
+      <stop offset="0.531" stop-color="#00a1e4"/>
+      <stop offset="1" stop-color="#0073bc"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_10968" data-name="Rectangle 10968" width="48" height="48" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <g id="Group_20150" data-name="Group 20150" transform="translate(-38 -1613)">
+    <circle id="Ellipse_1133" data-name="Ellipse 1133" cx="12" cy="12" r="12" transform="translate(50 1622)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_1134" data-name="Ellipse 1134" cx="9" cy="9" r="9" transform="translate(53 1625)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <rect id="Rectangle_6275" data-name="Rectangle 6275" width="14" height="3" rx="1" transform="translate(55 1645)" fill="#f7b500"/>
+    <rect id="Rectangle_6276" data-name="Rectangle 6276" width="12" height="3" rx="1" transform="translate(56 1649)" fill="#f7b500"/>
+    <g id="Group_19066" data-name="Group 19066" transform="translate(-0.336)">
+      <path id="Path_16507" data-name="Path 16507" d="M3787,1655.012v-6.044" transform="translate(-3724.604 -12.986)" fill="none" stroke="#0073bc" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Path_16508" data-name="Path 16508" d="M3785.268,1646.986v3.24l3.037-1.3,2.963,1.3v-3.24" transform="translate(-3725.932 -13.96)" fill="none" stroke="#0073bc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

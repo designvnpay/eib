@@ -1,0 +1,19 @@
+<svg id="account" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7ed9ff"/>
+      <stop offset="0.531" stop-color="#00a1e4"/>
+      <stop offset="1" stop-color="#0073bc"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_10972" data-name="Rectangle 10972" width="64" height="64" fill="none"/>
+  <g id="Group_19051" data-name="Group 19051" transform="translate(-245.431 -887.5)">
+    <rect id="Rectangle_6255" data-name="Rectangle 6255" width="28.965" height="8.276" transform="translate(258.759 902.759)" fill="#0073bc"/>
+    <rect id="Rectangle_6256" data-name="Rectangle 6256" width="37.24" height="26.206" transform="translate(258.759 911.034)" fill="#fff7e5"/>
+    <g id="Group_19057" data-name="Group 19057" transform="translate(256 900)">
+      <path id="Union_42" data-name="Union 42" d="M4.828,40A4.833,4.833,0,0,1,0,35.172V6.9l.039.01A6.211,6.211,0,0,1,6.207,0H28.276a6.214,6.214,0,0,1,6.206,6.207v2.07H37.93A4.832,4.832,0,0,1,42.758,13.1V35.172A4.833,4.833,0,0,1,37.93,40Zm-.691-4.828a.691.691,0,0,0,.691.689h33.1a.69.69,0,0,0,.69-.689V13.1a.69.69,0,0,0-.69-.689H4.137Zm0-28.965a2.073,2.073,0,0,0,2.07,2.07H30.344V6.207a2.072,2.072,0,0,0-2.068-2.07H6.207A2.073,2.073,0,0,0,4.137,6.207Z" transform="translate(0 0)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Path_68226" data-name="Path 68226" d="M-9160.677,2935.292l-.377-.014a6.9,6.9,0,0,1-6.405-5.63s0-.006,0-.009a6.863,6.863,0,0,1-.109-1.218c0-.083,0-.166.007-.248v0a6.9,6.9,0,0,1,6.032-6.585v6.589h-3.95c-.124,0-.239.006-.348.016a1.249,1.249,0,0,0-.821,1.167,2.6,2.6,0,0,0,.034.3,6.069,6.069,0,0,0,5.533,4.792h0V2921.5l.03,0h.377l.378.014a6.9,6.9,0,0,1,6.4,5.606v-.006a7.082,7.082,0,0,1,.115,1.256c0,.083,0,.166,0,.249v0a6.9,6.9,0,0,1-6.035,6.585v-6.589h3.95c.123,0,.238-.006.346-.016a1.252,1.252,0,0,0,.826-1.167,2.334,2.334,0,0,0-.037-.3,6.071,6.071,0,0,0-5.533-4.795h0v12.947l-.027,0Z" transform="translate(9433.225 -2004.259)" fill="#0073bc" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="Rectangle_6257" data-name="Rectangle 6257" d="M4,0h9.793a0,0,0,0,1,0,0V8.275a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(284.965 920)" fill="#f7b500"/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
+	 height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#4a4a4a;}
+</style>
+<defs>
+</defs>
+<path id="icons8_info_1_" class="st0" d="M12,0C5.4,0,0,5.4,0,12s5.4,12,12,12s12-5.4,12-12S18.6,0,12,0z M13.4,20h-2.9V9.9h2.9V20z
+	 M12,8.4c-1.2,0-2.2-1-2.2-2.2s1-2.2,2.2-2.2s2.2,1,2.2,2.2S13.2,8.4,12,8.4z"/>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

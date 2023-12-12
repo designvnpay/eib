@@ -1,0 +1,347 @@
+<input type="checkbox" id="sidebar-trigger" class="hidden">
+  <label for="sidebar-trigger" class="sidebar-overlay"></label>
+  <div class="bg bg-default" style="background-image: url(images-general/bg/default/home_3.jpg);"><div class="bg-content"></div></div>
+  <div class="btn_search_when_scroll" onClick="search_mobile()" data-tooltip="tooltip">
+		<span>Tìm kiếm trong OMNI Banking</span>
+		<div class="input-ic input-ic-l">
+			<img src="images/base/icons/search/square/white.svg" alt="" class="ic-md">
+		</div>
+	</div>
+    <div class="sidebar sidebar-left">
+		<div class="bg-nav-left"></div>
+		<input type="radio" class="hidden sidebar-input-trigger" name="sidebar-left-trigger" id="sidebar-left-close" value="sidebar-left-close">
+		<label for="sidebar-left-close" class="sidebar-right-expand-overlay close-sidebar-left"></label>
+		<div class="sidebar-left-content">
+			<div class="sidebar-left-inner pv20">
+				<div class="top-menu">
+					<div class="row">
+						<div class="col-auto text-left show-ipad">
+							<label for="sidebar-trigger" class="ubg-trans sidebar-mobile-back ripple">
+								<img width="24" src="vip-images/base/icons/close/base.svg" alt="">
+							</label>
+						</div>
+						<div class="col text-center-ipad">
+							<a href="" class="sidebar-right-logo text-center pb10">
+								<img width="98" src="vip-images/logo-digibank-white.svg" alt="">
+							</a>
+						</div>
+						<div class="col-auto text-right">
+							<div class="language">
+								<div class="dropdown">
+									<button class="btn_language btn btn-sm btn-transfer btn-gray-radius dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<img src="images-general/svg/lang_vi.svg" alt="">
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton2" style="min-width: 128px;">
+										<a class="dropdown-item" href="#"><img src="images-general/svg/lang_vi.svg" alt=""> <span class="txt_lang">Tiếng Việt</span>
+										</a>
+										<a class="dropdown-item" href="#"> <img src="images-general/svg/lang_en.svg" alt="">
+											<span class="txt_lang">English</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--home sidebar3-->
+				<div class="sidebar-menu isolated-scroll box-slide3" data-accordion-group>
+					<div class="box box--sm box--light box--profile text-center">
+						<div class="profile text-center">
+							<div class="dropdown">
+								<a href="" data-toggle="dropdown" class="profile__img" style="background-image: url(vip-images/web/img/profile-img.png)">
+								</a>
+								<ul class="dropdown-menu dropdown-menu-center">
+									<li>
+										<a class="dropdown-inner" href="pages/cai-dat/thong-tin-ca-nhan/index.html">
+											<div class="dropdown-text color-black">
+												Thông tin cá nhân
+											</div>
+										</a>
+									</li>
+									<li>
+										<label class="dropdown-inner pointer" href="">
+											<input type="file" id="p-upload" value="Choose a file" accept="image/*" />
+											<div class="dropdown-text color-black">
+												Đổi ảnh đại diện
+											</div>
+										</label>
+									</li>
+									<li>
+										<a class="dropdown-inner" href="#" data-toggle="modal" data-target="#modal-delete-ava">
+											<div class="dropdown-text color-black">
+												Xóa ảnh đại diện
+											</div>
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-inner" href="pages/cai-dat/doi-hinh-nen/index.html">
+											<div class="dropdown-text color-black">
+												Đổi hình nền
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="color-primary">
+								Chào buổi sáng!
+							</div>
+							<div class="profile-name h5 color-white">
+								Pham Anh Khoa
+							</div>
+							<div class="profile-time pt10">
+								<div class="row align-items-center">
+									<div class="col text-left">
+										<div class="color-white-5 size12">Lần đăng nhập gần nhất</div>
+										<div class="color-base fw600">20/6/2022 lúc 13:45:30</div>
+									</div>
+									<div class="col-auto text-right">
+										<button onclick="window.location.href='login.html'" class="btn no-p btn-gray-radius wh32 nlh">
+											<img src="images-general/svg/ic_exit.svg" alt="">
+										</button>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="box box--sm box--light box--tk no-p" id="accordionscroll">
+						<div class="box-sm-header ph20 pt20" data-toggle="collapse" data-target="#collapse1">
+							<div class="table">
+								<div class="td title color-white p b">
+									<a href="pages/ds-tk/danh-sach-tai-khoan.html#account-payment">Tài khoản thanh toán</a>
+								</div>
+								<div class="ic td">
+									<div class="sidebar__dropdown"></div>
+								  </div>
+							</div>
+						</div>
+						<div class="list-link-sm collapse show" id="collapse1">
+							<div class="list-link-item has-link-arrow tk">
+								<div class="tk-inner color-white txt no-pl">
+									<div class="tk-money">
+										<div class="tk-money-title h7 mb5">Số dư</div>
+										<div class="row row-10 align-items-center txt_money">
+											<div class="inline-block">
+												<div class="h5">********</div>
+											</div>
+											<div class="inline-block button_eye">
+												<label data-tooltip="tooltip" title="Hiện số tiền" class="login-eye">
+													<input type="checkbox" name="" class="hidden">
+													<div class="login-eye-slash"></div>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="box box--sm box--light box--tk no-p">
+						<div class="box-sm-header ph20 pt20" data-toggle="collapse" data-target="#collapse2">
+							<div class="table">
+								<div class="td title color-white p b">
+									<a href="pages/ds-tk/danh-sach-tai-khoan.html#account-savings">Tài khoản tiết kiệm</a>
+								</div>
+								<div class="ic td">
+									<div class="sidebar__dropdown"></div>
+								  </div>
+							</div>
+						</div>
+						<div class="list-link-sm collapse show" id="collapse2">
+							<div class="list-link-item has-link-arrow tk">
+								<div class="tk-inner color-white txt no-pl">
+									<div class="tk-money">
+										<div class="tk-money-title h7 mb5">Tiết kiệm</div>
+										<div class="row row-10 align-items-center txt_money">
+											<div class="inline-block">
+												<div class="h5">********</div>
+											</div>
+											<div class="inline-block button_eye">
+												<label data-tooltip="tooltip" title="Hiện số tiền" class="login-eye">
+													<input type="checkbox" name="" class="hidden">
+													<div class="login-eye-slash"></div>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="box box--sm box--light box--tk no-p">
+						<div class="box-sm-header ph20 pt20" data-toggle="collapse" data-target="#collapse3">
+							<div class="table">
+								<div class="td title color-white p b">
+									<a href="pages/ds-tk/danh-sach-tai-khoan.html#account-loans">Khế ước vay</a>
+								</div>
+								<div class="ic td">
+									<div class="sidebar__dropdown"></div>
+								  </div>
+							</div>
+						</div>
+						<div class="list-link-sm collapse show" id="collapse3">
+							<div class="list-link-item has-link-arrow tk">
+								<div class="tk-inner color-white txt no-pl">
+									<div class="tk-money">
+										<div class="tk-money-title h7 mb5">Khế ước vay</div>
+										<div class="row row-10 align-items-center txt_money">
+											<div class="inline-block">
+												<div class="h5">********</div>
+											</div>
+											<div class="inline-block button_eye">
+												<label data-tooltip="tooltip" title="Hiện số tiền" class="login-eye">
+													<input type="checkbox" name="" class="hidden">
+													<div class="login-eye-slash"></div>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="box box--sm box--light box--link no-p">
+						<div class="box-sm-header ph20 pt20" data-toggle="collapse" data-target="#collapse4">
+							<div class="table">
+								<div class="td title p">
+									<b class="color-primary-light size18">EDigi++</b>
+								</div>
+								<div class="ic td">
+									<div class="sidebar__dropdown"></div>
+								  </div>
+							</div>
+						</div>
+						<div class="list-link list-link-sm collapse show" id="collapse4">
+							<a href="pages/nhat-ky-giao-dich/index.html" class="list-link-item has-link-arrow">
+								<div class="table">
+									<div class="td ic">
+										<img src="images-general/svg/ic_nkgd.svg" alt="">
+									</div>
+									<div class="txt txt_custom color-white">
+										Nhật ký giao dịch
+									</div>
+								</div>
+							</a>
+							<a href="pages/dang-ky-dich-vu/" class="list-link-item has-link-arrow">
+								<div class="table">
+									<div class="td ic">
+										<img src="images-general/svg/icon-dkdv.svg" alt="">
+									</div>
+									<div class="txt txt_custom color-white">
+										Đăng ký dịch vụ
+									</div>
+								</div>
+							</a>
+							<a href="javascript:;" class="list-link-item has-link-arrow">
+								<div class="table">
+									<div class="td ic">
+										<img src="images-general/svg/icon-favourist-gift.svg" alt="">
+									</div>
+									<div class="txt txt_custom color-white">
+										Khuyến mại
+									</div>
+								</div>
+							</a>
+							<a href="javascript:;" class="list-link-item has-link-arrow">
+								<div class="table">
+									<div class="td ic">
+										<img src="images-general/svg/icon-loyalty.svg" alt="">
+									</div>
+									<div class="txt txt_custom color-white">
+										Loyalty
+									</div>
+								</div>
+							</a>
+							<a href="pages/gop-y/" class="list-link-item has-link-arrow">
+								<div class="table">
+									<div class="td ic">
+										<img src="images-general/svg/icon-system-comment.svg" alt="">
+									</div>
+									<div class="txt txt_custom color-white">
+										Góp ý
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="copyright_slider">© 2021 Eximbank</div>
+				</div>
+				<!--end home-->
+			</div>
+		</div>
+	</div>
+    <header class="menu">
+        <div class="menu__wrap">
+            <a href="index.html" class="menu__logo" href="#">
+                <div class="menu__item__block no-p">
+                    <img src="vip-images/logo-white-type-2.svg" alt="" class="menu__logo__logo">
+                </div>
+            </a>
+            <div class="menu__mobile">
+                <div class="menu__mobile__item menu__mobile__ic">
+                    <label class="menu__ic-box ripple-100" for="sidebar-trigger">
+            <img width="36" src="vip-images/web/img/profile-img.png" class="img36 align-self-end" alt="">
+          </label>
+            </div>            
+                <a href="index.html" class="menu__mobile__item menu__mobile__logo">
+                    <img src="vip-images/logo-white-type-2.svg" alt="" class="">
+                </a>
+                <div class="menu__mobile__item menu__mobile__ic">
+                    <a onclick="search_mobile()" class="menu__ic-box ripple-100 no-mt d-flex justify-content-center align-items-center">
+                        <img src="vip-images/base/icons/search/square/white.svg" alt="" width="22">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div class="searchmb modal live-search-list live-search-list-show ">
+		<div class="p-3 body_modal_search ">
+			<div class="d-flex">
+				<a onclick="close_searchmb()" class="btn_close_search_wap">
+					<img src="images/base/icons/arrow-left/square/arrow_back.svg" alt="">
+				</a>
+                <div class="form-group form-search-modal">
+                    <div class="input-group">
+                        <input id="input_search_ib" type="text" class="input input-sm font-14 input-clean input-has-clear live-search-box" value=""
+							placeholder="Tìm kiếm trong OMNI Banking">
+                        <div class="input-line-bar"></div>
+                        <div class="input-ic input-ic-l">
+							<img src="vip-images/base/icons/search/square/white.svg" alt="" class="ic-md">
+						</div>
+                        <div class="input-ic input-clear">
+                            <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                        </div>
+                    </div>
+                </div>
+			</div>
+			<div id="box_found">
+				<div class="title">Tìm kiếm chức năng và cài đặt</div>
+				<div>
+					<a href="pages/chuyen-tien/chuyen-tien-den-so-the.html"><span>Chuyển tiền đến số thẻ</span><br/><span class="cate">Chức năng</span></a>
+                    <a href="pages/cai-dat/quan-ly-danh-ba/index.html"><span>Danh bạ thụ hưởng</span><br/><span class="cate">Chức năng</span></a>
+                    <a href="pages/thanh-toan-hoa-don/"><span>Thanh toán hóa đơn</span><br/><span class="cate">Chức năng</span></a>
+                    <a href="pages/cai-dat/doi-mat-khau/index.html"><span>Đổi mật khẩu</span><br/><span class="cate">Cài đặt</span></a>
+				</div>
+			</div>
+			<div class="modal-body display_result_search_mb">
+				<div class="bg_result_search">
+					<div class="blank-section d-flex align-items-center justify-content-center flex-column hidden">
+						<div class="blank-ic">
+							<img src="vip-images/web/icons/dark/ic_blank-folder.svg" alt="">
+						</div>
+						<div class="show_no_result">
+							Không tìm thấy kết quả
+						</div>
+					</div>
+					<div class="list-link list-link-sm list-link-no-ml live-search-result items_live_search result_search_wap ">
+						<a href="javascript:;"><span>Chuyển <span class="highlight">tiền</span> đến số thẻ</span><br/><span class="cate">Chức năng</span></a>
+						<a href="javascript:;"><span>Nạp <span class="highlight">tiền</span> điện thoại </span><br/><span class="cate">Chức năng</span></a>
+						<a href="javascript:;"><span>Chuyển <span class="highlight">tiền</span> đến số tài khoản</span><br/><span class="cate">Chức năng</span></a>
+						<a href="javascript:;"><span>Chuyển <span class="highlight">tiền</span> chứng khoán</span><br/><span class="cate">Chức năng</span></a>
+						<a href="javascript:;"><span>Chuyển <span class="highlight">tiền</span> đến tài khoản của tôi</span><br/><span class="cate">Chức năng</span></a>
+						
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>

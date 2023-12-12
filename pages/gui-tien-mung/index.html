@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="../../.">
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <title>Quản lý tiền mừng</title>
+  <script src="js/include-html.js"></script>  
+  <link rel="stylesheet" href="js/vendors/splide/dist/css/splide.min.css">
+  <link rel="stylesheet" href="css/bundles.css">
+    <link rel="stylesheet" href="css/style.search.css">
+    <link rel="stylesheet" href="css/component.css">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/vendors/lightpick/css/lightpick.css" />
+    <link rel="stylesheet" href="css/custom-vip.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+  <link rel="shortcut icon" type="text/html" href="vip-images/favicon.svg">
+  <!--[if IE 9]><link rel="stylesheet" href="css/ie9.css" type="text/css" /><![endif]-->
+</head>
+
+<body>
+  <div include-html="page-components/menu.html"></div>
+  <script>
+    includeHTML();
+  </script>
+  <div class="main main--with-sidebar-both main--with-menu">
+    <div class="main-section">
+        
+    <div class="main-section-inner max-width-970">
+      <div class="main-header">
+        <div class="row-flex">
+          <div class="col-flex coll-flex">
+            <h2>Quản lý tiền mừng</h2>
+        <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot size12">
+            <li class="breadcrumb-item">
+                <a href="index.html" class="color-white38">Trang chủ</a>
+              </li>
+          <li class="breadcrumb-item">
+            <span class="color-primary">Quản lý tiền mừng</span>
+          </li>
+        </ul>            
+          </div>
+        </div>
+      </div>
+      <!--begin box-->
+      <div class="box box--light no-p">
+        <div class="box-sm-header box-sm-header_edit ph30 pt30">
+          <div class="table">
+            <div class="td title color-white size20 p b">
+              Thông tin tìm kiếm
+            </div>
+            <div class="td text-right">
+              <a href="pages/gui-tien-mung/gui-tien-mung.html" class="ubtn inline-block ubg-primary ubtn-sm">GỬI TIỀN MỪNG</a>              
+            </div>
+          </div>
+        </div>
+        <div class="list-link-sm">
+          <div class="list-cont no-p">   
+            <div class="box_form">
+              <div class="row">    
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <div class="input-group input-group-material">
+                        <input type="text" class="input input-xs input-material input-clean input-has-clear" value="">
+                        <div class="input-line-bar"></div>
+                        <label class="input-label">Số tài khoản</label>
+                        <div class="input-ic input-clear show">
+                            <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <div class="input-group input-group-material">
+                      <input type="text" class="input input-xs input-material input-clean input-has-clear" value="">
+                      <div class="input-line-bar"></div>
+                      <label class="input-label">Tên tài khoản</label>
+                      <div class="input-ic input-clear show">
+                          <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                      </div>
+                  </div>
+              </div>
+            </div>          
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <div class="input-group input-group-material input-group-select">
+                       <select class="select-2 input input-md input-ic-md input-material" data-placeholder="" header-text="Trạng thái xem tin">
+                        <option value=""></option>
+                        <option value="1" selected>Tất cả</option>
+                        <option value="2">Option2</option>
+                        <option value="3">Option3</option>
+                       </select>
+                       <label class="input-label">Trạng thái xem tin</label>
+                    </div>
+                 </div>
+     
+                </div>            
+          <div class="col-md-4">
+           <div class="form-group">
+              <div class="input-group input-group-material">
+                 <input type="" class="input input-xs input-material lite-picker datepicker-single input-label-change" value="29/04/2022" placeholder="dd/mm/yyyy" header-text="Ngày thực hiện" required pickeddate-text="Ngày thực hiện" autocorrect="off">
+                 <label class="input-label">
+                    Từ ngày
+                 </label>
+                 <div class="input-ic">
+                    <img src="vip-images/web/icons/primary/ic_calendar.svg" class="ic-lg" alt="">
+                 </div>
+              </div>
+           </div>        
+        </div>
+        <div class="col-md-4">
+           <div class="form-group">
+              <div class="input-group input-group-material">
+                 <input type="" class="input input-xs input-material lite-picker datepicker-single input-label-change" value="29/04/2022" placeholder="dd/mm/yyyy" header-text="Ngày thực hiện" required pickeddate-text="Ngày thực hiện" autocorrect="off">
+                 <label class="input-label">
+                    Đến ngày
+                 </label>
+                 <div class="input-ic">
+                    <img src="vip-images/web/icons/primary/ic_calendar.svg" class="ic-lg" alt="">
+                 </div>
+              </div>
+           </div>        
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <div class="input-group input-group-material">
+                <input type="text" class="input input-xs input-material input-clean input-has-clear" value="">
+                <div class="input-line-bar"></div>
+                <label class="input-label">Lời chúc</label>
+                <div class="input-ic input-clear show">
+                    <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                </div>
+            </div>
+        </div>
+      </div>
+              </div>
+              <div class="row button-form">
+                <div class="col text-center-pc">
+                  <button class="ubtn inline-block min-width100-mb min-with-180 ubg-primary ubtn-md" type="button"><span class="ubtn-text">&nbsp; Tìm kiếm &nbsp;</span>
+                  </button>                   
+                </div>
+              </div>
+              
+            </div>
+          </div>
+            
+        </div>
+      </div>
+      <!--End box-->
+          <div class="box box--light no-p">
+            <div class="live-search-list live-search-list-show">
+                <div class="box-sm-header ph30 pt30">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 mb16-mb">
+                            <div class="size20 color-white">Nhật ký tiền mừng</div>                        
+                        </div>
+                        <div class="col-md-4">
+                            <div class="nav-tab nav-tab-auto no-p no-bor">
+                                <nav class="nav nav-pills flex-row">
+                                    <a class="flex-fill text-center nav-link active w33percen size13" data-toggle="tab" href="#tab1">Đã nhận (2)</a>
+                                    <a class="flex-fill text-center nav-link w33percen size13" data-toggle="tab" href="#tab2">Đã gửi</a>
+                                 </nav>
+                            </div>                         
+                        </div>
+    
+                    </div>
+
+                </div>
+                
+                         
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane active" id="tab1">
+                    <div class="wrap-checkbox list-col">
+                        <div class="nav-tab-search nav-tab-search-bottom">
+                          <div class="row align-items-center list-mb16-mb">
+                             <div class="col-md-6 text-left">
+                                <span class="color-white">Kết quả tìm kiếm</span>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="row fr-pc">
+                                   <div class="col-6 col-auto-pc pr0-pc">
+                                       <a href="pdf-excel/nhat-ky-giao-dich.html" target="blank" class="ubtn ubg-primary-light ubtn-sm">
+                                           Xuất PDF
+                                        </a>
+                                   </div>
+                                   <div class="col-6 col-auto-pc">
+                                         <a class="ubtn ubg-primary-light ubtn-sm">
+                                           Xuất Excel
+                                         </a>
+                                   </div>
+                                </div>
+                              </div>
+                          </div>               
+                           
+                      </div>
+                        <div class="list-info live-search-result checkbox-group boxmodule">
+                          <div class="list-info-bor">
+                            <div class="box-collapse-nobor box--sm no-p">
+                              <div class="box-sm-header ph20 pt20" data-toggle="collapse" data-target="#collapse-resul1">
+                                <div class="table">
+                                  <div class="td title color-white p b text-upber">
+                                    THIỆP CHƯA XEM <span class="color-primary-light">(2)</span>
+                                  </div>
+                                  <div class="ic td">
+                                    <div class="sidebar__dropdown"></div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="list-link-sm collapse show" id="collapse-resul1">
+                                <label for="" class="list-info-item row row-10 align-items-top">
+                                  <div class="col-auto col-ava">
+                                      <div class="ava wh40 mr10">
+                                          <div class="ava_img">
+                                              <img src="images-general/svg/ava_gray.svg" class="wh40 cicle" alt="">
+                                          </div>
+                                          <div class="icon_cicle">
+                                              <img src="vip-images/bank/Eximbank.svg" class="wh18 cicle" alt="">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <span class="radio-text span-wrap col" data-toggle="modal" data-target="#account-info1">
+                                      <div class="table">
+                                          <div class="td-xs mb5-mb">                                            
+                                              <div class="txt txt--main color-white b justify-content-center"><span class="text-upber">PHAM NGOC LAM</span> <span class="status status-24 status_cuccessful">Mới</span></div>
+                                              <div class="color-primary size14 mb2">12346789100</div>
+                                              <div class="color-white60 size14">Năm mới năm me chúc bạn nhiều tiền, ngập tràn hạnh phúc</div>
+                                          </div>
+                                          <div class="td-xs text-right-xs-left no-wrap">
+                                             <div class="list-info-txt-sub color-white size14">08/02/2022 02:02</div>
+                                             <div class="list-info-txt-main color-primary-light">6,868 VND</div>
+                                          </div>
+                                       </div>
+                          </span>
+                                      </label>
+                                      <label for="" class="list-info-item row row-10 align-items-top">
+                                        <div class="col-auto col-ava">
+                                            <div class="ava wh40 mr10">
+                                                <div class="ava_img">
+                                                    <img src="images-general/svg/ava_gray.svg" class="wh40 cicle" alt="">
+                                                </div>
+                                                <div class="icon_cicle">
+                                                    <img src="vip-images/bank/Eximbank.svg" class="wh18 cicle" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <span class="radio-text span-wrap col" data-toggle="modal" data-target="#account-info1">
+                                            <div class="table">
+                                                <div class="td-xs mb5-mb">                                            
+                                                    <div class="txt txt--main color-white b justify-content-center"><span class="text-upber">PHAM NGOC LAM</span> <span class="status status-24 status_cuccessful">Mới</span></div>
+                                                    <div class="color-primary size14 mb2">12346789100</div>
+                                                    <div class="color-white60 size14">Năm mới năm me chúc bạn nhiều tiền, ngập tràn hạnh phúc</div>
+                                                </div>
+                                                <div class="td-xs text-right-xs-left no-wrap">
+                                                   <div class="list-info-txt-sub color-white size14">08/02/2022 02:02</div>
+                                                   <div class="list-info-txt-main color-primary-light">6,868 VND</div>
+                                                </div>
+                                             </div>
+                                </span>
+                                            </label>
+                              </div>
+                            </div>
+                            <div class="box-collapse-nobor box--sm no-p">
+                              <div class="box-sm-header ph20 pt20" data-toggle="collapse" data-target="#collapse-resul2">
+                                <div class="table">
+                                  <div class="td title color-white p b text-upber">
+                                    THIỆP ĐÃ XEM
+                                  </div>
+                                  <div class="ic td">
+                                    <div class="sidebar__dropdown"></div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="list-link-sm collapse show" id="collapse-resul2">
+                                <label for="" class="list-info-item row row-10 align-items-top">
+                                  <div class="col-auto col-ava">
+                                      <div class="ava wh40 mr10">
+                                          <div class="ava_img">
+                                              <img src="images-general/svg/ava_gray.svg" class="wh40 cicle" alt="">
+                                          </div>
+                                          <div class="icon_cicle">
+                                              <img src="vip-images/bank/Eximbank.svg" class="wh18 cicle" alt="">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <span class="radio-text span-wrap col" data-toggle="modal" data-target="#account-info1">
+                                      <div class="table">
+                                          <div class="td-xs mb5-mb">                                            
+                                              <div class="txt txt--main color-white b mb3 justify-content-center"><span class="text-upber">PHAM NGOC LAM</span></div>
+                                              <div class="color-primary size14 mb2">12346789100</div>
+                                              <div class="color-white60 size14">Năm mới năm me chúc bạn nhiều tiền, ngập tràn hạnh phúc</div>
+                                          </div>
+                                          <div class="td-xs text-right-xs-left no-wrap">
+                                             <div class="list-info-txt-sub color-white size14">08/02/2022 02:02</div>
+                                             <div class="list-info-txt-main color-primary-light">6,868 VND</div>
+                                          </div>
+                                       </div>
+                          </span>
+                                      </label>
+                                      <label for="" class="list-info-item row row-10 align-items-top">
+                                        <div class="col-auto col-ava">
+                                            <div class="ava wh40 mr10">
+                                                <div class="ava_img">
+                                                    <img src="images-general/svg/ava_gray.svg" class="wh40 cicle" alt="">
+                                                </div>
+                                                <div class="icon_cicle">
+                                                    <img src="vip-images/bank/Eximbank.svg" class="wh18 cicle" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <span class="radio-text span-wrap col" data-toggle="modal" data-target="#account-info1">
+                                            <div class="table">
+                                                <div class="td-xs mb5-mb">                                            
+                                                    <div class="txt txt--main color-white b mb3 justify-content-center"><span class="text-upber">PHAM NGOC LAM</span></div>
+                                                    <div class="color-primary size14 mb2">12346789100</div>
+                                                    <div class="color-white60 size14">Năm mới năm me chúc bạn nhiều tiền, ngập tràn hạnh phúc</div>
+                                                </div>
+                                                <div class="td-xs text-right-xs-left no-wrap">
+                                                   <div class="list-info-txt-sub color-white size14">08/02/2022 02:02</div>
+                                                   <div class="list-info-txt-main color-primary-light">6,868 VND</div>
+                                                </div>
+                                             </div>
+                                </span>
+                                            </label>
+                                            <label for="" class="list-info-item row row-10 align-items-top">
+                                              <div class="col-auto col-ava">
+                                                  <div class="ava wh40 mr10">
+                                                      <div class="ava_img">
+                                                          <img src="images-general/svg/ava_gray.svg" class="wh40 cicle" alt="">
+                                                      </div>
+                                                      <div class="icon_cicle">
+                                                          <img src="vip-images/bank/Eximbank.svg" class="wh18 cicle" alt="">
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <span class="radio-text span-wrap col" data-toggle="modal" data-target="#account-info1">
+                                                  <div class="table">
+                                                      <div class="td-xs mb5-mb">                                            
+                                                          <div class="txt txt--main color-white b mb3 justify-content-center"><span class="text-upber">PHAM NGOC LAM</span></div>
+                                                          <div class="color-primary size14 mb2">12346789100</div>
+                                                          <div class="color-white60 size14">Năm mới năm me chúc bạn nhiều tiền, ngập tràn hạnh phúc</div>
+                                                      </div>
+                                                      <div class="td-xs text-right-xs-left no-wrap">
+                                                         <div class="list-info-txt-sub color-white size14">08/02/2022 02:02</div>
+                                                         <div class="list-info-txt-main color-primary-light">6,868 VND</div>
+                                                      </div>
+                                                   </div>
+                                      </span>
+                                                  </label>
+                              </div>
+                            </div>
+                          </div>                          
+                                        <div class="box-button box-button-tab text-center clearfix">
+                                          <button type="button" class="no-m inline-block ubtn ubg-secondary ubtn-md ripple">
+                                            <span class="ubtn-text">Xem thêm</span>
+                                          </button>
+                                        </div>
+                </div>
+                
+
+<div class="blank-section d-flex align-items-center justify-content-center flex-column hidden">
+<div class="blank-ic">
+<img src="vip-images/web/icons/dark/ic_blank-folder.svg" alt="">
+</div>
+<div class="blank-txt text-center">
+    Rất tiếc! Bạn chưa có quà chúc mừng trong thời gian này
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane" id="tab2">
+    <div class="wrap-checkbox list-col">
+      <div class="nav-tab-search nav-tab-search-bottom">
+        <div class="row align-items-center list-mb16-mb">
+           <div class="col-md-6 text-left">
+              <span class="color-white">Kết quả tìm kiếm</span>
+            </div>
+            <div class="col-md-6">
+              <div class="row fr-pc">
+                 <div class="col-6 col-auto-pc pr0-pc">
+                     <a href="pdf-excel/nhat-ky-giao-dich.html" target="blank" class="ubtn ubg-primary-light ubtn-sm">
+                         Xuất PDF
+                      </a>
+                 </div>
+                 <div class="col-6 col-auto-pc">
+                       <a class="ubtn ubg-primary-light ubtn-sm">
+                         Xuất Excel
+                       </a>
+                 </div>
+              </div>
+            </div>
+        </div>               
+         
+    </div>
+        <div class="list-info live-search-result checkbox-group boxmodule">
+          <label for="" class="list-info-item row row-10 align-items-top">
+            <div class="col-auto col-ava">
+                <div class="ava wh40 mr10">
+                    <div class="ava_img">
+                        <img src="images-general/images/ava1.jpg" class="wh40 cicle" alt="">
+                    </div>
+                    <div class="icon_cicle">
+                        <img src="vip-images/bank/Eximbank.svg" class="wh18 cicle" alt="">
+                    </div>
+                </div>
+            </div>
+            <span class="radio-text span-wrap col" data-toggle="modal" data-target="#account-info2">
+              <div class="row">
+                <div class="col mb5-mb">                                            
+                    <div class="txt txt--main color-white b mb3 justify-content-center"><span class="text-upber">PHAM NGOC LAM</span></div>
+                    <div class="color-primary size14 mb2">12346789100</div>
+                    <div class="size14 color-white38 mb2">và 4 người khác</div>
+                    <div class="color-white60 size14">aaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâaaaaaaaaaaaaaaaaaâ</div>
+                </div>
+                <div class="col-auto mb5-mb min-width-200 text-right-pc min-width100-mb">
+                  <div class="list-info-txt-main color-primary-light">6,868 VND</div>
+                   <div class="list-info-txt-sub color-white size14">08/02/2022 02:02</div>                       
+                </div>
+                <div class="col-auto min-width-100 text-right-pc">
+                  <span class="status status_process">
+                    Đã xử lý
+                  </span>
+                </div>
+             </div>
+    </span>
+        </label>
+        <label for="" class="list-info-item row row-10 align-items-top">
+          <div class="col-auto col-ava">
+              <div class="ava wh40 mr10">
+                  <div class="ava_img">
+                      <img src="images-general/images/ava1.jpg" class="wh40 cicle" alt="">
+                  </div>
+                  <div class="icon_cicle">
+                      <img src="vip-images/bank/Eximbank.svg" class="wh18 cicle" alt="">
+                  </div>
+              </div>
+          </div>
+          <span class="radio-text span-wrap col" data-toggle="modal" data-target="#account-info2">
+            <div class="row">
+              <div class="col mb5-mb">                                            
+                  <div class="txt txt--main color-white b mb3 justify-content-center"><span class="text-upber">PHAM NGOC LAM</span></div>
+                  <div class="color-primary size14 mb2">12346789100</div>
+                  <div class="size14 color-white38 mb2">và 4 người khác</div>
+                  <div class="color-white60 size14">Năm mới năm me chúc bạn nhiều tiền, ngập tràn hạnh phúc</div>
+              </div>
+              <div class="col-auto mb5-mb min-width-200 text-right-pc min-width100-mb">
+                <div class="list-info-txt-main color-primary-light">6,868 VND</div>
+                 <div class="list-info-txt-sub color-white size14">08/02/2022 02:02</div>                       
+              </div>
+              <div class="col-auto min-width-100 text-right-pc">
+                <span class="status status_cuccessful">
+                  Thành công
+                </span>
+              </div>
+           </div>
+  </span>
+      </label>
+      <label for="" class="list-info-item row row-10 align-items-top">
+        <div class="col-auto col-ava">
+            <div class="ava wh40 mr10">
+                <div class="ava_img">
+                    <img src="images-general/images/ava1.jpg" class="wh40 cicle" alt="">
+                </div>
+                <div class="icon_cicle">
+                    <img src="vip-images/bank/Eximbank.svg" class="wh18 cicle" alt="">
+                </div>
+            </div>
+        </div>
+        <span class="radio-text span-wrap col" data-toggle="modal" data-target="#account-info2">
+          <div class="row">
+            <div class="col mb5-mb">                                            
+                <div class="txt txt--main color-white b mb3 justify-content-center"><span class="text-upber">PHAM NGOC LAM</span></div>
+                <div class="color-primary size14 mb2">12346789100</div>
+                <div class="size14 color-white38 mb2">và 4 người khác</div>
+                <div class="color-white60 size14">Năm mới</div>
+            </div>
+            <div class="col-auto mb5-mb min-width-200 text-right-pc min-width100-mb">
+              <div class="list-info-txt-main color-primary-light">6,868 VND</div>
+               <div class="list-info-txt-sub color-white size14">08/02/2022 02:02</div>                       
+            </div>
+            <div class="col-auto min-width-100 text-right-pc">
+              <span class="status status_error">
+                Thất bại
+              </span>
+            </div>
+         </div>
+</span>
+    </label>
+<div class="box-button box-button-tab text-center clearfix">
+  <button type="button" class="no-m inline-block ubtn ubg-secondary ubtn-md ripple">
+    <span class="ubtn-text">Xem thêm</span>
+  </button>
+</div>
+</div>
+<div class="blank-section d-flex align-items-center justify-content-center flex-column hidden">
+<div class="blank-ic">
+<img src="vip-images/web/icons/dark/ic_blank-folder.svg" alt="">
+</div>
+<div class="blank-txt text-center">
+  <p class="note_desc mb30">Chưa có thông tin quà mừng đã gửi. <br>
+  Hãy chọn thiệp và gửi kèm những lời chúc tốt đẹp nhất đến những người thân và bạn bè của bạn!</p>
+  <div class="box-button-tab-cont text-center clearfix">
+    <a href="pages/gui-tien-mung/gui-tien-mung.html" class="no-m inline-block ubtn ubg-primary ubtn-md ripple">
+      <span class="ubtn-text">Tặng quà ngay</span>
+    </a>
+  </div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+            </div>
+            
+
+          </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="row row-20 justify-content-center">
+      <div class="inline-block">
+        <a href="#">
+            <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic01.svg"> <span>Hướng dẫn sử dụng</span></div>
+        </a>
+    </div>
+    <div class="inline-block">
+      <a href="#">
+          <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic02.svg"> <span>Hướng dẫn bảo mật</span></div>
+      </a>
+  </div>
+  <div class="inline-block">
+    <a href="#">
+        <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic03.svg"> <span>Hướng dẫn sử dụng Smart OTP</span></div>
+    </a>
+</div>
+<div class="inline-block">
+  <a href="#">
+      <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic04.svg"> <span>Quy định sử dụng</span></div>
+  </a>
+</div>
+<div class="inline-block">
+  <a href="#">
+      <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic05.svg"> <span>Liên hệ</span></div>
+  </a>
+</div>
+       
+    </div>
+    <div class="copyright_slider show_mb">© 2021 Eximbank</div>
+</footer>
+
+
+</body>
+<!--==========================General=========================-->
+<!--jquery-->
+<script src="js/vendors/jquery/jquery.bundles.js"></script>
+<script src="js/vendors/jquery/jquery.init.js"></script>
+<!--jquery end-->
+<!--bootstrap-->
+<script src="js/vendors/bootstrap/bootstrap.bundles.js"></script>
+<script src="js/vendors/bootstrap/bootstrap.init.js"></script>
+<!--bootstrap end-->
+<!--==========================General End=========================-->
+<!--==========================Only for this page=========================-->
+<!--autosize-->
+<script src="js/vendors/autosize/autosize.bundles.js"></script>
+<script src="js/vendors/autosize/autosize.init.js"></script>
+<!--autosize end-->
+<!--carousel-->
+<script type="text/javascript" src="js/vendors/owlcarousel/owl.carousel.bundles.js"></script>
+<script type="text/javascript" src="js/vendors/owlcarousel/owl.carousel.init.js"></script>
+<!--carousel end-->
+<!--select2-->
+<script src="js/vendors/select2/select2.bundles.js"></script>
+<script src="js/vendors/select2/select2.init.js"></script>
+<!--select2 end-->
+<!--croppie-->
+<!--<script src="js/vendors/croppie/croppie.bundles.js"></script>
+<script src="js/vendors/croppie/croppie.init.js"></script>-->
+<!--croppie end-->
+<!-- lightpick -->
+<script src="js/vendors/lightpick/lightpick.bundles.js"></script>
+<script src="js/vendors/lightpick/lightpick.init.js"></script>
+<!-- lightpick -->
+<script src="js/custom.js"></script>
+<script src="js/otp.js"></script>
+<script src="js/vendors/splide/dist/js/splide.min.js"></script>
+<script type = "text/javascript">
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '.splide-carousel-album-slide-text', {
+		perPage    : 1,
+		gap        : '24px',
+		pagination:true,
+		arrows:true,
+  } ).mount();
+} );
+
+
+</script>
+<!--==========================Only for this page End=========================-->
+<div class="modal" id="modal-profile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Cập nhật ảnh đại diện</h2>
+        <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+          <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body isolated-scroll text-center">
+        <div class="p-upload p-upload-wrap">
+          <div id="p-upload-crop" class="p-upload-container"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="text-right">
+            <div class="inline-block">
+              <a href="#" class="no-m ubtn ubtn-link ubtn-md ripple" data-dismiss="modal">
+                <span class="ubtn-text">Hủy</span>
+              </a>              
+            </div>
+            <div class="inline-block">
+              <a href="#" class="no-m ubtn ubg-primary ubtn-md btn-toast2" data-dismiss="modal">
+                <span class="ubtn-text">Cập nhật</span>
+              </a>              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="account-info1" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-right-top modal-sm modal-dialog-scrollable" role="document" style="max-width: 480px;">
+    <div class="modal-content">
+      <div class="modal-header text-left">
+        <h2 class="modal-title">Chi tiết quà mừng của tôi</h2>
+        <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+          <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body isolated-scroll">
+        <div class="cards">
+          <div class="cards_pic list-mb16" style="background-image:url(temp/img-gui-tien-mung1.png);">
+            <div class="cards_pic_top">
+              <div class="row">
+                <div class="col-auto pr0"><img width="44" height="44" src="vip-images/bank/Eximbank.svg" alt=""></div>
+                <div class="col">
+                  <div class="size14 color-primary">Bạn nhận được quà mừng từ</div>
+                  <div class="size16 title-upber fw600">VU PHONG TIEN MANH</div>
+                  <div class="size14 color-black-sub fw600">12345678900</div>                                
+                </div>
+              </div>
+                                    
+            </div>
+            <div class="cards_pic_price size24 color-primary-light fw600 text-center">50,000 VND</div>                   
+            <div class="cards_pic_decript size14">
+              Chúc mọi người hay ăn ít béo, tiền nhiều như kẹo, tình chặt như keo, dẻo dai như mèo, mịn màng trắng trẻo, sức khỏe như voi.
+            </div>                    
+          </div>   
+        </div>
+          <div class="list-info">
+              <div class="box-button clearfix no-active">
+                  <div class="fl">
+                      <a href="index.html" class="no-m ubtn ubg-secondary ubtn-md ripple" data-dismiss="modal">
+                          <span class="ubtn-text">ĐÓNG</span>
+                      </a>
+                  </div>
+                  <div class="fr">
+                      <a href="pages/gui-tien-mung/gui-tien-mung.html" class="no-m ubtn ubg-primary ubtn-md">
+                          <span class="ubtn-text">TẶNG LẠI QUÀ</span>
+                      </a>
+                  </div>
+              </div>
+           </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal modal_slide fade" id="account-info2" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-right-top modal-md modal-dialog-scrollable" role="document" style="max-width: 640px;">
+    <div class="modal-content">
+      <div class="modal-header text-left">
+        <h2 class="modal-title">Chi tiết quà mừng đã gửi</h2>
+        <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+          <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body isolated-scroll">
+          <div class="slider_card">
+            <div class="cards_text text-center mb10">
+              Quý khách đã gửi thiệp mừng đến <span class="color-primary">2</span> người bạn
+            </div>
+            <div class="cards_price text-center color-primary-light">
+              50,000 VND
+            </div> 
+            <section class="splide splide-carousel-album-slide-text">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="item list-mb16">
+                      <div class="cards">                  
+                        <div class="cards_pic list-mb16" style="background-image:url(temp/img-gui-tien-mung1.png);">
+                          <div class="cards_pic_top">
+                            <div class="row">
+                              <div class="col-auto pr0"><img width="44" height="44" src="vip-images/bank/Eximbank.svg" alt=""></div>
+                              <div class="col">
+                                <div class="size14 color-primary">Bạn nhận được quà mừng từ</div>
+                                <div class="size16 title-upber fw600">VU PHONG TIEN MANH</div>
+                                <div class="size14 color-black-sub fw600">12345678900</div>                                
+                              </div>
+                              <div class="col-auto">
+                                <span class="status status_cuccessful">
+                                  Thành công
+                                </span>
+                              </div>
+                            </div>
+                                                  
+                          </div>
+                          <div class="cards_pic_price size24 color-primary-light fw600 text-center">50,000 VND</div>                    
+                          <div class="cards_pic_decript size14">
+                            Chúc mọi người hay ăn ít béo, tiền nhiều như kẹo, tình chặt như keo, dẻo dai như mèo, mịn màng trắng trẻo, sức khỏe như voi.
+                          </div>                    
+                        </div>  
+                      </div> 
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="item list-mb16">
+                      <div class="cards">                  
+                        <div class="cards_pic list-mb16" style="background-image:url(temp/img-gui-tien-mung1.png);">
+                          <div class="cards_pic_top">
+                            <div class="row">
+                              <div class="col-auto pr0"><img width="44" height="44" src="vip-images/bank/Eximbank.svg" alt=""></div>
+                              <div class="col">
+                                <div class="size14 color-primary">Bạn nhận được quà mừng từ</div>
+                                <div class="size16 title-upber fw600">VU PHONG TIEN MANH</div>
+                                <div class="size14 color-black-sub fw600">12345678900</div>                                
+                              </div>
+                              <div class="col-auto">
+                                <span class="status status_cuccessful">
+                                  Thành công
+                                </span>
+                              </div>
+                            </div>
+                                                  
+                          </div>
+                          <div class="cards_pic_price size24 color-primary-light fw600 text-center">50,000 VND</div>                    
+                          <div class="cards_pic_decript size14">
+                            Chúc mọi người hay ăn ít béo, tiền nhiều như kẹo, tình chặt như keo, dẻo dai như mèo, mịn màng trắng trẻo, sức khỏe như voi.
+                          </div>                    
+                        </div>  
+                      </div> 
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              </section>
+           </div>
+        
+      </div>
+      <div class="modal-footer">
+        <div class="btn-footer">
+          <div class="table">
+            <div class="td">
+              <button type="button" class="ubtn ubg-black ubtn-md">
+                <span class="size14 size11-mb">Lưu ảnh</span>
+            </button>
+              </div>
+              <div class="td text-right">
+                <button class="no-m ubtn inline-block ubg-primary ubtn-md txt-upper" data-dismiss="modal">
+                  <span class="ubtn-text">Chia sẻ</span>
+                </button>
+              </div>
+          </div>
+       </div>
+        </div>
+    </div>
+  </div>
+</div>
+</html>

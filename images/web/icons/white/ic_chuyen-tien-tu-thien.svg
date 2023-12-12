@@ -1,0 +1,29 @@
+<svg id="ic_chuyen-tien-tu-thien" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Rectangle_268" data-name="Rectangle 268" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <path id="white_38_x_38_3_" data-name="white_38_x_38 (3)" d="M2.368,13.972c4.447,0,7.591.9,8.676.9s4.782-.3,4.782.908.115,1.384-6.671,1.384m6.686-1.4a25.237,25.237,0,0,0,2.928-1.39c.878-.562,2.249.3,1.329,1.626s-6.007,3.905-7.561,4.389-7.159-1.774-8.158-1.774a5.019,5.019,0,0,0-1.917.441m9.777-9.094L9.561,12.584,4.586,7.7a3.085,3.085,0,0,1,0-4.42,3.232,3.232,0,0,1,4.506,0l.469.46.471-.46a3.228,3.228,0,0,1,4.5,0,3.08,3.08,0,0,1,.932,2.154m3.124,3.486-.355.348-3.408,3.314-2.7-2.629L11.064,8.922a2.3,2.3,0,0,1,0-3.314,2.463,2.463,0,0,1,3.408,0l.355.346.358-.346a2.457,2.457,0,0,1,3.406,0,2.3,2.3,0,0,1,0,3.314Z" transform="translate(0.713 0.722)" fill="none" stroke="#fff" stroke-width="1.3" fill-rule="evenodd"/>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

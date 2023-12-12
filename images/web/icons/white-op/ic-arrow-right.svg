@@ -1,0 +1,7 @@
+<svg id="ic-arrow-right" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+  <g id="Rectangle" fill="none" stroke="rgba(255,255,255,0.6)" stroke-miterlimit="10" stroke-width="1" opacity="0">
+    <rect width="10" height="10" stroke="none"/>
+    <rect x="0.5" y="0.5" width="9" height="9" fill="none"/>
+  </g>
+  <path id="Stroke_1" data-name="Stroke 1" d="M0,0,4.023,4.022,0,8.045" transform="translate(2.935 1.215)" fill="none" stroke="rgba(255,255,255,0.6)" stroke-miterlimit="10" stroke-width="1.36"/>
+</svg>

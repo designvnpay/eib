@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="menu_ic05" transform="translate(-764 -211)">
+    <rect id="Rectangle_6370" data-name="Rectangle 6370" width="64" height="64" transform="translate(764 211)" fill="none"/>
+    <g id="Group_19688" data-name="Group 19688" transform="translate(753.273 203.275)">
+      <g id="Group_19050" data-name="Group 19050" transform="translate(14.754 18.725)">
+        <path id="Subtraction_36" data-name="Subtraction 36" d="M40.925,37.116H8a8.009,8.009,0,0,1-8-8V8A8.009,8.009,0,0,1,8,0H40.925a8.009,8.009,0,0,1,8,8V29.116A8.009,8.009,0,0,1,40.925,37.116ZM5.061,16.871V28.054a4,4,0,0,0,4,4h30.8a4,4,0,0,0,4-4V16.871Zm4-11.809a4,4,0,0,0-4,4V11.81h38.8V9.061a4,4,0,0,0-4-4Z" transform="translate(0 0)" fill="#fff7e5" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="Line_748" data-name="Line 748" x1="8.435" transform="translate(9.279 26.993)" fill="none" stroke="#fff7e5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+      <g id="Group_19095" data-name="Group 19095" transform="translate(46.248 38.689)">
+        <g id="Path_16431" data-name="Path 16431" transform="translate(0 0)" fill="#fff7e5">
+          <path d="M 11.2527494430542 21.5054988861084 C 5.599359512329102 21.5054988861084 0.999999463558197 16.9061393737793 0.999999463558197 11.2527494430542 C 0.999999463558197 5.599359512329102 5.599359512329102 0.999999463558197 11.2527494430542 0.999999463558197 C 16.9061393737793 0.999999463558197 21.5054988861084 5.599359512329102 21.5054988861084 11.2527494430542 C 21.5054988861084 16.9061393737793 16.9061393737793 21.5054988861084 11.2527494430542 21.5054988861084 Z" stroke="none"/>
+          <path d="M 11.2527494430542 2 C 6.15077018737793 2 2 6.15077018737793 2 11.2527494430542 C 2 16.35472869873047 6.15077018737793 20.5054988861084 11.2527494430542 20.5054988861084 C 16.35472869873047 20.5054988861084 20.5054988861084 16.35472869873047 20.5054988861084 11.2527494430542 C 20.5054988861084 6.15077018737793 16.35472869873047 2 11.2527494430542 2 M 11.2527494430542 0 C 17.46746826171875 0 22.5054988861084 5.038028717041016 22.5054988861084 11.2527494430542 C 22.5054988861084 17.46746826171875 17.46746826171875 22.5054988861084 11.2527494430542 22.5054988861084 C 5.038028717041016 22.5054988861084 0 17.46746826171875 0 11.2527494430542 C 0 5.038028717041016 5.038028717041016 0 11.2527494430542 0 Z" stroke="none" fill="#87621e"/>
+        </g>
+        <g id="Group_19094" data-name="Group 19094" transform="translate(9.611 7.028)">
+          <path id="Path_15911" data-name="Path 15911" d="M-661-153.394v1.336" transform="translate(662.912 153.394)" fill="none" stroke="#87621e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_15912" data-name="Path 15912" d="M-661-153.394v1.336" transform="translate(662.912 160.497)" fill="none" stroke="#87621e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_15910" data-name="Path 15910" d="M-659.776-150.973a2.282,2.282,0,0,0-1.672-.7,1.5,1.5,0,0,0-1.571,1.082,1.365,1.365,0,0,0,.982,1.695,5.521,5.521,0,0,1,1.511.516,1.208,1.208,0,0,1,.688,1.118,1.522,1.522,0,0,1-1.732,1.339,3.217,3.217,0,0,1-1.862-.689" transform="translate(663.432 153.027)" fill="none" stroke="#87621e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

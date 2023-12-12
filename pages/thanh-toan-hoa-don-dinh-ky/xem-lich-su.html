@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="../../.">
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <title>Eximbank</title>
+  <script src="js/include-html.js"></script>
+  <link rel="stylesheet" href="css/bundles.css">
+  <link rel="stylesheet" href="css/style.search.css">
+  <link rel="stylesheet" href="css/component.css">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="js/vendors/lightpick/css/lightpick.css"/>
+  <link rel="stylesheet" href="css/custom-vip.css">
+  <link rel="stylesheet" href="css/reponsive.css">  
+  <link rel="shortcut icon" type="text/html" href="vip-images/favicon.svg">
+  <!--[if IE 9]><link rel="stylesheet" href="css/ie9.css" type="text/css" /><![endif]-->
+</head>
+
+<body>
+  <div include-html="page-components/menu.html"></div>
+  <script>
+    includeHTML();
+  </script>
+  <div class="main main--with-sidebar-both main--with-menu">
+    <div class="main-section">
+        
+    <div class="main-section-inner">
+      <div class="main-header">
+        <div class="row-flex">
+          <div class="col-flex coll-flex">
+            <h2>Lịch sử hóa đơn định kỳ</h2>
+        <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot size12">
+          <li class="breadcrumb-item">
+            <a href="index.html" class="color-white38">Trang chủ</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="pages/thanh-toan-hoa-don/" class="color-white38">Thanh toán hóa đơn</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="pages/thanh-toan-hoa-don-dinh-ky/" class="color-white38">Thanh toán hóa đơn định kỳ</a>
+          </li>
+          <li class="breadcrumb-item">
+            <span class="color-primary">Lịch sử hóa đơn định kỳ</span>
+          </li>
+        </ul>            
+          </div>
+        </div>
+        
+        
+      </div>
+      <form class="form-action">
+        <!--
+        <div class="box box--light no-p">
+          <div class="box-sm-header box-sm-header_edit ph30 pt30 pb10">
+            <div class="table">
+              <div class="td title color-white size20 p b">
+                  Thông tin hóa đơn định kỳ
+              </div>
+            </div>
+          </div>
+          <div class="list-link-sm">
+            <div class="list-cont pt15 pb5">
+              <div class="list-info">
+                  <div class="list-info-item">
+                      <div class="table">
+                         <div class="td">
+                            <div class="list-info-txt-sub color-white60">Dịch vụ</div>
+                         </div>
+                         <div class="td">
+                            <div class="list-info-txt-main text-right color-white fw600">Nước</div>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="list-info-item">
+                      <div class="table">
+                         <div class="td">
+                            <div class="list-info-txt-sub color-white60">Nhà cung cấp</div>
+                         </div>
+                         <div class="td">
+                            <div class="list-info-txt-main text-right color-white fw600">Cty Cổ Phần Nước Gia Định</div>
+                         </div>
+                      </div>
+                   </div>
+                  <div class="list-info-item last">
+                     <div class="table">
+                        <div class="td">
+                           <div class="list-info-txt-sub color-white60">Mã khách hàng</div>
+                        </div>
+                        <div class="td">
+                           <div class="list-info-txt-main text-right color-white fw600">21210004034</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+        </div>
+        -->
+        <!--begin box-->
+     <div class="box box--light no-p">
+        <div class="box-sm-header box-sm-header_edit ph30 pt30">
+          <div class="table">
+            <div class="td title color-white size20 p b">
+              Thông tin tìm kiếm
+            </div>
+          </div>
+        </div>
+        <div class="list-link-sm">
+          <div class="list-cont no-p">   
+            <div class="box_form">
+                <div class="row align-items-center list-mb16-mb">
+                    <div class="col">
+                        <div class="input-group">
+                            <input type="text" class="input input-sm input-clean input-has-clear" value="" placeholder="Tìm kiếm giao dịch">
+                            <div class="input-line-bar"></div>
+                            <div class="input-ic">
+                              <img src="vip-images/web/icons/white/search_ic.svg" alt="" class="ic-md">
+                          </div>
+                            <div class="input-ic input-clear">
+                                <img src="vip-images/web/icons/white/ic_close.svg" alt="" class="ic-sm">
+                            </div>
+                        </div>    
+                  </div>
+                  <div class="col-md-3">
+                    <div class="input-group">
+                       <input type="" class="input input-sm lite-picker datepicker-single input-label-change" value="" placeholder="Từ ngày" header-text="Từ ngày" required pickeddate-text="Từ ngày" autocorrect="off">
+                       <div class="input-ic">
+                          <img src="vip-images/web/icons/primary/ic_calendar.svg" class="ic-lg" alt="">
+                       </div>
+                    </div>     
+              </div>
+                    <div class="col-md-3">
+                        <div class="input-group">
+                           <input type="" class="input input-sm lite-picker datepicker-single input-label-change" value="" placeholder="Đến ngày" header-text="Đến ngày" required pickeddate-text="Đến ngày" autocorrect="off">
+                           <div class="input-ic">
+                              <img src="vip-images/web/icons/primary/ic_calendar.svg" class="ic-lg" alt="">
+                           </div>
+                        </div>      
+                  </div>
+                  <div class="col-auto col-12-mb">
+                    <button class="ubtn inline-block min-width100-mb ubg-primary ubtn-md" type="button"><span class="ubtn-text">Tìm kiếm</span>
+                    </button>
+                  </div>
+                 </div>
+              
+            </div>
+          </div>
+            
+        </div>
+      </div>
+      <!--End box-->
+      <!--begin box-->
+     <div class="box box--light no-p">
+        <div class="list-link-sm">
+          <div class="list-cont no-p">
+            <div class="box_modules">
+                <div class="title_modules nobor">
+                  <div class="row">
+                    <div class="col-md-5 text-left">
+                      <b class="color-primary">5</b> <span class="color-white">kết quả tìm kiếm</span>
+            
+                    </div>
+                    <div class="col-md-7 pt10-mb col-filter">
+                      <div class="row fr-pc">
+                      <div class="col-6 col-auto-pc pr0-pc">
+                        <a href="pdf-excel/lich-su-thanh-toan-hoa-don-dinh-ky.html" target="blank" class="ubtn ubg-white-light ubtn-sm">
+                            Xuất PDF
+                         </a>
+                    </div>
+                         <div class="col-6 col-auto-pc">
+                               <a class="ubtn ubg-white-light ubtn-sm">
+                                 Xuất Excel
+                               </a>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                </div>
+                <div class="item_row cursor" data-toggle="modal" data-target="#transaction-history1">
+                  <div class="row-flex">
+                    <div class="col-flex col1-flex">
+                      <div class="txt color-white38"> 01
+                      </div>
+                    </div>
+                    <div class="col-flex col2-flex">
+                      <div class="row">
+                        <div class="col-md-6">
+                         <div class="size14 color-primary">Nước</div>
+                         <div class="color-white txt-upper">Nguyen Van A</div>   
+                         <div class="size14 color-white38">PBD090909</div> 
+                        </div>
+                        <div class="col-md-3">
+                           <div class="size14 color-primary"><span class="show-pc">&nbsp; </span>Mã GD: 123900</div>
+                           <div class="txt color-white">-150,000 VND</div>
+                         </div>
+                         <div class="col-md-3 text-right-pc pt10-mb">
+                            <span class="status status_cuccessful">
+                              Thành công
+                            </span>
+                          </div>
+                      </div>
+                      
+                    </div>                        
+                  </div>
+                </div>
+                <div class="item_row cursor" data-toggle="modal" data-target="#transaction-history1">
+                  <div class="row-flex">
+                    <div class="col-flex col1-flex">
+                      <div class="txt color-white38"> 02
+                      </div>
+                    </div>
+                    <div class="col-flex col2-flex">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="size14 color-primary">Điện</div>
+                          <div class="color-white txt-upper">Nguyen Van A</div>   
+                          <div class="size14 color-white38">PBD090909</div> 
+                         </div>
+                        <div class="col-md-3">
+                           <div class="size14 color-primary"><span class="show-pc">&nbsp; </span>Mã GD: 123900</div>
+                           <div class="txt color-white">-150,000 VND</div>
+                         </div>
+                         <div class="col-md-3 text-right-pc pt10-mb">
+                            <span class="status status_cuccessful">
+                              Thành công
+                            </span>
+                          </div>
+                      </div>
+                      
+                    </div>                        
+                  </div>
+                </div>
+                <div class="item_row cursor" data-toggle="modal" data-target="#transaction-history1">
+                  <div class="row-flex">
+                    <div class="col-flex col1-flex">
+                      <div class="txt color-white38"> 03
+                      </div>
+                    </div>
+                    <div class="col-flex col2-flex">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="size14 color-primary">Điện</div>
+                          <div class="color-white txt-upper">Nguyen Van A</div>   
+                          <div class="size14 color-white38">PBD090909</div> 
+                         </div>
+                        <div class="col-md-3">
+                           <div class="size14 color-primary"><span class="show-pc">&nbsp; </span>Mã GD: 123900</div>
+                           <div class="txt color-white">-150,000 VND</div>
+                         </div>
+                         <div class="col-md-3 text-right-pc pt10-mb">
+                            <span class="status status_cuccessful">
+                              Thành công
+                            </span>
+                          </div>
+                      </div>
+                      
+                    </div>                        
+                  </div>
+                </div>
+                <div class="item_row cursor" data-toggle="modal" data-target="#transaction-history1">
+                  <div class="row-flex">
+                    <div class="col-flex col1-flex">
+                      <div class="txt color-white38"> 04
+                      </div>
+                    </div>
+                    <div class="col-flex col2-flex">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="size14 color-primary">Điện</div>
+                          <div class="color-white txt-upper">Nguyen Van A</div>   
+                          <div class="size14 color-white38">PBD090909</div> 
+                         </div>
+                        <div class="col-md-3">
+                           <div class="size14 color-primary"><span class="show-pc">&nbsp; </span>Mã GD: 123900</div>
+                           <div class="txt color-white">-150,000 VND</div>
+                         </div>
+                         <div class="col-md-3 text-right-pc pt10-mb">
+                            <span class="status status_cuccessful">
+                              Thành công
+                            </span>
+                          </div>
+                      </div>
+                      
+                    </div>                        
+                  </div>
+                </div>
+                <div class="item_row cursor" data-toggle="modal" data-target="#transaction-history1">
+                  <div class="row-flex">
+                    <div class="col-flex col1-flex">
+                      <div class="txt color-white38"> 05
+                      </div>
+                    </div>
+                    <div class="col-flex col2-flex">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="size14 color-primary">Điện</div>
+                          <div class="color-white txt-upper">Nguyen Van A</div>   
+                          <div class="size14 color-white38">PBD090909</div> 
+                         </div>
+                        <div class="col-md-3">
+                           <div class="size14 color-primary"><span class="show-pc">&nbsp; </span>Mã GD: 123900</div>
+                           <div class="txt color-white">-150,000 VND</div>
+                         </div>
+                         <div class="col-md-3 text-right-pc pt10-mb">
+                            <span class="status status_cuccessful">
+                              Thành công
+                            </span>
+                          </div>
+                      </div>
+                      
+                    </div>                        
+                  </div>
+                </div>
+              </div>
+              <div class="box-button box-button-tab text-center clearfix">
+                <button type="button" class="no-m inline-block ubtn ubg-secondary ubtn-md ripple">
+                  <span class="ubtn-text">Xem thêm</span>
+                </button>
+            </div>
+          
+          
+
+         
+          </div>
+            
+        </div>
+      </div>
+      <!--End box-->
+
+     </form>
+      
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="row row-20 justify-content-center">
+      <div class="inline-block">
+        <a href="#">
+            <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic01.svg"> <span>Hướng dẫn sử dụng</span></div>
+        </a>
+    </div>
+    <div class="inline-block">
+      <a href="#">
+          <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic02.svg"> <span>Hướng dẫn bảo mật</span></div>
+      </a>
+  </div>
+  <div class="inline-block">
+    <a href="#">
+        <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic03.svg"> <span>Hướng dẫn sử dụng Smart OTP</span></div>
+    </a>
+</div>
+<div class="inline-block">
+  <a href="#">
+      <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic04.svg"> <span>Quy định sử dụng</span></div>
+  </a>
+</div>
+<div class="inline-block">
+  <a href="#">
+      <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic05.svg"> <span>Liên hệ</span></div>
+  </a>
+</div>
+       
+    </div>
+    <div class="copyright_slider show_mb">© 2021 Eximbank</div>
+</footer>
+<div class="modal fade" id="transaction-detail0" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-right-top modal-md modal-dialog-scrollable" role="document" style="max-width:640px;">
+    <div class="modal-content">
+      <div class="modal-header text-left">
+        <h2 class="modal-title">Chi tiết hóa đơn đăng ký</h2>
+        <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+          <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body isolated-scroll">
+        <div class="list-info mb30">       
+         <div class="list-info-item">
+          <div class="table">
+             <div class="td">
+                <div class="list-info-txt-sub color-white60">Tài khoản thanh toán</div>
+             </div>
+             <div class="td">
+                <div class="list-info-txt-main text-right color-white fw600">22222989898</div>
+             </div>
+          </div>
+       </div>
+       <div class="list-info-item">
+        <div class="table">
+           <div class="td">
+              <div class="list-info-txt-sub color-white60">Loại dịch vụ</div>
+           </div>
+           <div class="td">
+            <div class="list-info-txt-main text-right color-white fw600">Dịch vụ cung cấp nước</div>
+           </div>
+        </div>
+     </div>
+   <div class="list-info-item">
+    <div class="table">
+       <div class="td">
+          <div class="list-info-txt-sub color-white60">Nhà cung cấp</div>
+       </div>
+       <div class="td">
+          <div class="list-info-txt-main text-right color-white fw600">Công ty cổ phần Cấp Nước Gia Định</div>
+       </div>
+    </div>
+ </div>     
+ <div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Mã Khách hàng/Hóa đơn</div>
+     </div>
+     <div class="td">
+      <div class="list-info-txt-main text-right color-white fw600">#1234</div>
+     </div>
+  </div>
+</div>
+<div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Tên Khách hàng</div>
+     </div>
+     <div class="td">
+      <div class="list-info-txt-main text-right color-white fw600">NGUYEN VAN A</div>
+     </div>
+  </div>
+</div>
+<div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Địa chỉ</div>
+     </div>
+     <div class="td">
+      <div class="list-info-txt-main text-right color-white fw600">22 Láng Hạ</div>
+     </div>
+  </div>
+</div>
+<div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Số tiền thanh toán tối đa</div>
+     </div>
+     <div class="td">
+      <div class="list-info-txt-main text-right color-primary-light fw600">5,000,000 VND</div>
+     </div>
+  </div>
+</div>
+<div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Ngày kết thúc</div>
+     </div>
+     <div class="td">
+      <div class="list-info-txt-main text-right color-white fw600">30/04/2022 </div>
+     </div>
+  </div>
+</div> 
+<div class="list-info-item">
+ <div class="table">
+    <div class="td">
+       <div class="list-info-txt-sub color-white60">Số lần thanh toán trong kỳ</div>
+    </div>
+    <div class="td">
+       <div class="list-info-txt-main text-right color-white fw600">9</div>
+    </div>
+ </div>
+</div>
+<div class="list-info-item">
+ <div class="table">
+    <div class="td">
+       <div class="list-info-txt-sub color-white60">Số lần đã thanh toán trong kỳ</div>
+    </div>
+    <div class="td">
+       <div class="list-info-txt-main text-right color-white fw600">9</div>
+    </div>
+ </div>
+</div>
+<div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Ngày đăng ký</div>
+     </div>
+     <div class="td">
+      <div class="list-info-txt-main text-right color-white fw600">09:00 16/03/2022</div>
+     </div>
+  </div>
+</div>         
+         </div>                
+      </div>
+      <div class="modal-footer">
+        <div class="btn-footer max-width-360">
+          <div class="table">
+           <div class="td">
+              <button onclick="window.open('pdf-excel/lich-su-thanh-toan-hoa-don-dinh-ky.html', '_blank')" class="no-m ubtn inline-block ubg-secondary ubtn-md txt-upper min-with-130" data-dismiss="modal">
+                 <span class="ubtn-text">Xem lịch sử</span>
+               </button>
+           </div>
+           <div class="td">
+               <button onclick="window.open('pages/thanh-toan-hoa-don-dinh-ky/huy-dang-ky.html', '_self')" type="button" class="no-m ubtn inline-block ubg-primary ubtn-md txt-upper min-with-130">
+                 <span class="ubtn-text">Hủy đăng ký</span>
+               </button>
+           </div>
+          </div>
+       </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="transaction-history1" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-right-top modal-md modal-dialog-scrollable" role="document" style="max-width:640px;">
+    <div class="modal-content">
+      <div class="modal-header text-left">
+        <h2 class="modal-title">Chi tiết giao dịch</h2>
+        <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+          <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body isolated-scroll">
+        <div class="list-info mb30">     
+          <div class="color-white list-title mb10"><b>Thông tin hóa đơn định kỳ</b></div>
+         <div class="list-info-item">
+          <div class="table">
+             <div class="td">
+                <div class="list-info-txt-sub color-white60">Dịch vụ</div>
+             </div>
+             <div class="td">
+                <div class="list-info-txt-main text-right color-white fw600">Nước</div>
+             </div>
+          </div>
+       </div>
+       <div class="list-info-item">
+        <div class="table">
+           <div class="td">
+              <div class="list-info-txt-sub color-white60">Nhà cung cấp</div>
+           </div>
+           <div class="td">
+            <div class="list-info-txt-main text-right color-white fw600">Cấp nước nhà Bè</div>
+           </div>
+        </div>
+     </div>
+   <div class="list-info-item">
+    <div class="table">
+       <div class="td">
+          <div class="list-info-txt-sub color-white60">Mã KH/Hóa đơn</div>
+       </div>
+       <div class="td">
+          <div class="list-info-txt-main text-right color-white fw600">PB359035</div>
+       </div>
+    </div>
+ </div>     
+ <div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Ngày kết thúc</div>
+     </div>
+     <div class="td">
+      <div class="list-info-txt-main text-right color-white fw600">02/03/2023</div>
+     </div>
+  </div>
+</div>
+<div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Ngày đăng ký</div>
+     </div>
+     <div class="td">
+      <div class="list-info-txt-main text-right color-white fw600">19/10/2022</div>
+     </div>
+  </div>
+</div>      
+         </div>
+         <div class="list-info">     
+          <div class="color-white list-title mb10"><b>Thông tin giao dịch</b></div>
+         <div class="list-info-item">
+          <div class="table">
+             <div class="td">
+                <div class="list-info-txt-sub color-white60">Thời gian giao dịch</div>
+             </div>
+             <div class="td">
+                <div class="list-info-txt-main text-right color-white fw600">02/11/2022 12:00</div>
+             </div>
+          </div>
+       </div>
+       <div class="list-info-item">
+        <div class="table">
+           <div class="td">
+              <div class="list-info-txt-sub color-white60">Mã giao dịch</div>
+           </div>
+           <div class="td">
+            <div class="list-info-txt-main text-right color-white fw600">45674657</div>
+           </div>
+        </div>
+     </div>
+     <div class="list-info-item">
+        <div class="table">
+           <div class="td">
+              <div class="list-info-txt-sub color-white60">Tài khoản trích nợ</div>
+           </div>
+           <div class="td">
+            <div class="list-info-txt-main text-right color-white fw600">01234567890</div>
+           </div>
+        </div>
+     </div>
+   <div class="list-info-item">
+    <div class="table">
+       <div class="td">
+          <div class="list-info-txt-sub color-white60">Số tiền giao dịch</div>
+       </div>
+       <div class="td">
+          <div class="list-info-txt-main text-right color-white fw600">-100,000 VND</div>
+       </div>
+    </div>
+ </div>     
+ <div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Nội dung</div>
+     </div>
+     <div class="td">
+      <div class="list-info-txt-main text-right color-white fw600">TTHD NUOC, 10/2022, MA KH: PB3578457894</div>
+     </div>
+  </div>
+</div>
+<div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Trạng thái giao dịch</div>
+     </div>
+     <div class="td">
+      <div class="list-info-txt-main text-right color-white fw600">Thành công</div>
+     </div>
+  </div>
+</div>        
+         </div>          
+      </div>
+      <div class="modal-footer">
+        <div class="btn-footer max-width-360">
+          <div class="table">
+            <div class="td">
+              <button class="no-m ubtn inline-block ubg-secondary ubtn-md min-with-130" data-dismiss="modal">
+                 <span class="ubtn-text">Chụp màn hình</span>
+               </button>
+           </div>
+            <div class="td">
+              <button type="button" class="no-m ubtn inline-block ubg-primary ubtn-md min-with-130" data-dismiss="modal">
+                <span class="ubtn-text">Đóng</span>
+              </button>
+          </div>           
+          </div>
+       </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="transaction-filter" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-right-top modal-sm modal-dialog-scrollable" role="document" style="max-width:480px;">
+    <div class="modal-content">
+      <div class="modal-header text-left">
+        <h2 class="modal-title">Lọc kết quả</h2>
+        <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+          <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body isolated-scroll">
+        <div class="form-group">
+          <div class="input-group input-group-material input-group-select">
+            <select class="select-2 input input-md input-ic-md input-clean input-material" data-placeholder="" header-text="Tài khoản tra cứu">
+              <option value=""></option>
+              <option selected>Tất cả</option>
+              <option>Option1</option>
+              <option>Option2</option>
+              <option>Option3</option>
+            </select>
+            <label class="input-label">Tài khoản tra cứu</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group input-group-material input-group-select">
+            <select class="select-2 input input-md input-ic-md input-clean input-material" data-placeholder="" header-text="Dịch vụ">
+              <option value=""></option>
+              <option selected>Tất cả</option>
+              <option>Option1</option>
+              <option>Option2</option>
+              <option>Option3</option>
+            </select>
+            <label class="input-label">Dịch vụ</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group input-group-material">
+            <input type=""
+              class="input input-xs input-material lite-picker datepicker-single input-label-change"
+              value="29/04/2022" placeholder="dd/mm/yyyy" header-text="Từ ngày" required
+              pickeddate-text="Từ ngày" autocorrect="off">
+            <label class="input-label">
+              Từ ngày
+            </label>
+            <div class="input-ic">
+              <img src="vip-images/web/icons/primary/ic_calendar.svg" class="ic-lg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="form-group bottom">
+          <div class="input-group input-group-material">
+            <input type=""
+              class="input input-xs input-material lite-picker datepicker-single input-label-change"
+              value="30/04/2022" placeholder="dd/mm/yyyy" header-text="Đến ngày" required
+              pickeddate-text="Đến ngày" autocorrect="off">
+            <label class="input-label">
+              Đến ngày
+            </label>
+            <div class="input-ic">
+              <img src="vip-images/web/icons/primary/ic_calendar.svg" class="ic-lg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="box-button clearfix no-active mt16">
+          <div class="fl">
+            <a href="javascript:;" class="no-m ubtn ubg-secondary ubtn-md" data-dismiss="modal">
+              <span class="ubtn-text">Quay lại</span>
+            </a>
+          </div>
+          <div class="fr">
+            <a href="javascript:;" class="no-m ubtn ubg-primary ubtn-md" data-dismiss="modal">
+              <span class="ubtn-text">Tìm kiếm</span>
+            </a>
+            <span class="disable-input"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<!--==========================General=========================-->
+<!--jquery-->
+
+
+<script src="js/vendors/jquery/jquery.bundles.js"></script>
+<script src="js/vendors/jquery/jquery.init.js"></script>
+<!--jquery end-->
+
+<!--bootstrap-->
+<script src="js/vendors/bootstrap/bootstrap.bundles.js"></script>
+<script src="js/vendors/bootstrap/bootstrap.init.js"></script>
+<!--bootstrap end-->
+<!--==========================General End=========================-->
+<!--==========================Only for this page=========================-->
+<!--carousel-->
+<script type="text/javascript" src="js/vendors/owlcarousel/owl.carousel.bundles.js"></script>
+<script type="text/javascript" src="js/vendors/owlcarousel/owl.carousel.init.js"></script>
+<!--carousel end-->
+<!--select2-->
+<script src="js/vendors/select2/select2.bundles.js"></script>
+<script src="js/vendors/select2/select2.init.js"></script>
+<!--select2 end-->
+<!--croppie-->
+<!--<script src="js/vendors/croppie/croppie.bundles.js"></script>
+<script src="js/vendors/croppie/croppie.init.js"></script>-->
+<!--croppie end-->
+<!-- lightpick -->
+<script src="js/vendors/lightpick/lightpick.bundles.js"></script>
+<script src="js/vendors/lightpick/lightpick.init.js"></script>
+<!-- lightpick -->
+<script src="js/custom.js"></script>
+<script src="js/otp.js"></script>
+<!--==========================Only for this page End=========================-->
+</html>

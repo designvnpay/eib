@@ -1,0 +1,22 @@
+<svg id="funtion_ic_contact" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.134" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6171" data-name="Rectangle 6171" width="64" height="64" fill="none"/>
+  <g id="left_call" transform="translate(6.291 6.813)">
+    <g id="Group_7086" data-name="Group 7086" transform="translate(1.709 1.695)">
+      <path id="Path_10234" data-name="Path 10234" d="M27.058,27.066l-3.24,4.054A34.231,34.231,0,0,1,11.661,18.963l4.054-3.24a2.754,2.754,0,0,0,.8-3.268L12.818,4.138A2.754,2.754,0,0,0,9.608,2.59L2.57,4.426A2.754,2.754,0,0,0,.526,7.486,40.85,40.85,0,0,0,35.308,42.249a2.754,2.754,0,0,0,3.06-2.044L40.2,33.168a2.754,2.754,0,0,0-1.548-3.207l-8.329-3.687a2.754,2.754,0,0,0-3.268.793Z" transform="translate(-0.498 5.695)" fill="url(#linear-gradient)"/>
+      <path id="Path_10235" data-name="Path 10235" d="M21.283.5A12.765,12.765,0,0,0,9.724,18.717L8.5,26.066l7.348-1.224A12.783,12.783,0,1,0,21.283.5Z" transform="translate(13.911 -0.5)" fill="#fff7e5"/>
+      <g id="Group_18973" data-name="Group 18973" transform="translate(28.286 11.129)">
+        <circle id="Ellipse_1122" data-name="Ellipse 1122" cx="1.714" cy="1.714" r="1.714" fill="#72501b"/>
+        <circle id="Ellipse_1123" data-name="Ellipse 1123" cx="1.714" cy="1.714" r="1.714" transform="translate(5.143)" fill="#72501b"/>
+        <circle id="Ellipse_1124" data-name="Ellipse 1124" cx="1.714" cy="1.714" r="1.714" transform="translate(10.286)" fill="#72501b"/>
+      </g>
+    </g>
+  </g>
+</svg>

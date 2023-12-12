@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="login_ic3" transform="translate(-164 -643)" opacity="0.7">
+    <rect id="Rectangle_3847" data-name="Rectangle 3847" width="24" height="24" transform="translate(164 643)" fill="none"/>
+    <g id="Group_7407" data-name="Group 7407" transform="translate(167 646)">
+      <path id="Path_10423" data-name="Path 10423" d="M14.625,0H7.875V6.75L5.625,5.625,3.375,6.75V0A3.315,3.315,0,0,0,0,3.375v11.25A3.315,3.315,0,0,0,3.375,18h11.25A3.315,3.315,0,0,0,18,14.625V3.375A3.315,3.315,0,0,0,14.625,0ZM15.75,14.625a1.063,1.063,0,0,1-1.125,1.125H3.375a1.125,1.125,0,0,1,0-2.25h11.25a1.8,1.8,0,0,0,1.125-.225Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

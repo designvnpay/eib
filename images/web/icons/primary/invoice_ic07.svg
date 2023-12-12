@@ -1,0 +1,22 @@
+<svg id="invoice_ic07" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7ed9ff"/>
+      <stop offset="0.531" stop-color="#00a1e4"/>
+      <stop offset="1" stop-color="#0073bc"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_10968" data-name="Rectangle 10968" width="48" height="48" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <g id="Group_20164" data-name="Group 20164" transform="translate(-225.5 -18.268)">
+    <rect id="Rectangle_6075" data-name="Rectangle 6075" width="22" height="28" rx="2" transform="translate(237 29)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_6076" data-name="Rectangle 6076" width="16" height="22" rx="1" transform="translate(240 32)" fill="#fff"/>
+    <path id="Path_16259" data-name="Path 16259" d="M24.347,6H15.939a.657.657,0,0,1-.523-.877l.61-2.211A1.145,1.145,0,0,1,17.074,2h6.138a1.144,1.144,0,0,1,1.048.912l.61,2.211A.657.657,0,0,1,24.347,6Z" transform="translate(227.857 24.536)" fill="#0073bc"/>
+    <path id="Union_47" data-name="Union 47" d="M-3722-2V-5h-3V-9h3v-3h4v3h3v4h-3v3Z" transform="translate(3968 47.268)" fill="#0073bc"/>
+    <g id="Group_19049" data-name="Group 19049" transform="translate(-2)">
+      <g id="Group_18807" data-name="Group 18807" transform="translate(250 44)">
+        <path id="Rectangle_5957" data-name="Rectangle 5957" d="M1,0H12a2,2,0,0,1,2,2V12a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V1A1,1,0,0,1,1,0Z" transform="translate(0 0)" fill="#f7b500"/>
+      </g>
+      <path id="Path_16261" data-name="Path 16261" d="M20.249,14.2l2.91,2.588L27.993,11.7" transform="translate(232.966 36.754)" fill="none" stroke="#0073bc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

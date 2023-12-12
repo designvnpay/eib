@@ -1,0 +1,9 @@
+<svg id="logo_phone" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_6012" data-name="Rectangle 6012" width="24" height="24" fill="none"/>
+  <g id="left_call" transform="translate(2.828 2.833)">
+    <g id="Group_7086" data-name="Group 7086" transform="translate(0 0)">
+      <path id="Path_10234" data-name="Path 10234" d="M11.107,12.313,9.812,13.932A13.673,13.673,0,0,1,4.957,9.076L6.576,7.782a1.1,1.1,0,0,0,.318-1.305L5.419,3.155a1.1,1.1,0,0,0-1.282-.618L1.325,3.27A1.1,1.1,0,0,0,.509,4.492,16.316,16.316,0,0,0,14.4,18.377a1.1,1.1,0,0,0,1.222-.816l.733-2.811a1.1,1.1,0,0,0-.618-1.281L12.412,12a1.1,1.1,0,0,0-1.305.317Z" transform="translate(-0.498 -0.055)" fill="rgba(255,255,255,0.87)"/>
+      <path id="Path_10235" data-name="Path 10235" d="M12.778.5A4.272,4.272,0,0,0,8.909,6.6L8.5,9.055l2.459-.409A4.278,4.278,0,1,0,12.778.5Z" transform="translate(1.28 -0.5)" fill="rgba(255,255,255,0.87)"/>
+    </g>
+  </g>
+</svg>

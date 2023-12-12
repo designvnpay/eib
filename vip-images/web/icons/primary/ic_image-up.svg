@@ -1,0 +1,10 @@
+<svg id="ic_image-up" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_3" data-name="Rectangle 3" width="24" height="24" fill="none"/>
+  <g id="Group_3" data-name="Group 3">
+    <g id="Group_2" data-name="Group 2">
+      <path id="Path_3" data-name="Path 3" d="M12,3h0a9.026,9.026,0,0,0-9,9H3a9.026,9.026,0,0,0,9,9h0a9.026,9.026,0,0,0,9-9h0A9.026,9.026,0,0,0,12,3Z" fill="none" stroke="#c2a87c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="3" cy="3" r="3" transform="translate(9 7)" fill="none" stroke="#c2a87c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+    <path id="Path_4" data-name="Path 4" d="M6.35,18.99A5.982,5.982,0,0,1,12,15h0a5.982,5.982,0,0,1,5.65,3.99" fill="none" stroke="#c2a87c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+  </g>
+</svg>

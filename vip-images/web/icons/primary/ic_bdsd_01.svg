@@ -1,0 +1,27 @@
+<svg id="ic_bdsd_01" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x2="0.989" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.134" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_1088" data-name="Ellipse 1088" cx="24" cy="24" r="24" fill="none"/>
+  <g id="Icon_SMS_Banking_-_36px" data-name="Icon / SMS Banking - 36px" transform="translate(6 6)">
+    <rect id="Rectangle_6166" data-name="Rectangle 6166" width="36" height="36" fill="none"/>
+    <g id="Group_18981" data-name="Group 18981" transform="translate(6 9)">
+      <rect id="Rectangle_6153" data-name="Rectangle 6153" width="21" height="16.5" rx="2" transform="translate(3)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_6154" data-name="Rectangle 6154" width="16.5" height="12" rx="1" transform="translate(5.25 2.25)" fill="#fff7e5"/>
+      <path id="Path_10445" data-name="Path 10445" d="M13.436,25.081,14.8,23.613a1.938,1.938,0,0,1,2.982-.091l.387.4a2.33,2.33,0,0,0,3.632-.05l1.75-2.1M21.8,19.922l2.666-.228a1.018,1.018,0,0,1,1.015,1.022.848.848,0,0,1,0,.092l-.24,2.615" transform="translate(-5.96 -15.194)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-width="1"/>
+      <g id="Group_18980" data-name="Group 18980" transform="translate(0 7.5)">
+        <path id="Path_16389" data-name="Path 16389" d="M5.25,0A5.25,5.25,0,1,1,0,5.25,5.25,5.25,0,0,1,5.25,0Z" fill="#f9c734"/>
+        <g id="Group_18541" data-name="Group 18541" transform="translate(3.828 1.966)">
+          <path id="Path_15911" data-name="Path 15911" d="M-661-153.394v1.024" transform="translate(662.464 153.394)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <path id="Path_15912" data-name="Path 15912" d="M-661-153.394v1.024" transform="translate(662.464 158.835)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <path id="Path_15910" data-name="Path 15910" d="M-660.632-151.138a1.748,1.748,0,0,0-1.28-.537,1.148,1.148,0,0,0-1.2.829,1.046,1.046,0,0,0,.752,1.3,4.229,4.229,0,0,1,1.157.4.926.926,0,0,1,.527.856,1.166,1.166,0,0,1-1.327,1.025,2.463,2.463,0,0,1-1.426-.527" transform="translate(663.432 152.711)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

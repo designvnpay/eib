@@ -1,0 +1,20 @@
+<svg id="ic_cap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.134" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6274" data-name="Rectangle 6274" width="48" height="48" rx="16" fill="none"/>
+  <g id="Group_19083" data-name="Group 19083" transform="translate(-295.746 -1727)">
+    <g id="Group_19082" data-name="Group 19082">
+      <rect id="Rectangle_6291" data-name="Rectangle 6291" width="28" height="22" rx="2" transform="translate(306 1738)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_6292" data-name="Rectangle 6292" width="22" height="16" rx="1" transform="translate(309 1741)" fill="#fff7e5"/>
+      <path id="Path_16521" data-name="Path 16521" d="M4041.26,1755.6h-5.17v2.455" transform="translate(-3725 -12)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_16522" data-name="Path 16522" d="M4042.867,1755.6h.429" transform="translate(-3724.056 -12)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <rect id="Rectangle_6293" data-name="Rectangle 6293" width="16" height="2" rx="1" transform="translate(312 1762)" fill="#f9c734"/>
+  </g>
+</svg>

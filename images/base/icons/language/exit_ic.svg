@@ -1,0 +1,7 @@
+<svg id="exit_ic" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_6281" data-name="Rectangle 6281" width="24" height="24" fill="none"/>
+  <g id="Group_19405" data-name="Group 19405" transform="translate(4 4)">
+    <circle id="Ellipse_1134" data-name="Ellipse 1134" cx="8" cy="8" r="8" fill="#00a1e4"/>
+    <path id="Path_16500" data-name="Path 16500" d="M6,12a6,6,0,1,1,6-6,6,6,0,0,1-6,6Zm.366-8.392,1.8,1.833A.539.539,0,0,1,7.4,6.2l-.615-.619c-.14-.141-.253-.094-.253.1v2.47a.536.536,0,1,1-1.072,0V5.687c0-.2-.113-.245-.253-.1L4.6,6.2a.537.537,0,0,1-.758-.76L5.615,3.611a.521.521,0,0,1,.751,0ZM6,10.746A4.746,4.746,0,1,0,1.254,6,4.746,4.746,0,0,0,6,10.746Z" transform="translate(14 2) rotate(90)" fill="rgba(255,255,255,0.87)" fill-rule="evenodd"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg id="Eximbank_-_normal" data-name="Eximbank - normal" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.5" x2="0.161" y2="0.172" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#176ca7"/>
+      <stop offset="1" stop-color="#27a0dc"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_5468" data-name="Rectangle 5468" width="44" height="44" fill="none"/>
+  <g id="Group_21057" data-name="Group 21057" transform="translate(2.357 2.357)">
+    <circle id="Ellipse_1439" data-name="Ellipse 1439" cx="19.5" cy="19.5" r="19.5" transform="translate(-0.357 -0.358)" fill="url(#linear-gradient)"/>
+    <path id="exim" d="M14.117,28.234l-.774-.03A14.117,14.117,0,0,1,.238,16.739h0A14.291,14.291,0,0,1,0,14.172c0-.171,0-.343.014-.512h0A14.117,14.117,0,0,1,12.365.171V13.659H4.275q-.373,0-.7.032a2.555,2.555,0,0,0-1.69,2.39,4.673,4.673,0,0,0,.073.605A12.421,12.421,0,0,0,13.278,26.5h.01V.069h0V0h.829l.774.032A14.117,14.117,0,0,1,28,11.5h0v.048a.083.083,0,0,0,0,.014h0a14.287,14.287,0,0,1,.234,2.507c0,.169,0,.341-.012.51h0A14.117,14.117,0,0,1,15.872,28.063V14.575h8.089q.375,0,.706-.032a2.557,2.557,0,0,0,1.688-2.39,4.356,4.356,0,0,0-.073-.605,12.419,12.419,0,0,0-11.326-9.82h-.01V28.148h0v.087h-.829Z" transform="translate(5.046 5.046)" fill="#fff"/>
+  </g>
+</svg>

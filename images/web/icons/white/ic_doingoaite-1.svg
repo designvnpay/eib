@@ -1,0 +1,35 @@
+
+
+<svg id="ic_doingoaite" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_12" data-name="Group 12" transform="translate(1 2)">
+    <path id="Stroke_1" data-name="Stroke 1" d="M4.786,17.776a9.508,9.508,0,1,1,9.454,0" transform="translate(1.484 0.8)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_3" data-name="Stroke 3" d="M1.357,0,0,1.358" transform="translate(6.539 13.419)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_5" data-name="Stroke 5" d="M1.357,0,0,1.358" transform="translate(14.104 5.855)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_7" data-name="Stroke 7" d="M1.1,3.523l-.55.55a1.873,1.873,0,0,0,0,2.65l.679.679a1.873,1.873,0,0,0,2.65,0l.369-.369A1.639,1.639,0,0,0,4.589,5.21L3.458,2.644A1.646,1.646,0,0,1,3.8.821L4.073.549a1.873,1.873,0,0,1,2.65,0l.679.679a1.875,1.875,0,0,1,0,2.651" transform="translate(7.008 6.357)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <g id="Group_11" data-name="Group 11" transform="translate(0 17.375)">
+      <path id="Stroke_9" data-name="Stroke 9" d="M0,.5H22" transform="translate(0 0.7)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    </g>
+  </g>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

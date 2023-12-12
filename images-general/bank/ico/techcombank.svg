@@ -1,0 +1,10 @@
+<svg id="techcombank" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <rect id="Rectangle_6505" data-name="Rectangle 6505" width="18" height="18" rx="9" fill="none"/>
+  <g id="Logo_Bank_Techcombank" data-name="Logo / Bank / Techcombank" transform="translate(1 1)">
+    <rect id="Rectangle_5468" data-name="Rectangle 5468" width="16" height="16" fill="none"/>
+    <g id="Group_17561" data-name="Group 17561" transform="translate(2 3.884)">
+      <path id="Path_15626" data-name="Path 15626" d="M283.657,203.7c.04,0,.064.052.129.116.131.132.255.257.382.382.276.271.5.512.766.764.1.092.725.7.761.77l-2.038,2.039v.027h0l2.054,2.051,3.766-3.776v-.691l-3.774-3.765-2.048,2.047v.034Z" transform="translate(-277.479 -201.623)" fill="#e20019" fill-rule="evenodd"/>
+      <path id="Path_15627" data-name="Path 15627" d="M216.559,207.8c-.064-.026-1.623-1.613-1.921-1.907-.156-.153-.186-.081.129-.4l.765-.765c.3-.3.674-.659.956-.957.032-.034.054-.048.074-.05v-.033l0,0-2.069-2.047-4.107,4.116,4.118,4.11,2.05-2.05.01,0v-.027Z" transform="translate(-210.384 -201.642)" fill="#e20019" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

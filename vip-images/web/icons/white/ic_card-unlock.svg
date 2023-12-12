@@ -1,0 +1,40 @@
+<svg id="ic_card-unlock" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Rectangle_182" data-name="Rectangle 182" fill="#fff" stroke="#fff" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <g id="ic_home_cardservice_white" data-name="ic home cardservice white" transform="translate(463.987 -789.705)">
+    <path id="Stroke_5" data-name="Stroke 5" d="M-461.987,795.862h19.51" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_7" data-name="Stroke 7" d="M-461.987,798.966h19.51" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_9" data-name="Stroke 9" d="M-459.819,803h1.724" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_11" data-name="Stroke 11" d="M-456.526,803h1.726" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Path_650" data-name="Path 650" d="M-449.509,804.66h4.441a.636.636,0,0,1,.635.636v4.013a.636.636,0,0,1-.635.637h-5.365a.636.636,0,0,1-.635-.637h0V805.3a.636.636,0,0,1,.635-.636h.565v-1.812a2.119,2.119,0,0,1,2.117-2.119,2.118,2.118,0,0,1,1.946,1.279" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Path_651" data-name="Path 651" d="M-445.632,804.66" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Path_652" data-name="Path 652" d="M-445.632,802.848" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Path_653" data-name="Path 653" d="M-445.632,802.848" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Path_654" data-name="Path 654" d="M-445.8,802.008" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_3" data-name="Stroke 3" d="M-451.068,807.224h-8.419a2.517,2.517,0,0,1-2.5-2.53v-9.46a2.517,2.517,0,0,1,2.5-2.529h14.5a2.518,2.518,0,0,1,2.5,2.53v9.46a2.525,2.525,0,0,1-1.951,2.464" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+  </g>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

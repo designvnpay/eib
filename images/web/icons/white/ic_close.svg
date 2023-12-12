@@ -1,0 +1,7 @@
+<svg id="base" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_5602" data-name="Rectangle 5602" width="24" height="24" fill="none"/>
+  <g id="s-size_icons_close" data-name="s-size / icons/ close" transform="translate(2 2)">
+    <circle id="Ellipse_520" data-name="Ellipse 520" cx="10" cy="10" r="10" fill="none"/>
+    <path id="Union_25" data-name="Union 25" d="M6,6,0,12,6,6,0,0,6,6l6-6L6,6l6,6Z" transform="translate(3.999 4)" fill="none" stroke="#dfdfde" stroke-linecap="round" stroke-width="1.6"/>
+  </g>
+</svg>

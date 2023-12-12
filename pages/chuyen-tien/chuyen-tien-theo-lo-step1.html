@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="../../.">
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Eximbank</title>
+    <script src="js/include-html.js"></script>
+    <link rel="stylesheet" href="css/bundles.css">
+    <link rel="stylesheet" href="css/style.search.css">
+    <link rel="stylesheet" href="css/component.css">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/vendors/lightpick/css/lightpick.css" />
+    <link rel="stylesheet" href="css/custom-vip.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    <link rel="shortcut icon" type="text/html" href="vip-images/favicon.svg">
+    <!--[if IE 9]><link rel="stylesheet" href="css/ie9.css" type="text/css" /><![endif]-->
+</head>
+
+<body>
+    <div include-html="page-components/menu.html"></div>
+    <script>
+        includeHTML();
+    </script>
+    <div class="main main--with-sidebar-both main--with-menu">
+        <div class="main-section">
+
+            <div class="main-section-inner max-width-770">
+                <div class="main-header">
+                    <div class="row-flex">
+                        <div class="col-flex coll-flex">
+                            <h2>Chuyển tiền theo lô</h2>
+                            <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot size12">
+                                <li class="breadcrumb-item">
+                                    <a href="index.html" class="color-white38">Trang chủ</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="pages/chuyen-tien/index.html" class="color-white38">Chuyển tiền</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <span class="color-primary">Chuyển tiền theo lô</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-flex colr-flex">
+                            <button type="button" class="ubtn btn-guide pm10 ubg-secondary ubtn-sm" data-toggle="modal" data-target="#modal-guide">
+              <span class="size14 color-primary">Hướng dẫn&nbsp;</span>
+              <img src="vip-images/web/icons/primary/ic_ask.svg" alt="">
+              
+            </button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="steps color-white-3">
+                    <div class="steps__wrap step-col3">
+                        <div class="step steps__item--active currentsteps">
+                            <div class="steps__item">
+                                <div class="steps__inner">
+                                    <div class="steps__circle">1</div>
+                                    <div class="steps__txt">Khởi tạo</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="steps__item">
+                                <div class="steps__inner">
+                                    <div class="steps__circle">2</div>
+                                    <div class="steps__txt">Xác nhận</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="step">
+                            <div class="steps__item">
+                                <div class="steps__inner">
+                                    <div class="steps__circle">3</div>
+                                    <div class="steps__txt">Kết quả</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <form class="form-action">
+                    <!--Begin box-->
+                    <div class="box box--light box-relative">
+                        <div class="dropdown-arrow-mobile show-mobile" data-toggle="modal" data-target="#modal-account">&nbsp;</div>
+                        <div class="row-flex row-reponsive">
+                            <div class="col-flex col-flex-auto">
+                                <img src="vip-images/web/icons/white/ic_acc_from.svg" alt="">
+                            </div>
+                            <div class="col-flex col2-flex pl5">
+                                <div class="color-primary mb-1 size14 fw600">Tài khoản thanh toán</div>
+                                <div class="txt color-white fw600"> 012345678919
+                                </div>
+
+                            </div>
+                            <div class="col-flex col-flex-right">
+                                <button type="button" class="ubtn ubg-secondary ubtn-sm show-pc" data-toggle="modal" data-target="#modal-account">
+                    <span class="size14">Thay đổi tài khoản <img src="images-general/svg/arrow_right.svg" alt="" class="ic_acc">                      
+                          
+                    </span>
+                  </button>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="row-flex row-reponsive price-item">
+                            <div class="col-flex col-flex-auto">
+                                <div class="w48"></div>
+                            </div>
+                            <div class="col-flex col2-flex pl5">
+                                <div class="color-primary-light size17 fw600">
+                                    300,000,000 VND
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End box-->
+                    <!--begin box-->
+                    <div class="box box--light no-p">
+                        <div class="box-sm-header box-sm-header_edit ph30 pt30">
+                            <div class="table">
+                                <div class="td title color-white size20 p b">
+                                    Thông tin thụ hưởng
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-link-sm">
+                            <div class="list-cont">
+                                <div class="box-tabs">
+                                    <div class="nav-tab no-p mb30 bp0">
+                                        <nav class="nav nav-pills flex-row" style="max-width:360px">
+                                            <a class="radio1 flex-fill text-center nav-link active size13" data-toggle="tab" href="#tab1">Eximbank</a>
+                                            <a class="radio2 flex-fill text-center nav-link size13" data-toggle="tab" href="#tab2"><input type="radio" class="hidden" name="radio" required="" data-parsley-multiple="radio">Ngân hàng khác</a>
+                                        </nav>
+                                    </div>
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane active" id="tab1">
+                                            <div class="form-group mb5">
+                                                    <div class="input-group input-file" name="Fichier1">
+                                                        <input type="text" class="input input-xs input-single input-clean input-has-clear" autocorrect="off" placeholder="Tên file">
+                                                        <div class="input-line-bar"></div>
+                                                        <div class="input-ic noindex" data-tooltip="tooltip" title="Chọn file">
+                                                            <img src="vip-images/web/icons/white/ic_folder.svg" alt="">
+        
+                                                        </div>
+                                                        <div class="input-ic input-clear">
+                                                            <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                                                        </div>
+                                                        <div class="color-primary pt10 size13 text-upber txt-hiddren">Nguyen Hoang Nam</div>
+                                                    </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="text-right">
+                                                  <a href="javascript:;" class="ubtn ubg-trans ubtn-sm inline-block">
+                                                    <img src="vip-images/web/icons/white/ic-info.svg" alt="" class="ic_acc">              
+                                                    <span class="size14 color-primary-light">Mẫu giao dịch theo lô</span>
+                                                  </a>
+                                                </div>
+                                              </div>
+                                            <div class="form-group">
+                                                <div class="input-group input-group-material">
+                                                    <div class="input-icons">
+                                                        <textarea type="text" class="textarea-autosize min-height-60 input input-xs input-material input-clean input-has-clear">PHAM ANH KHOA chuyen tien</textarea>
+                                                        <div class="input-line-bar"></div>
+                                                        <label class="input-label">Nội dung chuyển tiền</label>
+                                                        <div class="txt_count size13 show"><span class="color-primary">21</span><span class="color-white">/210</span></div>
+                                                        <div class="input-ic input-clear show">
+                                                            <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group input-group-material input-group-select">
+                                                    <select id="paragraphSpaceOPtion" class="select-2 input input-md input-ic-md input-material" header-text="Giao dịch được thực hiện">
+                                <option value="1" selected>Tức thời</option>
+                                <option value="2">Thực hiện vào ngày</option>
+                               </select>
+                                                    <label class="input-label">Giao dịch được thực hiện</label>
+                                                </div>
+                                            </div>
+                                            <div class="show_box">
+                                                <div class="show_box_cont show_box1_cont">
+                                                    
+                                                </div>
+                                                <div class="show_box_cont show_box2_cont">
+                                                    <div class="form-group">
+                                                        <div class="input-group input-group-material">
+                                                            <input type=""
+                                                                class="input input-xs input-material lite-picker datepicker-single input-label-change"
+                                                                value="16/02/2022" placeholder="dd/mm/yyyy" header-text="Ngày thực hiện" required
+                                                                pickeddate-text="Ngày cấp" autocorrect="off">
+                                                            <label class="input-label">
+                                                                Ngày thực hiện
+                                                            </label>
+                                                            <div class="input-ic">
+                                                                <img src="vip-images/web/icons/primary/ic_calendar.svg" class="ic-lg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>                                    
+                                        </div>
+                                        <div class="tab-pane" id="tab2">
+                                            <div class="form-group mb5">
+                                                    <div class="input-group input-file" name="Fichier1">
+                                                        <input type="text" class="input input-xs input-single input-clean input-has-clear" autocorrect="off" placeholder="Tên file">
+                                                        <div class="input-line-bar"></div>
+                                                        <div class="input-ic noindex" data-tooltip="tooltip" title="Chọn file">
+                                                            <img src="vip-images/web/icons/white/ic_folder.svg" alt="">
+        
+                                                        </div>
+                                                        <div class="input-ic input-clear">
+                                                            <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                                                        </div>
+                                                        <div class="color-primary pt10 size13 text-upber txt-hiddren">Nguyen Hoang Nam</div>
+                                                    </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="text-right">
+                                                  <label data-toggle="modal" data-target="#modal-template" class="ubtn ubg-trans ubtn-sm inline-block" type="button">
+                                                    <img src="vip-images/web/icons/white/ic-info.svg" alt="" class="ic_acc">              
+                                                    <span class="size14 color-primary-light">Mẫu giao dịch theo lô</span>
+                                                  </label>
+                                                </div>
+                                              </div>
+                                            <div class="form-group">
+                                                <div class="input-group input-group-material">
+                                                    <div class="input-icons">
+                                                        <textarea type="text" class="textarea-autosize min-height-60 input input-xs input-material input-clean input-has-clear">PHAM ANH KHOA chuyen tien</textarea>
+                                                        <div class="input-line-bar"></div>
+                                                        <label class="input-label">Nội dung chuyển tiền</label>
+                                                        <div class="txt_count size13 show"><span class="color-primary">21</span><span class="color-white">/210</span></div>
+                                                        <div class="input-ic input-clear show">
+                                                            <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group input-group-material input-group-select">
+                                                    <select id="paragraphSpaceOPtion2" class="select-2 input input-md input-ic-md input-material" header-text="Giao dịch được thực hiện">
+                                <option value="1" selected>Tức thời</option>
+                                <option value="2">Thực hiện vào ngày</option>
+                               </select>
+                                                    <label class="input-label">Giao dịch được thực hiện</label>
+                                                </div>
+                                            </div>
+                                            <div class="show_box2">
+                                                <div class="show_box_cont show_box1_cont">
+                                                    
+                                                </div>
+                                                <div class="show_box_cont show_box2_cont">
+                                                    <div class="form-group">
+                                                        <div class="input-group input-group-material">
+                                                            <input type=""
+                                                                class="input input-xs input-material lite-picker datepicker-single input-label-change"
+                                                                value="16/02/2022" placeholder="dd/mm/yyyy" header-text="Ngày thực hiện" required
+                                                                pickeddate-text="Ngày cấp" autocorrect="off">
+                                                            <label class="input-label">
+                                                                Ngày thực hiện
+                                                            </label>
+                                                            <div class="input-ic">
+                                                                <img src="vip-images/web/icons/primary/ic_calendar.svg" class="ic-lg" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>                                    
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="line-dot pt10"></div>
+                                <div class="form-group bottom">
+                                    <div class="size14"><b class="color-primary-light">Lưu ý:</b> <br>
+
+                                        <span class="color-white"> 
+                                            - Quý khách vui lòng chọn ngân hàng thụ hưởng và tải file mẫu giao dịch để làm theo và import đúng mẫu <br> 
+                                            - File hỗ trợ tối đa 500 dòng lệnh và định dạng là .xls, .xlsx <br>
+                                            - File không nên bỏ trống dòng, cột và copy đúng ngân hàng từ sheet BankName nếu chuyển khoản ngoài hệ thống
+                                        </span></div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End box-->
+            <!--begin box-->
+            <div class="box-button no-active clearfix">
+                        <div class="fl">
+                            <a href="index.html" class="no-m ubtn ubg-secondary ubtn-md ripple">
+                                <span class="ubtn-text">Quay lại</span>
+                            </a>
+                        </div>
+                        <div class="fr">
+                            <a href="javascript:;" data-toggle="modal" data-target="#modal-template" class="no-m ubtn ubg-primary ubtn-md show-radio-btn1 active">
+                                <span class="ubtn-text">Tiếp tục</span>
+                            </a>
+                            <a href="javascript:;" data-toggle="modal" data-target="#modal-ngan-hang-khac" class="no-m ubtn ubg-primary ubtn-md show-radio-btn2">
+                                <span class="ubtn-text">Tiếp tục</span>
+                            </a>
+                        </div>
+                
+            </div>
+            <!--End box-->
+            </form>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="row row-20 justify-content-center">
+            <div class="inline-block">
+                <a href="#">
+                    <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic01.svg"> <span>Hướng dẫn sử dụng</span></div>
+                </a>
+            </div>
+            <div class="inline-block">
+                <a href="#">
+                    <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic02.svg"> <span>Hướng dẫn bảo mật</span></div>
+                </a>
+            </div>
+            <div class="inline-block">
+                <a href="#">
+                    <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic03.svg"> <span>Hướng dẫn sử dụng Smart OTP</span></div>
+                </a>
+            </div>
+            <div class="inline-block">
+                <a href="#">
+                    <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic04.svg"> <span>Quy định sử dụng</span></div>
+                </a>
+            </div>
+            <div class="inline-block">
+                <a href="#">
+                    <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic05.svg"> <span>Liên hệ</span></div>
+                </a>
+            </div>
+
+        </div>
+        <div class="copyright_slider show_mb">© 2021 Eximbank</div>
+    </footer>
+</body>
+<!--==========================General=========================-->
+<!--jquery-->
+<script src="js/vendors/jquery/jquery.bundles.js"></script>
+<script src="js/vendors/jquery/jquery.init.js"></script>
+<!--jquery end-->
+<!--bootstrap-->
+<script src="js/vendors/bootstrap/bootstrap.bundles.js"></script>
+<script src="js/vendors/bootstrap/bootstrap.init.js"></script>
+<!--bootstrap end-->
+<!--==========================General End=========================-->
+<!--==========================Only for this page=========================-->
+<!--autosize-->
+<script src="js/vendors/autosize/autosize.bundles.js"></script>
+<script src="js/vendors/autosize/autosize.init.js"></script>
+<!--autosize end-->
+<!--carousel-->
+<script type="text/javascript" src="js/vendors/owlcarousel/owl.carousel.bundles.js"></script>
+<script type="text/javascript" src="js/vendors/owlcarousel/owl.carousel.init.js"></script>
+<!--carousel end-->
+<!--select2-->
+<script src="js/vendors/select2/select2.bundles.js"></script>
+<script src="js/vendors/select2/select2.init.js"></script>
+<!--select2 end-->
+<!--croppie-->
+<!--<script src="js/vendors/croppie/croppie.bundles.js"></script>
+<script src="js/vendors/croppie/croppie.init.js"></script>-->
+<!--croppie end-->
+<!-- lightpick -->
+<script src="js/vendors/lightpick/lightpick.bundles.js"></script>
+<script src="js/vendors/lightpick/lightpick.init.js"></script>
+<!-- lightpick -->
+<script src="js/custom.js"></script>
+<script src="js/otp.js"></script>
+<!--==========================Only for this page End=========================-->
+<div class="modal fade" id="modal-account" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-right-top modal-md modal-dialog-scrollable" role="document">
+        <div class="modal-content live-search-list live-search-list-show">
+            <div class="modal-header text-left">
+                <h2 class="modal-title">Chọn tài khoản nguồn</h2>
+                <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+              <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+            </button>
+            </div>
+            <div class="modal-body isolated-scroll">
+                <div class="row-default list-radio-modal-close">
+                    <label class="radio">
+                    <input checked type="radio" class="hidden" name="radio1">
+                    <!--Begin account-->
+                    <div class="box box--light">
+                        <div class="row-flex row-reponsive">
+                            <div class="col-flex col-flex-auto">
+                                <img src="vip-images/web/icons/white/ic_acc_from.svg" alt="">                  
+                            </div>
+                            <div class="col-flex col2-flex pl5">
+                                <div class="color-primary mb-1 size14 fw600">Tài khoản thanh toán</div>
+                                <div class="txt color-white fw600"> 012345678919
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="row-flex row-reponsive price-item">
+                            <div class="col-flex col-flex-auto">
+                                <div class="w48"></div>
+                            </div>
+                            <div class="col-flex col2-flex pl5">
+                                <div class="color-primary-light size17 fw600">
+                                    300,000,000 VND
+                                </div>              
+                            </div>
+                        </div>         
+                    </div>
+                    <!--End account-->
+                    <span class="radio-ic radio-ic_edit radio-style-2 ripple-radio"></span>
+                  </label>
+                </div>
+                <div class="row-default list-radio-modal-close">
+                    <label class="radio">
+                    <input type="radio" class="hidden" name="radio1">
+                    <!--Begin account-->
+                    <div class="box box--light">
+                        <div class="row-flex row-reponsive">
+                            <div class="col-flex col-flex-auto">
+                                <img src="vip-images/web/icons/white/ic_acc_from.svg" alt="">                  
+                            </div>
+                            <div class="col-flex col2-flex pl5">
+                                <div class="color-primary mb-1 size14 fw600">Tài khoản thanh toán</div>
+                                <div class="txt color-white fw600"> 012345678911
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="row-flex row-reponsive price-item">
+                            <div class="col-flex col-flex-auto">
+                                <div class="w48"></div>
+                            </div>
+                            <div class="col-flex col2-flex pl5">
+                                <div class="color-primary-light size17 fw600">
+                                    1,200,000 VND
+                                </div>              
+                            </div>
+                        </div>         
+                    </div>
+                    <!--End account-->
+                    <span class="radio-ic radio-ic_edit radio-style-2 ripple-radio"></span>
+                  </label>
+                </div>
+                <div class="row-default list-radio-modal-close">
+                    <label class="radio">
+                    <input type="radio" class="hidden" name="radio1">
+                    <!--Begin account-->
+                    <div class="box box--light">
+                        <div class="row-flex row-reponsive">
+                            <div class="col-flex col-flex-auto">
+                                <img src="vip-images/web/icons/white/ic_acc_from.svg" alt="">                  
+                            </div>
+                            <div class="col-flex col2-flex pl5">
+                                <div class="color-primary mb-1 size14 fw600">Tài khoản thanh toán</div>
+                                <div class="txt color-white fw600"> 012345678912
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="row-flex row-reponsive price-item">
+                            <div class="col-flex col-flex-auto">
+                                <div class="w48"></div>
+                            </div>
+                            <div class="col-flex col2-flex pl5">
+                                <div class="color-primary-light size17 fw600">
+                                    500,000 VND
+                                </div>              
+                            </div>
+                        </div>         
+                    </div>
+                    <!--End account-->
+                    <span class="radio-ic radio-ic_edit radio-style-2 ripple-radio"></span>
+                  </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-ngan-hang-khac" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-lg-big modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h2 class="modal-title">Kết quả kiểm tra lô</h2>
+                <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple"
+                    data-dismiss="modal">
+                    <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row table-title-top align-items-center mb15">
+                    <div class="col-md-6 text-left mb10-mb">
+                        Tất cả các lệnh hợp lệ
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col text-right-pc">
+                                Trạng thái                                
+                            </div>
+                            <div class="col text-left">
+                                <div class="form-group mb0">
+                                    <div class="input-group">
+                                        <select class="select-2 inline-block input input-sm input-ic-sm" data-placeholder="Trạng thái"
+                                            header-text="Trạng thái">
+                                            <option selected value="1">Tất cả</option>
+                                            <option value="2">Hợp lệ</option>
+                                            <option value="3">Không hợp lệ</option>
+                                        </select>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>                        
+                    </div>
+
+                </div>
+                <div class="table-style table-responsive-md">
+                    <table class="table table-scroll-style">
+                        <thead>
+                            <tr>
+                                <th rowspan="2" class="size12  min-with-100">Dòng lỗi</th>
+                                <th rowspan="2" class="size12 min-with-120">Trạng thái</th>
+                                <th rowspan="2" class="size12 min-with-150">Thông báo lỗi</th>                                
+                                <th colspan="6" class="size12 text-center">Các cột theo file Excel</th>
+                            </tr>
+                            <tr>
+                                <th class="size12 min-with-130">Họ và tên</th>
+                                <th class="size12 min-with-100">Số tài khoản</th>
+                                <th class="size12 min-with-100">Số tiền</th>
+                                <th class="size12 min-with-100">Loại tiền</th>
+                                <th class="size12 min-with-180">Ngân  hàng</th>
+                                <th class="size12 text-right min-with-130">Diễn giải</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>11</td>
+                                <td>Hợp lệ</td>
+                                <td>&nbsp;</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td>VND</td>
+                                <td>NH TMCP A CHAU (ACB)</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td><span class="color-primary">Không hợp lệ</span></td>
+                                <td>Số tài khoản không tồn tại</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td>VND</td>
+                                <td>NH TMCP A CHAU (ACB)</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Hợp lệ</td>
+                                <td>&nbsp;</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td>VND</td>
+                                <td>NH TMCP A CHAU (ACB)</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td><span class="color-primary">Không hợp lệ</span></td>
+                                <td>Thiếu diễn giải</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td>VND</td>
+                                <td>NH TMCP A CHAU (ACB)</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>31</td>
+                                <td>Hợp lệ</td>
+                                <td>&nbsp;</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td>VND</td>
+                                <td>NH TMCP A CHAU (ACB)</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>44</td>
+                                <td><span class="color-primary">Không hợp lệ</span></td>
+                                <td>Số tài khoản không tồn tại</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td>VND</td>
+                                <td>NH TMCP A CHAU (ACB)</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Hợp lệ</td>
+                                <td>&nbsp;</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td>VND</td>
+                                <td>NH TMCP A CHAU (ACB)</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td><span class="color-primary">Không hợp lệ</span></td>
+                                <td>Số tài khoản không tồn tại</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td>VND</td>
+                                <td>NH TMCP A CHAU (ACB)</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Hợp lệ</td>
+                                <td>&nbsp;</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td>VND</td>
+                                <td>NH TMCP A CHAU (ACB)</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td><span class="color-primary">Không hợp lệ</span></td>
+                                <td>Thiếu diễn giải</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td>VND</td>
+                                <td>NH TMCP A CHAU (ACB)</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>31</td>
+                                <td>Hợp lệ</td>
+                                <td>&nbsp;</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td>VND</td>
+                                <td>NH TMCP A CHAU (ACB)</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>44</td>
+                                <td><span class="color-primary">Không hợp lệ</span></td>
+                                <td>Số tài khoản không tồn tại</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td>VND</td>
+                                <td>NH TMCP A CHAU (ACB)</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <!--begin box-->
+            <div class="box-button row box-button-mb">
+                <div class="col-6">
+                    <button class="ubtn ubtn-md ubtn-gray ripple no-m w100-mb" data-dismiss="modal">
+                        <span class="ubtn-text">Quay lại</span>
+                    </button>
+                </div>
+                <div class="col-md-6 text-right">
+                    <button type="button" class="ubtn inline-block ubg-primary-light ubtn-md active mr15-pc w47percent-mb" data-dismiss="modal">                        
+                        <img class="ic_download" src="vip-images/web/icons/white/ic_download.svg" alt="">
+                        <span class="ubtn-text">Tải về</span>
+                      </button>
+                      <a href="pages/chuyen-tien/chuyen-tien-theo-lo-step2-ngan-hang-khac.html" class="ubtn inline-block ubg-primary ubtn-md w100-mb mt16-mb">
+                        <span class="ubtn-text">Tiếp tục</span>
+                    </a>
+                </div>
+                
+        
+    </div>
+    <!--End box-->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-template" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h2 class="modal-title">Kết quả kiểm tra lô</h2>
+                <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple"
+                    data-dismiss="modal">
+                    <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row table-title-top align-items-center mb15">
+                    <div class="col-md-6 text-left mb10-mb">
+                        Tất cả các lệnh hợp lệ
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col text-right-pc">
+                                Trạng thái                                
+                            </div>
+                            <div class="col text-left">
+                                <div class="form-group mb0">
+                                    <div class="input-group">
+                                        <select class="select-2 inline-block input input-sm input-ic-sm" data-placeholder="Trạng thái"
+                                            header-text="Trạng thái">
+                                            <option selected value="1">Tất cả</option>
+                                            <option value="2">Hợp lệ</option>
+                                            <option value="3">Không hợp lệ</option>
+                                        </select>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>                        
+                    </div>
+
+                </div>
+                <div class="table-style table-responsive-md">
+                    <table class="table table-scroll-style">
+                        <thead>
+                            <tr>
+                                <th rowspan="2" scope="col" class="size12">Dòng lỗi</th>
+                                <th rowspan="2" scope="col" class="size12 min-with-120">Trạng thái</th>
+                                <th rowspan="2" scope="col" class="size12 min-with-150">Thông báo lỗi</th>                                
+                                <th colspan="4" scope="col" class="size12 text-center">Các cột theo file Excel</th>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="size12 min-with-130">Họ và tên</th>
+                                <th scope="col" class="size12 min-with-100">Số tài khoản</th>
+                                <th scope="col" class="size12 min-with-100">Số tiền</th>
+                                <th scope="col" class="size12 text-right min-with-100">Diễn giải</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>11</td>
+                                <td>Hợp lệ</td>
+                                <td>&nbsp;</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td><span class="color-primary">Không hợp lệ</span></td>
+                                <td>Số tài khoản không tồn tại</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Hợp lệ</td>
+                                <td>&nbsp;</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td><span class="color-primary">Không hợp lệ</span></td>
+                                <td>Thiếu diễn giải</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>31</td>
+                                <td>Hợp lệ</td>
+                                <td>&nbsp;</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>44</td>
+                                <td><span class="color-primary">Không hợp lệ</span></td>
+                                <td>Số tài khoản không tồn tại</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Hợp lệ</td>
+                                <td>&nbsp;</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td><span class="color-primary">Không hợp lệ</span></td>
+                                <td>Số tài khoản không tồn tại</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Hợp lệ</td>
+                                <td>&nbsp;</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td><span class="color-primary">Không hợp lệ</span></td>
+                                <td>Thiếu diễn giải</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>31</td>
+                                <td>Hợp lệ</td>
+                                <td>&nbsp;</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            <tr>
+                                <td>44</td>
+                                <td><span class="color-primary">Không hợp lệ</span></td>
+                                <td>Số tài khoản không tồn tại</td>
+                                <td>Nguyễn Thị Quyên</td>
+                                <td>012345678910</td>
+                                <td>10,000,000</td>
+                                <td class="text-right">CK LO</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="box-button row box-button-mb">
+                    <div class="col-6">
+                        <button class="ubtn ubtn-md ubtn-gray ripple no-m w100-mb" data-dismiss="modal">
+                            <span class="ubtn-text">Quay lại</span>
+                        </button>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <button type="button" class="ubtn inline-block ubg-primary-light ubtn-md active mr15-pc w47percent-mb" data-dismiss="modal">                        
+                            <img class="ic_download" src="vip-images/web/icons/white/ic_download.svg" alt="">
+                            <span class="ubtn-text">Tải về</span>
+                          </button>
+                          <a href="pages/chuyen-tien/chuyen-tien-theo-lo-step2.html" class="ubtn inline-block ubg-primary ubtn-md w100-mb mt16-mb">
+                            <span class="ubtn-text">Tiếp tục</span>
+                        </a>
+                    </div>
+                    
+            
+        </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-guide" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-right-top modal-dialog-scrollable" role="document" style="max-width:700px;">
+        <div class="modal-content live-search-list live-search-list-show">
+            <div class="modal-header text-left">
+                <h2 class="modal-title color-primary">Hướng dẫn sử dụng</h2>
+                <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+              <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+            </button>
+                <div class="modal-search">
+                    <div class="input-group">
+                        <input type="text" class="live-search-box input input-sm input-ic-sm input-ic-sm-2 input-clean input-has-clear" value="" placeholder="Tìm kiếm" tabindex="0">
+                        <div class="input-line-bar"></div>
+                        <div class="input-ic clickable" data-tooltip="tooltip" title="Tìm kiếm">
+                            <img src="vip-images/web/icons/white/search_ic.svg" alt="" class="ic-md">
+
+                        </div>
+                        <div class="input-ic input-clear">
+                            <img src="vip-images/web/icons/white/ic_close.svg" alt="" class="ic-sm">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-body isolated-scroll no-p">
+                <div class="box-white">
+                    <div class="title-white">
+                        <h3 class="size18"><b>Hướng dẫn</b></h3>
+                    </div>
+                    <div class="box-white-cont clearfix">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p><img src="temp/pic1.jpg" alt="" /></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer bg-white">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="#" class="ubtn ubg-link ubtn-md fl">
+                            <span class="svg mr10">
+                  <img src="vip-images/web/icons/dark/arrow_left.svg" alt="">
+                </span>
+                            <span class="size14">HD chuyển tiền đến tài khoản của tôi</span>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="#" class="ubtn ubg-link ubtn-md fr">
+                            <span class="size14">HD chuyển tiền đến số thẻ</span>
+                            <span class="svg ml10">
+                  <img src="vip-images/web/icons/dark/arrow_right.svg" alt="">                  
+                </span>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="modal-profile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Cập nhật ảnh đại diện</h2>
+                <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+            <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+          </button>
+            </div>
+            <div class="modal-body isolated-scroll text-center">
+                <div class="p-upload p-upload-wrap">
+                    <div id="p-upload-crop" class="p-upload-container"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="text-right">
+                    <div class="inline-block">
+                        <a href="#" class="no-m ubtn ubtn-link ubtn-md ripple" data-dismiss="modal">
+                            <span class="ubtn-text">Hủy</span>
+                        </a>
+                    </div>
+                    <div class="inline-block">
+                        <a href="#" class="no-m ubtn ubg-primary ubtn-md btn-toast2" data-dismiss="modal">
+                            <span class="ubtn-text">Cập nhật</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>

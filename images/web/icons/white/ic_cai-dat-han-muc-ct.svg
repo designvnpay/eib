@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs>
+<style>
+.a{fill:#fff;stroke:#707070;opacity:0;}
+.b,.c,.d,.f{fill:none;}
+.b,.c,.d{stroke:#fff; stroke-width:1}
+.b,.d{fill-rule:evenodd;}
+.c,.d{stroke-linecap:round;stroke-linejoin:round;}
+.e{stroke:none;}
+</style>
+</defs><g transform="translate(-7163 4080)">
+<g class="a" transform="translate(7163 -4080)">
+<rect class="e" width="24" height="24"/>
+<rect class="f" x="0.5" y="0.5" width="23" height="23"/>
+</g>
+  <g transform="translate(7161.976 -4080.261)">
+    <g transform="translate(4.024 3.261)">
+    <path class="b" d="M16.429,2.713H3.616A3.538,3.538,0,0,0,.077,6.252v4.543" transform="translate(-0.077 -0.639)"/>
+    <path class="b" d="M14.364.1l2.069,2.074L14.358,4.245M.079,16.07l9.033-.051M2.145,18.144.077,16.07,2.151,14" transform="translate(-0.077 -0.103)"/>
+    </g>
+    <g transform="translate(14.942 12.275)">
+    <ellipse class="c" cx="3.45" cy="1.569" rx="3.45" ry="1.569" transform="translate(0 0)"/>
+    <path class="d" d="M.4,4.342v.314c0,.866,1.544,1.569,3.45,1.569s3.45-.7,3.45-1.569V4.342" transform="translate(-0.395 -1.205)"/>
+    <path class="d" d="M.4,6.71v.314c0,.866,1.544,1.569,3.45,1.569s3.45-.7,3.45-1.569V6.711M.4,8.593v.314c0,.866,1.544,1.568,3.45,1.568s3.45-.7,3.45-1.568V8.593" transform="translate(-0.395 -1.691)"/>
+    </g>
+  </g>
+</g>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 0.6 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 0.6 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 0.6 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

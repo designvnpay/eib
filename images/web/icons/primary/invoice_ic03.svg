@@ -1,0 +1,36 @@
+<svg id="invoice_ic03" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.108" y1="0.093" x2="0.867" y2="0.874" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7ed9ff"/>
+      <stop offset="0.531" stop-color="#00a1e4"/>
+      <stop offset="1" stop-color="#0073bc"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_10968" data-name="Rectangle 10968" width="48" height="48" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <g id="Group_20156" data-name="Group 20156" transform="translate(-1)">
+    <g id="Group_19073" data-name="Group 19073" transform="translate(-236 -1614)">
+      <path id="Union_44" data-name="Union 44" d="M-3723,13a2,2,0,0,1-2-2V-1a2,2,0,0,1,2-2h2v-8.5a1.5,1.5,0,0,1,1.5-1.5,1.5,1.5,0,0,1,1.5,1.5V-3h19a2,2,0,0,1,2,2V11a2,2,0,0,1-2,2Z" transform="translate(3971 1638)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_6280" data-name="Rectangle 6280" width="22" height="10" rx="1" transform="translate(249 1638)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+      <g id="Rectangle_6282" data-name="Rectangle 6282" transform="translate(252 1641)" fill="none" stroke="#0073bc" stroke-width="1.5">
+        <rect width="2" height="2" rx="1" stroke="none"/>
+        <rect x="0.75" y="0.75" width="0.5" height="0.5" rx="0.25" fill="none"/>
+      </g>
+      <g id="Rectangle_6283" data-name="Rectangle 6283" transform="translate(256 1641)" fill="none" stroke="#0073bc" stroke-width="1.5">
+        <rect width="2" height="2" rx="1" stroke="none"/>
+        <rect x="0.75" y="0.75" width="0.5" height="0.5" rx="0.25" fill="none"/>
+      </g>
+      <g id="Rectangle_6284" data-name="Rectangle 6284" transform="translate(260 1641)" fill="none" stroke="#0073bc" stroke-width="1.5">
+        <rect width="2" height="2" rx="1" stroke="none"/>
+        <rect x="0.75" y="0.75" width="0.5" height="0.5" rx="0.25" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_19075" data-name="Group 19075" transform="translate(-156 -23)">
+      <path id="Path_16389" data-name="Path 16389" d="M7,0A7,7,0,1,1,0,7,7,7,0,0,1,7,0Z" transform="translate(182 37)" fill="#f7b500"/>
+      <g id="Group_19076" data-name="Group 19076" transform="translate(182.333 36.805)">
+        <path id="Path_16514" data-name="Path 16514" d="M9.172,14.329a1.12,1.12,0,0,1,1.584,0" transform="translate(-3.303 -4.357)" fill="none" stroke="#0073bc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_16515" data-name="Path 16515" d="M6.343,10.943a3.221,3.221,0,0,1,4.555,0" transform="translate(-1.959 -2.949)" fill="none" stroke="#0073bc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_16516" data-name="Path 16516" d="M3.515,7.636a5.6,5.6,0,0,1,7.913,0" transform="translate(-0.805 -1.581)" fill="none" stroke="#0073bc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

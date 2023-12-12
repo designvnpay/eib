@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <g fill="none" fill-rule="evenodd">
+        <g stroke="#FFF" stroke-width="1.36">
+            <g>
+                <g>
+                    <path d="M23.27 8.601L0.452 8.601" transform="translate(-58 -530) translate(58 530) translate(2.368 3.158)"/>
+                    <path stroke-linecap="square" d="M11.861 21.64h-9.78c-.9 0-1.63-.73-1.63-1.63V4.527c0-.9.73-1.63 1.63-1.63h19.56c.9 0 1.63.73 1.63 1.63v10.187M17.973.452L17.973 5.342M5.749.452L5.749 5.342" transform="translate(-58 -530) translate(58 530) translate(2.368 3.158)"/>
+                    <path stroke-linecap="square" d="M5.132 13.359L5.132 14.148" transform="translate(-58 -530) translate(58 530) translate(2.368 3.158) rotate(-90 5.132 13.753)"/>
+                    <path stroke-linecap="square" d="M5.132 16.517L5.132 17.306" transform="translate(-58 -530) translate(58 530) translate(2.368 3.158) rotate(-90 5.132 16.911)"/>
+                    <path stroke-linecap="square" d="M9.079 13.359L9.079 14.148" transform="translate(-58 -530) translate(58 530) translate(2.368 3.158) rotate(-90 9.079 13.753)"/>
+                    <path stroke-linecap="square" d="M9.079 16.517L9.079 17.306" transform="translate(-58 -530) translate(58 530) translate(2.368 3.158) rotate(-90 9.079 16.911)"/>
+                </g>
+                <g stroke-linecap="square" transform="translate(-58 -530) translate(58 530) translate(14.21 15.79)">
+                    <circle cx="6.316" cy="6.316" r="6.316"/>
+                    <path d="M6.316 2.297L6.316 10.335M8.254 3.57c-.931-.51-3.863-.893-3.863.87 0 2.109 3.723 1.364 3.723 3.226 0 1.861-2.42 1.721-4.095 1.116"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

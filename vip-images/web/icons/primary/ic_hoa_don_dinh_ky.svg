@@ -1,0 +1,28 @@
+<svg id="ic_dich_vu_khac" data-name="ic_dich vu khac" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.014" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.134" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6274" data-name="Rectangle 6274" width="48" height="48" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <g id="Group_20311" data-name="Group 20311" transform="translate(-527.071 -2168.62)">
+    <path id="Vector" d="M9.8,28h8.4c7,0,9.8-2.8,9.8-9.8V9.8c0-7-2.8-9.8-9.8-9.8H9.8C2.8,0,0,2.8,0,9.8v8.4C0,25.2,2.8,28,9.8,28Z" transform="translate(536 2180)" fill="url(#linear-gradient)"/>
+    <path id="Vector-2" data-name="Vector" d="M7.83,22.371h6.711c5.593,0,7.83-2.237,7.83-7.83V7.83c0-5.593-2.237-7.83-7.83-7.83H7.83C2.237,0,0,2.237,0,7.83v6.711C0,20.134,2.237,22.371,7.83,22.371Z" transform="translate(538.814 2182.814)" fill="#fff7e5"/>
+    <path id="Path_20789" data-name="Path 20789" d="M24.347,6.76H15.939c-.377,0-.643-.531-.523-1.044l.61-2.631C16.176,2.437,16.6,2,17.074,2h6.138c.475,0,.9.437,1.048,1.085l.61,2.631C24.99,6.229,24.723,6.76,24.347,6.76Z" transform="translate(529.857 2175.24)" fill="#72501b"/>
+    <rect id="Rectangle_6459" data-name="Rectangle 6459" width="14.642" height="1.463" rx="0.732" transform="translate(542.679 2186.683)" fill="#72501b"/>
+    <rect id="Rectangle_6460" data-name="Rectangle 6460" width="9.463" height="1.463" rx="0.732" transform="translate(542.679 2189.537)" fill="#f9c734"/>
+    <rect id="Rectangle_6461" data-name="Rectangle 6461" width="12.078" height="1.463" rx="0.732" transform="translate(542.679 2192.39)" fill="#f9c734"/>
+    <g id="Group_20309" data-name="Group 20309" transform="translate(316.642 2168.231)">
+      <g id="Group_19049" data-name="Group 19049" transform="translate(-14.5 -18.232)">
+        <g id="Group_18807" data-name="Group 18807" transform="translate(250 44)">
+          <rect id="Rectangle_5957" data-name="Rectangle 5957" width="14" height="14" rx="7" transform="translate(0 0)" fill="#f9c734"/>
+        </g>
+      </g>
+      <path id="Path_20788" data-name="Path 20788" d="M126.246,46.143v5.114h4" transform="translate(116.193 -17.801)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <ellipse id="Ellipse_1417" data-name="Ellipse 1417" cx="1.661" cy="1.661" rx="1.661" ry="1.661" transform="translate(240.778 31.537)" fill="#72501b"/>
+    </g>
+  </g>
+</svg>

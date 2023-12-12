@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon_24px_bank_logo_placeholder" data-name="icon 24px / bank logo / placeholder" transform="translate(-10 -10)">
+    <circle id="Ellipse_511" data-name="Ellipse 511" cx="12" cy="12" r="12" transform="translate(10 10)" fill="#f8f8f8" opacity="0"/>
+    <g id="Group_19106" data-name="Group 19106" transform="translate(-383 -1820.75)">
+      <path id="Path_18545" data-name="Path 18545" d="M21519.877,11709.252a.875.875,0,0,1,0-1.751h.3v-.752a1,1,0,0,1,1-1h.18v-7h-1.746a.592.592,0,0,1-.574-.476.712.712,0,0,1,.293-.812l9.389-5.632a.549.549,0,0,1,.574,0l9.389,5.632a.712.712,0,0,1,.293.812.6.6,0,0,1-.58.476h-1.746v7h.18a1,1,0,0,1,1,1v.752h.3a.875.875,0,0,1,0,1.751Zm13.828-3.5h1.768v-6.416h-1.768Zm-1.762,0v-6.416h-5.883v6.416h1.764v-3.486a1.178,1.178,0,1,1,2.355,0v3.486Zm-9.412,0h1.762v-6.416h-1.762Zm4.6-9.622a1.875,1.875,0,1,0,1.875-1.876A1.873,1.873,0,0,0,21527.127,11696.127Z" transform="translate(-21124 -9857.752)" fill="#f1e4c2"/>
+    </g>
+  </g>
+</svg>

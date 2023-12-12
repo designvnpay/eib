@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="ic_more" transform="translate(0.5 0.5)">
+    <rect id="ic_autodebit_white_background" data-name="ic/autodebit/white background" width="24" height="24" fill="#fff" stroke="#fff" stroke-width="1" opacity="0"/>
+    <g id="Group_7" data-name="Group 7" transform="translate(3 10)">
+      <g id="Oval" fill="#fff" stroke="#fff" stroke-width="1.3">
+        <circle cx="1.636" cy="1.636" r="1.636" stroke="none"/>
+        <circle cx="1.636" cy="1.636" r="0.986" fill="none"/>
+      </g>
+      <g id="Oval_Copy_5" data-name="Oval Copy 5" transform="translate(7.364)" fill="#fff" stroke="#fff" stroke-width="1.3">
+        <circle cx="1.636" cy="1.636" r="1.636" stroke="none"/>
+        <circle cx="1.636" cy="1.636" r="0.986" fill="none"/>
+      </g>
+      <g id="Oval_Copy_7" data-name="Oval Copy 7" transform="translate(14.727)" fill="#fff" stroke="#fff" stroke-width="1.3">
+        <circle cx="1.636" cy="1.636" r="1.636" stroke="none"/>
+        <circle cx="1.636" cy="1.636" r="0.986" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

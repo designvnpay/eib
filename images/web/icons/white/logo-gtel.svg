@@ -1,0 +1,14 @@
+<svg id="logo-gtel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6468" data-name="Rectangle 6468" width="20" height="19.989" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_6404" data-name="Rectangle 6404" width="24" height="24" fill="none"/>
+  <g id="Group_20200" data-name="Group 20200" transform="translate(2 2.005)">
+    <g id="Group_20199" data-name="Group 20199" clip-path="url(#clip-path)">
+      <path id="Path_19371" data-name="Path 19371" d="M19.061,7.726a3.2,3.2,0,0,1,0,4.528l-6.794,6.8a3.2,3.2,0,0,1-4.529,0l-6.8-6.79a3.2,3.2,0,0,1,0-4.527L7.731.94a3.205,3.205,0,0,1,4.531,0Z" transform="translate(0 -0.001)" fill="#ffb50c"/>
+      <path id="Path_19372" data-name="Path 19372" d="M32.2,25.337l-1.142,1.141a1.128,1.128,0,0,0,1.6,1.594l.708-.708.865.863a0,0,0,0,0,0,0l.709.708-4.868,4.87a.458.458,0,0,1-.7.031l-4.137-4.132a.438.438,0,0,1,.015-.639l5.7-5.7a1.129,1.129,0,1,0-1.6-1.6l-6.482,6.485a1.633,1.633,0,0,0,.021,2.305l5.65,5.642a1.629,1.629,0,0,0,2.3.019l6.139-6.14a1.631,1.631,0,0,0-.02-2.3L36.1,26.9l-.268-.269-1.319-1.318a1.632,1.632,0,0,0-2.306.022" transform="translate(-19.932 -19.066)" fill="#1a1818"/>
+    </g>
+  </g>
+</svg>

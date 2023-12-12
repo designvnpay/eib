@@ -1,0 +1,39 @@
+<svg id="ic_tau" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_340" data-name="Rectangle 340" width="24" height="24" fill="#fff" opacity="0"/>
+  <g id="home_ic_datvetau" transform="translate(4 1.5)">
+    <g id="Stroke_1" data-name="Stroke 1" transform="translate(2.433 5.831)" fill="none" stroke-miterlimit="10">
+      <path d="M8.9,5.622H2.811A2.811,2.811,0,1,1,2.811,0H8.9a2.811,2.811,0,1,1,0,5.622Z" stroke="none"/>
+      <path d="M 8.897013664245605 4.321939468383789 C 9.730283737182617 4.321939468383789 10.40820407867432 3.644219636917114 10.40820407867432 2.81119966506958 C 10.40820407867432 1.977919578552246 9.730283737182617 1.299999594688416 8.897013664245605 1.299999594688416 L 2.811193943023682 1.299999594688416 C 1.977923989295959 1.299999594688416 1.300004005432129 1.977919578552246 1.300004005432129 2.81119966506958 C 1.300004005432129 3.644219636917114 1.977923989295959 4.321939468383789 2.811193943023682 4.321939468383789 L 8.897013664245605 4.321939468383789 M 8.897013664245605 5.621939659118652 L 2.811193943023682 5.621939659118652 C 1.258774042129517 5.621939659118652 4.042053205921547e-06 4.363609790802002 4.042053205921547e-06 2.81119966506958 C 4.042053205921547e-06 1.258779644966125 1.258774042129517 -4.088592504558619e-07 2.811193943023682 -4.088592504558619e-07 L 8.897013664245605 -4.088592504558619e-07 C 10.44943428039551 -4.088592504558619e-07 11.70820426940918 1.258779644966125 11.70820426940918 2.81119966506958 C 11.70820426940918 4.363609790802002 10.44943428039551 5.621939659118652 8.897013664245605 5.621939659118652 Z" stroke="none" fill="#fff"/>
+    </g>
+    <path id="Stroke_5" data-name="Stroke 5" d="M0,.225H2.7" transform="translate(6.936 0.18)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_7" data-name="Stroke 7" d="M0,.225H4.5" transform="translate(6.035 18.938)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Stroke_9" data-name="Stroke 9" d="M0,.225H8.107" transform="translate(4.233 20.29)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Stroke_11" data-name="Stroke 11" d="M0,.225H1.351" transform="translate(3.784 13.984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_13" data-name="Stroke 13" d="M0,.225H1.351" transform="translate(11.439 13.984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_15" data-name="Stroke 15" d="M0,3.1,2.264,0" transform="translate(2.703 17.569)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_17" data-name="Stroke 17" d="M0,0,2.508,3.1" transform="translate(11.362 17.569)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <path id="Stroke_3" data-name="Stroke 3" d="M9.458,15.494H6.305A6.305,6.305,0,0,1,0,9.189V6.305A6.305,6.305,0,0,1,6.305,0H9.458a6.305,6.305,0,0,1,6.305,6.305V9.189A6.305,6.305,0,0,1,9.458,15.494Z" transform="translate(0.405 2.075)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+  </g>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

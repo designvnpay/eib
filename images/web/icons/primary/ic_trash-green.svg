@@ -1,0 +1,13 @@
+<svg id="ic_trash-green" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_4" data-name="Rectangle 4" width="24" height="24" fill="none"/>
+  <g id="Group_5" data-name="Group 5">
+    <path id="Stroke_1" d="M17.68,22H6.32A1.363,1.363,0,0,1,5,20.6V8H19V20.6A1.363,1.363,0,0,1,17.68,22Z" fill="none" stroke="#c2a87c" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <g id="Group_4" data-name="Group 4">
+      <path id="Stroke_7" d="M8.44,11.04v8" fill="none" stroke="#c2a87c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Stroke_9" d="M12,11.04v8" fill="none" stroke="#c2a87c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Stroke_11" d="M15.55,11.04v8" fill="none" stroke="#c2a87c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="6.19" height="3" transform="translate(8.91 2)" fill="none" stroke="#c2a87c" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_7" data-name="Path 7" d="M19,5H5A1,1,0,0,0,4,6V8H20V6A1,1,0,0,0,19,5Z" fill="none" stroke="#c2a87c" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+  </g>
+</svg>

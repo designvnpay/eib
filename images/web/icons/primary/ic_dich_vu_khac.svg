@@ -1,0 +1,20 @@
+<svg id="ic_dich_vu_khac" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7ed9ff"/>
+      <stop offset="0.531" stop-color="#00a1e4"/>
+      <stop offset="1" stop-color="#0073bc"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_10968" data-name="Rectangle 10968" width="48" height="48" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <g id="Group_19113" data-name="Group 19113" transform="translate(-296 -1946)">
+    <rect id="Rectangle_6377" data-name="Rectangle 6377" width="14" height="14" rx="2" transform="translate(306 1956)" fill="#f7b500"/>
+    <path id="Union_52" data-name="Union 52" d="M-3708,14a2,2,0,0,1-2-2V5a2,2,0,0,1,2-2h7a2,2,0,0,1,2,2v7a2,2,0,0,1-2,2Zm-15,0a2,2,0,0,1-2-2V4a2,2,0,0,1,2-2h8a2,2,0,0,1,2,2v8a2,2,0,0,1-2,2Zm14-14a2,2,0,0,1-2-2v-8a2,2,0,0,1,2-2h8a2,2,0,0,1,2,2v8a2,2,0,0,1-2,2Z" transform="translate(4033 1970)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_6382" data-name="Rectangle 6382" width="6" height="6" rx="1" transform="translate(325 1961)" fill="#fff7e5"/>
+    <rect id="Rectangle_6384" data-name="Rectangle 6384" width="6" height="6" rx="1" transform="translate(311 1975)" fill="#fff7e5"/>
+    <rect id="Rectangle_6383" data-name="Rectangle 6383" width="5" height="5" rx="1" transform="translate(326 1976)" fill="#fff7e5"/>
+    <g id="Group_19112" data-name="Group 19112" transform="translate(308.813 1958.813)">
+      <path id="Path_68221" data-name="Path 68221" d="M-9767.627,1925.562l-.229-.01a4.187,4.187,0,0,1-3.887-3.406v.007a4.365,4.365,0,0,1-.071-.763c0-.052,0-.1,0-.152v0a4.186,4.186,0,0,1,3.664-4v4h-2.4c-.073,0-.142,0-.206.01a.758.758,0,0,0-.5.709,1.516,1.516,0,0,0,.021.181,3.684,3.684,0,0,0,3.36,2.909h0v-7.858l.018,0h.23l.23.01a4.183,4.183,0,0,1,3.885,3.406v-.007a4.364,4.364,0,0,1,.071.763c0,.052,0,.1,0,.152v0a4.188,4.188,0,0,1-3.666,4v-4h2.4c.074,0,.143,0,.208-.01a.76.76,0,0,0,.5-.709,1.456,1.456,0,0,0-.022-.182,3.68,3.68,0,0,0-3.356-2.911h-.006v7.86l-.017,0Z" transform="translate(9771.813 -1917.187)" fill="#0073bc"/>
+    </g>
+  </g>
+</svg>

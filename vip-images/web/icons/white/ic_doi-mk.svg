@@ -1,0 +1,36 @@
+<svg id="ic_doi-mk" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ic_rename">
+    <path id="Path_398" data-name="Path 398" d="M0,0H24V24H0Z" fill="#fff" opacity="0"/>
+  </g>
+  <g id="Group_1810" data-name="Group 1810" transform="translate(-8892.516 1057.504)">
+    <g id="surface1" transform="translate(8909.94 -1053)">
+      <path id="Path_394" data-name="Path 394" d="M60,20V32.181" transform="translate(-58.126 -19.063)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.3"/>
+      <path id="Path_395" data-name="Path 395" d="M52,73.874A1.835,1.835,0,0,0,53.874,72a1.835,1.835,0,0,0,1.874,1.874" transform="translate(-52 -58.882)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.3"/>
+      <path id="Path_396" data-name="Path 396" d="M52,16a1.835,1.835,0,0,1,1.874,1.874A1.835,1.835,0,0,1,55.748,16" transform="translate(-52 -16)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.3"/>
+    </g>
+    <circle id="Ellipse_51" data-name="Ellipse 51" cx="2.5" cy="2.5" r="2.5" transform="translate(8896.516 -1047.504)" fill="#fff"/>
+    <circle id="Ellipse_52" data-name="Ellipse 52" cx="2.5" cy="2.5" r="2.5" transform="translate(8903.516 -1047.504)" fill="#fff"/>
+  </g>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

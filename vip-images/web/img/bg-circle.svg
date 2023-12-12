@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.546" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c7e582"/>
+      <stop offset="1" stop-color="#459664"/>
+    </radialGradient>
+  </defs>
+  <circle id="bg-circle" cx="19" cy="19" r="19" opacity="0.553" fill="url(#radial-gradient)"/>
+</svg>

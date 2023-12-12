@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="../../.">
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <title>Eximbank</title>
+  <script src="js/include-html.js"></script>
+  <link rel="stylesheet" href="css/bundles.css">
+  <link rel="stylesheet" href="css/style.search.css">
+  <link rel="stylesheet" href="css/component.css">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom-vip.css">
+  <link rel="stylesheet" href="css/reponsive.css">
+  <link rel="shortcut icon" type="text/html" href="vip-images/favicon.svg">
+  <!--[if IE 9]><link rel="stylesheet" href="css/ie9.css" type="text/css" /><![endif]-->
+</head>
+
+<body>
+  <div include-html="page-components/menu.html"></div>
+  <script>
+    includeHTML();
+  </script>
+  <div class="main main--with-sidebar-both main--with-menu">
+    <div class="main-section">
+        
+    <div class="main-section-inner max-width-770">
+        <div class="main-header">
+            <div class="row-flex">
+                <div class="col-flex coll-flex">
+                    <h2>Chuyển tiền quốc tế</h2>
+                    <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot size12">
+                        <li class="breadcrumb-item">
+                            <a href="index.html" class="color-white38">Trang chủ</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="pages/chuyen-tien/index.html" class="color-white38">Chuyển tiền</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="pages/chuyen-tien/chuyen-tien-quoc-te.html" class="color-white38">Chuyển tiền quốc tế</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <span class="color-primary">Thực hiển chuyển tiền</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-flex colr-flex">
+                    <button type="button" class="ubtn btn-guide pm10 ubg-secondary ubtn-sm" data-toggle="modal" data-target="#modal-guide">
+                        <span class="size14 color-primary">Hướng dẫn&nbsp;</span>
+                        <img src="vip-images/web/icons/primary/ic_ask.svg" alt="">
+
+                    </button>
+                </div>
+            </div>
+        </div>
+      <div class="steps color-white-3">
+        <div class="steps__wrap step-col3">
+            <div class="step steps__item--active currentsteps">
+                <div class="steps__item">
+                    <div class="steps__inner">
+                      <div class="steps__circle">1</div>
+                      <div class="steps__txt">Khởi tạo</div>
+                    </div>
+                  </div>
+            </div>
+            <div class="step">
+                <div class="steps__item">
+                    <div class="steps__inner">
+                      <div class="steps__circle">2</div>
+                      <div class="steps__txt">Xác nhận</div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="step">
+                <div class="steps__item">
+                    <div class="steps__inner">
+                      <div class="steps__circle">3</div>
+                      <div class="steps__txt">Kết quả</div>
+                    </div>
+                  </div>                
+            </div>
+        </div>
+
+      </div>
+        <form class="form-action">
+      <!--begin box-->
+      <div class="box box--light no-p">
+        <div class="box-sm-header box-sm-header_edit ph30 pt30">
+          <div class="table">
+            <div class="td title color-white size20 p b">
+                Thông tin chung
+            </div>
+          </div>
+        </div>
+        <div class="list-link-sm">
+          <div class="list-cont">
+            <div class="form-group">
+                <div class="input-group input-group-material input-group-select" >
+                  <select class="select-2 input input-md input-ic-md input-clean input-material" header-text="Đơn vị tiếp nhận">
+                    <option value=""></option>
+                    <option selected>Eximbank Trương Định</option>
+                    <option>Option1</option>
+                    <option>Option2</option>
+                  </select>
+                  <label class="input-label">Đơn vị tiếp nhận</label>
+                </div>
+              </div>
+              <div class="form-group bottom">
+                <div class="input-group input-group-material input-group-select" >
+                  <select class="select-2 input input-md input-ic-md input-clean input-material" header-text="Mục đích chuyển tiền">
+                    <option value=""></option>
+                    <option selected>Học phí</option>
+                    <option>Option1</option>
+                    <option>Option2</option>
+                  </select>
+                  <label class="input-label">Mục đích chuyển tiền</label>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!--End box-->
+      <!--begin box-->
+      <div class="box box--light no-p">
+        <div class="box-sm-header box-sm-header_edit ph30 pt30">
+          <div class="table">
+            <div class="td title color-white size20 p b">
+                Thông tin đơn vị thụ hưởng
+            </div>
+          </div>
+        </div>
+        <div class="list-link-sm">
+          <div class="list-cont">
+            <div class="form-group">
+                <div class="input-group-flex input-group-material input-group-slot-line">
+                    <div class="input-group">
+                      <input value="1234567890" type="text" class="input input-xs input-material input-clean input-has-clear" autocorrect="off" placeholder="">
+                      <div class="input-line-bar"></div>
+                      <label class="input-label">Số tài khoản/IBAN</label>
+                      <div class="input-ic clickable" data-toggle="modal" data-target="#modal-contact1" data-tooltip="tooltip" title="Số tài khoản/IBAN">
+                        <img src="vip-images/web/icons/white/ic_contact.svg" alt="">
+                          
+                      </div>
+                      <div class="input-ic input-clear">
+                        <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                     </div>
+                    </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group-flex input-group-material input-group-slot-line">
+                    <div class="input-group">
+                      <input value="Phạm Anh Khoa" type="text" class="input input-xs input-material input-clean input-has-clear" autocorrect="off" placeholder="">
+                      <div class="input-line-bar"></div>
+                      <label class="input-label">Tên người thụ hưởng</label>
+                      <div class="input-ic input-clear">
+                        <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                     </div>
+                    </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group-flex input-group-material input-group-slot-line">
+                    <div class="input-group">
+                      <input value="22 Láng Hạ" type="text" class="input input-xs input-material input-clean input-has-clear" autocorrect="off" placeholder="">
+                      <div class="input-line-bar"></div>
+                      <label class="input-label">Địa chỉ</label>
+                      <div class="input-ic input-clear">
+                        <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                     </div>
+                    </div>
+                </div>
+              </div>
+              <div class="form-group bottom">
+                <div class="input-group input-group-material input-group-select" >
+                  <select class="select-2 input input-md input-ic-md input-clean input-material" header-text="Quốc gia">
+                    <option value=""></option>
+                    <option selected>Hoa Kỳ</option>
+                    <option>Option1</option>
+                    <option>Option2</option>
+                  </select>
+                  <label class="input-label">Quốc gia</label>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!--End box-->
+      <!--begin box-->
+      <div class="box box--light no-p">
+        <div class="box-sm-header box-sm-header_edit ph30 pt30">
+          <div class="table">
+            <div class="td title color-white size20 p b">
+                Thông tin ngân hàng thụ hưởng
+            </div>
+          </div>
+        </div>
+        <div class="list-link-sm">
+          <div class="list-cont">
+            <div class="form-group">
+                <div class="input-group input-group-material input-group-select" >
+                  <select class="select-2 input input-md input-ic-md input-clean input-material" header-text="SWIFT">
+                    <option value=""></option>
+                    <option selected>SCBLSG22</option>
+                    <option>Option1</option>
+                    <option>Option2</option>
+                  </select>
+                  <label class="input-label">SWIFT</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-material input-group-select" >
+                  <select class="select-2 input input-md input-ic-md input-clean input-material" header-text="Ngân hàng thụ hưởng">
+                    <option value=""></option>
+                    <option selected>STANDARD CHARTERED BANK</option>
+                    <option>Option1</option>
+                    <option>Option2</option>
+                  </select>
+                  <label class="input-label">Ngân hàng thụ hưởng</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group-flex input-group-material input-group-slot-line">
+                    <div class="input-group">
+                      <input value="6 Battery Rd, Singapore" type="text" class="input input-xs input-material input-clean input-has-clear" autocorrect="off" placeholder="">
+                      <div class="input-line-bar"></div>
+                      <label class="input-label">Địa chỉ ngân hàng</label>
+                      <div class="input-ic input-clear">
+                        <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                     </div>
+                    </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-material input-group-select" >
+                  <select class="select-2 input input-md input-ic-md input-clean input-material" header-text="Thông tin khác">
+                    <option value=""></option>
+                    <option selected>Singapore</option>
+                    <option>Option1</option>
+                    <option>Option2</option>
+                  </select>
+                  <label class="input-label">Thông tin khác</label>
+                </div>
+              </div>
+              <div class="form-group bottom">
+                <div class="input-group-flex input-group-material input-group-slot-line">
+                    <div class="input-group">
+                      <input value="" type="text" class="input input-xs input-material input-clean input-has-clear" autocorrect="off" placeholder="">
+                      <div class="input-line-bar"></div>
+                      <label class="input-label">Ghi chú</label>
+                      <div class="input-ic input-clear">
+                        <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                     </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!--End box-->
+      <!--begin box-->
+      <div class="box box--light no-p">
+        <div class="box-sm-header box-sm-header_edit ph30 pt30">
+          <div class="table">
+            <div class="td title color-white size20 p b">
+                Thông tin ngân hàng trung gian
+            </div>
+          </div>
+        </div>
+        <div class="list-link-sm">
+          <div class="list-cont">
+            <div class="form-group">
+                <div class="input-group input-group-material input-group-select" >
+                  <select class="select-2 input input-md input-ic-md input-clean input-material" header-text="SWIFT">
+                    <option value=""></option>
+                    <option selected>SCBLSG22</option>
+                    <option>Option1</option>
+                    <option>Option2</option>
+                  </select>
+                  <label class="input-label">SWIFT</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group-flex input-group-material input-group-slot-line">
+                    <div class="input-group">
+                      <input readonly value="STANDARD CHARTERED BANK" type="text" class="input input-xs input-material input-clean input-has-clear" autocorrect="off" placeholder="">
+                      <div class="input-line-bar"></div>
+                      <label class="input-label">Ngân hàng trung gian</label>
+                    </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group-flex input-group-material input-group-slot-line">
+                    <div class="input-group">
+                      <input value="6 Battery Rd, Singapore" type="text" class="input input-xs input-material input-clean input-has-clear" autocorrect="off" placeholder="">
+                      <div class="input-line-bar"></div>
+                      <label class="input-label">Địa chỉ ngân hàng</label>
+                      <div class="input-ic input-clear">
+                        <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                     </div>
+                    </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-material input-group-select" >
+                  <select class="select-2 input input-md input-ic-md input-clean input-material" header-text="Thông tin khác">
+                    <option value=""></option>
+                    <option selected>Fedwire</option>
+                    <option>Option1</option>
+                    <option>Option2</option>
+                  </select>
+                  <label class="input-label">Thông tin khác</label>
+                </div>
+              </div>
+              <div class="form-group bottom">
+                <div class="input-group-flex input-group-material input-group-slot-line">
+                    <div class="input-group">
+                      <input value="" type="text" class="input input-xs input-material input-clean input-has-clear" autocorrect="off" placeholder="">
+                      <div class="input-line-bar"></div>
+                      <label class="input-label">Ghi chú</label>
+                      <div class="input-ic input-clear">
+                        <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                     </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!--End box-->
+      <!--begin box-->
+      <div class="box box--light no-p show-box">
+        <div class="box-sm-header box-sm-header_edit ph30 pt20">
+          <label class="switch switch-stretch block switch-item-bg ripple switch-show">
+            <input type="checkbox" class="hidden" name="gender">
+            <div class="table">
+               <div class="td switch-text switch-on">
+                <span class="switch-svg">
+                  <img src="vip-images/web/icons/white/ic_contact.svg" alt="">                                   
+                </span>
+                <span class="switch-txt">Lưu danh bạ thụ hưởng</span>
+               </div>
+               <div class="pl5 td">
+                  <div class="switch-wrap block-right">
+                     <div class="switch-ic"></div>
+                     <div class="switch-bg"></div>
+                  </div>
+               </div>
+            </div>
+         </label>
+        </div>
+        <div class="show-box-cont fade">
+            <div class="pd30">
+              <div class="form-group mb30">
+                <div class="input-group input-group-material">
+                  <input type="text" class="input input-check2 input-xs input-material input-clean input-has-clear" autocorrect="off" value="Nguyen Hoang Nam" name="input-check2">
+                  <div class="input-line-bar"></div>
+                  <label class="input-label">Tên gợi nhớ</label>
+                  <div class="input-ic input-clear show">
+                      <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                   </div>
+                </div>
+              </div>  
+              <div class="form-group bottom">
+                <label class="box_checks row row-10" for="check_save">      
+                  <div class="col-auto pl0">
+                    <div class="ic_svg">
+                      <img src="vip-images/web/icons/primary/ic_hearh.svg">
+                                                                 
+                    </div>
+                  </div>            
+                  <span class="col span-wrap">
+                     <span class="color-white">Danh bạ yêu thích</span>
+                  </span>
+                  <div class="col-auto">
+                    <label class="checkbox ubtn">
+                       <input type="checkbox" class="hidden" name="checkbox2" id="check_save">
+                       <span class="checkbox-ic checkbox-md checkbox-style-2 ripple-checkbox no-m"></span>
+                    </label>
+                 </div>
+               </label>    
+               <div class="size13 color-primary pt10">Danh bạ yêu thích sẽ được ưu tiên hiển thị trong danh bạ thụ hưởng của Quý khách</div>            
+              </div>
+              </div>
+            
+        </div>
+      </div>
+      <!--End box-->
+      <!--begin box-->
+      <div class="box-button no-active clearfix">
+        <div class="fl">
+          <a href="index.html" class="no-m ubtn ubg-secondary ubtn-md ripple">
+            <span class="ubtn-text">Quay lại</span>
+          </a>
+        </div>
+        <div class="fr">
+          <button onclick="window.open('pages/chuyen-tien/chuyen-tien-quoc-te-thuc-hien-chuyen-tien-step1.html', '_self')" type="button" class="no-m ubtn ubg-primary ubtn-md">
+            <span class="ubtn-text">Tiếp tục</span>
+          </button>
+          <span class="disable-input"></span>
+        </div>
+      </div>
+      <!--End box-->
+    </form>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="row row-20 justify-content-center">
+      <div class="inline-block">
+        <a href="#">
+            <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic01.svg"> <span>Hướng dẫn sử dụng</span></div>
+        </a>
+    </div>
+    <div class="inline-block">
+      <a href="#">
+          <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic02.svg"> <span>Hướng dẫn bảo mật</span></div>
+      </a>
+  </div>
+  <div class="inline-block">
+    <a href="#">
+        <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic03.svg"> <span>Hướng dẫn sử dụng Smart OTP</span></div>
+    </a>
+</div>
+<div class="inline-block">
+  <a href="#">
+      <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic04.svg"> <span>Quy định sử dụng</span></div>
+  </a>
+</div>
+<div class="inline-block">
+  <a href="#">
+      <div class="footer-item color-white-3 hover-line hover-c"><img src="vip-images/base/icons/footer/footer_ic05.svg"> <span>Liên hệ</span></div>
+  </a>
+</div>
+       
+    </div>
+    <div class="copyright_slider show_mb">© 2021 Eximbank</div>
+</footer>
+</body>
+<!--==========================General=========================-->
+<!--jquery-->
+<script src="js/vendors/jquery/jquery.bundles.js"></script>
+<script src="js/vendors/jquery/jquery.init.js"></script>
+<!--jquery end-->
+<!--bootstrap-->
+<script src="js/vendors/bootstrap/bootstrap.bundles.js"></script>
+<script src="js/vendors/bootstrap/bootstrap.init.js"></script>
+<!--bootstrap end-->
+<!--==========================General End=========================-->
+<!--==========================Only for this page=========================-->
+<!--autosize-->
+<script src="js/vendors/autosize/autosize.bundles.js"></script>
+<script src="js/vendors/autosize/autosize.init.js"></script>
+<!--autosize end-->
+<!--carousel-->
+<script type="text/javascript" src="js/vendors/owlcarousel/owl.carousel.bundles.js"></script>
+<script type="text/javascript" src="js/vendors/owlcarousel/owl.carousel.init.js"></script>
+<!--carousel end-->
+<!--select2-->
+<script src="js/vendors/select2/select2.bundles.js"></script>
+<script src="js/vendors/select2/select2.init.js"></script>
+<!--select2 end-->
+<!--croppie-->
+<!--<script src="js/vendors/croppie/croppie.bundles.js"></script>
+<script src="js/vendors/croppie/croppie.init.js"></script>-->
+<!--croppie end-->
+<script src="js/custom.js"></script>
+<script src="js/otp.js"></script>
+<!--==========================Only for this page End=========================-->
+
+  <div class="modal fade " id="modal-contact1" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-right-top modal-md modal-dialog-scrollable" role="document" style="max-width: 480px;">
+      <div class="modal-content live-search-list live-search-list-show">
+        <div class="modal-header text-left">
+            <h2 class="modal-title">Danh bạ thụ hưởng</h2>
+            <div class="nav-tab-search pl0 pr0">
+                <div class="input-group">
+                   <input type="text" class="size14 live-search-box input input-sm input-ic-sm input-ic-sm-2 input-clean input-has-clear" value="" placeholder="Tìm kiếm danh bạ...">
+                   <div class="input-ic">
+                      <img src="vip-images/web/icons/white/search_ic.svg" alt="" class="ic-md">
+                   </div>
+                   <div class="input-ic input-clear">
+                    <img src="vip-images/web/icons/white/ic_close.svg" alt="" class="ic-sm">
+                 </div>
+                </div>
+             </div>
+            <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+              <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+            </button>
+          </div>
+          <div class="modal-body isolated-scroll no-p">
+             <div class="blank-section d-flex align-items-center justify-content-center flex-column hidden">
+                <div class="blank-ic">
+                   <img src="vip-images/web/icons/dark/ic_blank-folder.svg" alt="">
+                </div>
+                <div class="blank-txt text-center">
+                   Không tìm thấy kết quả
+                </div>
+             </div>
+             <div class="list-col">
+                <div class="list-link list-link-sm list-link-no-ml live-search-result list-radio-modal-close">
+                  <label class="list-link-item radio">
+                    <img class="ic_cicle mr15" src="vip-images/bank/Eximbank.svg">
+                     <input type="radio" class="hidden" name="radio">
+                     <span class="radio-text span-wrap col no-p">                      
+                        <span class="txt txt--main b">Nguyen Hoang Nam</span>
+                        <div class="txt txt--main color-primary size14 pt5">1234567890</div>
+                     </span>
+                     <img class="ic_list_right" src="vip-images/web/icons/primary/ic_hearh.svg">
+                  </label>
+                  <label class="list-link-item radio">
+                    <img class="ic_cicle mr15" src="vip-images/bank/VIB.svg">
+                     <input type="radio" class="hidden" name="radio">
+                     <span class="radio-text span-wrap col no-p">                      
+                        <span class="txt txt--main b">Tran Dinh Tu</span>
+                        <div class="txt txt--main color-primary size14 pt5">1234567890</div>
+                     </span>
+                     <img class="ic_list_right" src="vip-images/web/icons/primary/ic_hearh.svg">
+                  </label>
+                  <label class="list-link-item radio">
+                    <img class="ic_cicle mr15" src="vip-images/bank/Techcombank.svg">
+                     <input type="radio" class="hidden" name="radio">
+                     <span class="radio-text span-wrap col no-p">                      
+                        <span class="txt txt--main b">Pham Anh Khoa</span>
+                        <div class="txt txt--main color-primary size14 pt5">1234567890</div>
+                     </span>
+                     <img class="ic_list_right" src="vip-images/web/icons/primary/ic_hearh.svg">
+                  </label>
+                  <label class="list-link-item radio">
+                    <img class="ic_cicle mr15" src="vip-images/bank/BIDV.svg">
+                     <input type="radio" class="hidden" name="radio">
+                     <span class="radio-text span-wrap col no-p">                      
+                        <span class="txt txt--main b">Tran Thi Minh</span>
+                        <div class="txt txt--main color-primary size14 pt5">1234567890</div>
+                     </span>
+                  </label>
+                  <label class="list-link-item radio">
+                    <img class="ic_cicle mr15" src="vip-images/bank/Vietcombank.svg">
+                     <input type="radio" class="hidden" name="radio">
+                     <span class="radio-text span-wrap col no-p">                      
+                        <span class="txt txt--main b">Nguyen Hoang Nam</span>
+                        <div class="txt txt--main color-primary size14 pt5">1234567890</div>
+                     </span>
+                  </label>
+                  <label class="list-link-item radio">
+                    <img class="ic_cicle mr15" src="vip-images/bank/Vietcombank.svg">
+                     <input type="radio" class="hidden" name="radio">
+                     <span class="radio-text span-wrap col no-p">                      
+                        <span class="txt txt--main b">Nguyen Tu Linh</span>
+                        <div class="txt txt--main color-primary size14 pt5">1210004034</div>
+                     </span>
+                  </label>
+               </div> 
+              </div>
+             
+          </div>
+       </div>
+    </div>
+ </div>
+
+ <div class="modal fade" id="modal-guide" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-small modal-dialog-scrollable" role="document">
+        <div class="modal-content text-center">
+            <div class="modal-header justify-content-center">
+                <h2 class="modal-title mb0"><img width="72" height="72" src="vip-images/web/icons/primary/ic_success.svg" alt=""></h2>
+                <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple button-closes"
+                    data-dismiss="modal">
+                    <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+                </button>
+            </div>
+            <div class="modal-body pb0 pt5">
+                <p class="no-m size14">Hạn mức chuyển tiền do Eximbank ban hành theo từng thời kỳ. Quý khách vui lòng liên hệ Eximbank gần nhất hoặc hotline <a href="tel:18001199" class="b color-primary-light">1800 1199</a> để được cập nhật thông tin mới nhất.</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <div class="row row-15 align-items-center inline-block">
+                    <div class="block">
+                        <div class="ubtn-wrap-width-sm">
+                            <a class="ubtn ubg-primary ubtn-md ripple no-m button-closes" data-dismiss="modal">
+                                <span class="ubtn-text">Đóng</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <div class="modal" id="modal-profile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title">Cập nhật ảnh đại diện</h2>
+          <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+            <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+          </button>
+        </div>
+        <div class="modal-body isolated-scroll text-center">
+          <div class="p-upload p-upload-wrap">
+            <div id="p-upload-crop" class="p-upload-container"></div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="text-right">
+              <div class="inline-block">
+                <a href="#" class="no-m ubtn ubtn-link ubtn-md ripple" data-dismiss="modal">
+                  <span class="ubtn-text">Hủy</span>
+                </a>              
+              </div>
+              <div class="inline-block">
+                <a href="#" class="no-m ubtn ubg-primary ubtn-md btn-toast2" data-dismiss="modal">
+                  <span class="ubtn-text">Cập nhật</span>
+                </a>              
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>

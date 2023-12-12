@@ -1,0 +1,24 @@
+<svg id="feedback" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.134" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6171" data-name="Rectangle 6171" width="64" height="64" fill="none"/>
+  <g id="Group_18983" data-name="Group 18983" transform="translate(-514 -947)">
+    <rect id="Rectangle_6156" data-name="Rectangle 6156" width="38.5" height="30.25" rx="2" transform="translate(524 966.5)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_6157" data-name="Rectangle 6157" width="30.25" height="22" rx="1" transform="translate(528.125 970.625)" fill="#fff7e5"/>
+    <path id="Path_16428" data-name="Path 16428" d="M13.295,19.47l12.5,6.979L38.156,19.47" transform="translate(517.525 956.599)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Group_19050" data-name="Group 19050" transform="translate(548.75 961)">
+      <path id="Rectangle_6158" data-name="Rectangle 6158" d="M2,0H17.25a2,2,0,0,1,2,2V17.25a2,2,0,0,1-2,2H1a1,1,0,0,1-1-1V2A2,2,0,0,1,2,0Z" fill="#f9c734"/>
+      <g id="Group_18982" data-name="Group 18982" transform="translate(3.208 8.021)">
+        <circle id="Ellipse_1122" data-name="Ellipse 1122" cx="1.604" cy="1.604" r="1.604" transform="translate(0 0)" fill="#72501b"/>
+        <circle id="Ellipse_1123" data-name="Ellipse 1123" cx="1.604" cy="1.604" r="1.604" transform="translate(4.813 0)" fill="#72501b"/>
+        <circle id="Ellipse_1124" data-name="Ellipse 1124" cx="1.604" cy="1.604" r="1.604" transform="translate(9.625 0)" fill="#72501b"/>
+      </g>
+    </g>
+  </g>
+</svg>

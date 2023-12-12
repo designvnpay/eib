@@ -1,0 +1,33 @@
+<svg id="ic_home" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="ic_botbar_home_green" data-name="ic/botbar/home/green">
+    <g id="Group_12" data-name="Group 12">
+      <g id="Rectangle" fill="#d8d8d8" opacity="0">
+        <path d="M 19.5 19.5 L 0.5 19.5 L 0.5 0.5 L 19.5 0.5 L 19.5 19.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 19 L 19 19 L 19 1 L 1 1 M 0 0 L 20 0 L 20 20 L 0 20 L 0 0 Z" stroke="none" fill="#979797"/>
+      </g>
+    </g>
+    <path id="Combined_Shape" data-name="Combined Shape" d="M9.617,14V9.723H5.546V14h-4.3V8.281H0L7.484,0l7.679,8.281H13.914V14Z" transform="translate(2.667 2.333)" fill="#fff"/>
+  </g>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

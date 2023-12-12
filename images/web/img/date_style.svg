@@ -1,0 +1,8 @@
+<svg id="date_style" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_3967" data-name="Rectangle 3967" width="24" height="24" fill="none"/>
+  <g id="Group_7016" data-name="Group 7016" transform="translate(4 4)">
+    <path id="Path_10198" data-name="Path 10198" d="M18.333,2.087V.7A.667.667,0,1,0,17,.7V2.087Z" transform="translate(-5.667)" fill="#b4e7fb"/>
+    <path id="Path_10199" data-name="Path 10199" d="M6.333,2.087V.7A.667.667,0,1,0,5,.7V2.087Z" transform="translate(-1.667)" fill="#b4e7fb"/>
+    <path id="Path_10200" data-name="Path 10200" d="M14,17.218H2a2.045,2.045,0,0,1-2-2.087V6.087A2.045,2.045,0,0,1,2,4H14a2.045,2.045,0,0,1,2,2.087v9.044A2.045,2.045,0,0,1,14,17.218Zm.667-9.739H1.333v7.652a.682.682,0,0,0,.667.7H14a.682.682,0,0,0,.667-.7Z" transform="translate(0 -1.218)" fill="#b4e7fb"/>
+  </g>
+</svg>

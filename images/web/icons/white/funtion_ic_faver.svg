@@ -1,0 +1,24 @@
+<svg id="funtion_ic_faver" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.014" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.134" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6170" data-name="Rectangle 6170" width="64" height="64" fill="none"/>
+  <g id="Group_20068" data-name="Group 20068" transform="translate(-196.238 -991.348)">
+    <g id="Group_20067" data-name="Group 20067" transform="translate(206.237 1001.595)">
+      <g id="archive" transform="translate(0 0)">
+        <path id="Vector" d="M0,0H38.788V38.788H0Z" transform="translate(2.442 1.33)" fill="none" opacity="0"/>
+        <path id="Path_18638" data-name="Path 18638" d="M19.671,29.647l-10.91,5.7,2.084-12.065L2.007,14.734l12.2-1.755L19.658,2l5.455,10.977,12.2,1.755-8.838,8.544,2.084,12.065Z" transform="translate(1.959 1.964)" fill="#fff7e5"/>
+        <path id="Path_19192" data-name="Path 19192" d="M290.977,446.77a1.852,1.852,0,0,1-1.824-2.166l2.193-12.693-9.3-8.992a1.85,1.85,0,0,1,1.023-3.162l12.847-1.845,5.742-11.562a1.849,1.849,0,0,1,1.656-1.027h0a1.85,1.85,0,0,1,1.656,1.026l5.749,11.555,12.845,1.845a1.85,1.85,0,0,1,1.023,3.162l-9.3,8.991,2.193,12.693a1.853,1.853,0,0,1-2.682,1.956l-11.472-5.993-11.494,6A1.853,1.853,0,0,1,290.977,446.77Zm-3.644-23.888,7.29,7.047a1.854,1.854,0,0,1,.537,1.647l-1.722,9.97,9.033-4.718a1.858,1.858,0,0,1,1.713,0l9.013,4.708-1.724-9.97a1.851,1.851,0,0,1,.538-1.646l7.288-7.047-10.068-1.446a1.851,1.851,0,0,1-1.395-1.007l-4.522-9.091-4.518,9.1a1.849,1.849,0,0,1-1.395,1.009Z" transform="translate(-281.48 -405.322)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_19071" data-name="Group 19071" transform="translate(232.229 1027.091)">
+      <path id="Path_16414" data-name="Path 16414" d="M9,0a9,9,0,1,0,9,9A9,9,0,0,0,9,0Z" transform="translate(0)" fill="#f9c734"/>
+      <path id="Union_62" data-name="Union 62" d="M21321.66-18234.59v-2.811h-2.809a.847.847,0,0,1-.846-.844.849.849,0,0,1,.846-.848h2.809v-2.807a.848.848,0,0,1,.848-.846.843.843,0,0,1,.844.846v2.807h2.809a.845.845,0,0,1,.846.848.843.843,0,0,1-.846.844h-2.809v2.811a.841.841,0,0,1-.844.842A.846.846,0,0,1,21321.66-18234.59Z" transform="translate(-21313.326 18247.426)" fill="#72501b"/>
+    </g>
+  </g>
+</svg>

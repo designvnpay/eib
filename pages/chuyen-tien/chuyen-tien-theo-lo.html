@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="../../.">
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <title>Eximbank</title>
+  <script src="js/include-html.js"></script>
+  <link rel="stylesheet" href="css/bundles.css">
+  <link rel="stylesheet" href="css/style.search.css">
+  <link rel="stylesheet" href="css/component.css">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="js/vendors/lightpick/css/lightpick.css" />
+  <link rel="stylesheet" href="css/custom-vip.css">
+  <link rel="stylesheet" href="css/reponsive.css">
+  <link rel="shortcut icon" type="text/html" href="vip-images/favicon.svg">
+  <!--[if IE 9]><link rel="stylesheet" href="css/ie9.css" type="text/css" /><![endif]-->
+</head>
+
+<body>
+  <div include-html="page-components/menu.html"></div>
+  <script>
+    includeHTML();
+  </script>
+  <div class="main main--with-sidebar-both main--with-menu">
+    <div class="main-section">
+      <div class="main-section-inner">
+        <div class="main-header">
+            <div class="row-flex">
+                <div class="col-flex coll-flex">
+                    <h2>Chuyển tiền theo lô</h2>
+                    <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot size12">
+                        <li class="breadcrumb-item">
+                            <a href="index.html" class="color-white38">Trang chủ</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="pages/chuyen-tien/index.html" class="color-white38">Chuyển tiền</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <span class="color-primary">Chuyển tiền theo lô</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <!--begin box-->
+        <div class="form-action">
+          <div class="box box--light no-p">
+            <div class="box-sm-header box-sm-header_edit ph30 pt30">
+              <div class="row">
+                <div class="col-md-5 title color-white size20 p b">
+                  Thông tin tìm kiếm
+                </div>
+                <div class="col-md-7 text-right-pc pt10-mb">
+                    <a href="pages/chuyen-tien/chuyen-tien-theo-lo-step1.html" class="ubtn inline-block ubg-primary ubtn-sm">TẠO LỆNH CHUYỂN TIỀN LÔ</a>              
+                  </div>
+              </div>
+            </div>
+            <div class="list-link-sm">
+              <div class="list-cont no-p">
+                <div class="box_form">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <div class="input-group input-group-material input-group-select">
+                          <select class="select-2 input input-md input-ic-md input-material" data-placeholder=""
+                            header-text="Tài khoản tra cứu">
+                            <option value=""></option>
+                            <option value="1" selected>Tất cả</option>
+                            <option value="2">Option2</option>
+                            <option value="3">Option3</option>
+                          </select>
+                          <label class="input-label">Tài khoản tra cứu</label>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                           <div class="input-group input-group-material">
+                              <input type="" class="input input-xs input-material lite-picker datepicker-single input-label-change" value="29/04/2022" placeholder="dd/mm/yyyy" header-text="Ngày thực hiện" required pickeddate-text="Ngày thực hiện" autocorrect="off">
+                              <label class="input-label">
+                                 Từ ngày
+                              </label>
+                              <div class="input-ic">
+                                 <img src="vip-images/web/icons/primary/ic_calendar.svg" class="ic-lg" alt="">
+                              </div>
+                           </div>
+                        </div>        
+                     </div>
+                     <div class="col-md-4">
+                        <div class="form-group">
+                           <div class="input-group input-group-material">
+                              <input type="" class="input input-xs input-material lite-picker datepicker-single input-label-change" value="29/04/2022" placeholder="dd/mm/yyyy" header-text="Ngày thực hiện" required pickeddate-text="Ngày thực hiện" autocorrect="off">
+                              <label class="input-label">
+                                 Đến ngày
+                              </label>
+                              <div class="input-ic">
+                                 <img src="vip-images/web/icons/primary/ic_calendar.svg" class="ic-lg" alt="">
+                              </div>
+                           </div>
+                        </div>        
+                     </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <div class="input-group input-group-material input-group-select">
+                          <select class="option_check select-2 input input-md input-ic-md input-material"
+                            data-placeholder="" header-text="Loại giao dịch">
+                            <option value=""></option>
+                            <option value="option2" selected>Tất cả</option>
+                            <option value="option3">Chuyển khoản theo lô</option>
+                          </select>
+                          <label class="input-label">Loại giao dịch</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <div class="input-group input-group-material input-group-select">
+                          <select class="select-2 input input-md input-ic-md input-material" data-placeholder=""
+                            header-text="Trạng thái">
+                            <option value=""></option>
+                            <option selected value="1">Tất cả</option>
+                            <option value="2">Option1</option>
+                            <option value="3">Option2</option>
+                          </select>
+                          <label class="input-label">Trạng thái</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <div class="input-group input-group-material input-group-select">
+                          <select class="select-2 input input-md input-ic-md input-material" data-placeholder=""
+                            header-text="Tìm kiếm theo">
+                            <option value=""></option>
+                            <option selected value="1">Ngày đặt lệnh</option>
+                            <option value="2">Option1</option>
+                            <option value="3">Option2</option>
+                          </select>
+                          <label class="input-label">Tìm kiếm theo</label>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="row button-form">
+                    <div class="col text-center-pc">
+                      <button class="ubtn inline-block min-width100-mb ubg-primary ubtn-md" type="button"><span
+                          class="ubtn-text">&nbsp; Tìm kiếm &nbsp;</span>
+                      </button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--End box-->
+        <div class="form-action">
+          <div class="box box--light no-p">
+            <div class="live-search-list live-search-list-show">
+              <div class="wrap-checkbox list-col">
+                <div class="check-all-label check-all-section">
+                  <div class="row row-10 justify-content-between">
+                    <div class="col-auto">
+                      <div class="row row-10 align-items-center">
+                        <div class="col-auto">
+                          <label class="checkbox circle circle-lg ubtn ubg-trans">
+                            <input type="checkbox" class="hidden check-all" name="checkbox1" id="check_all">
+                            <span class="checkbox-ic checkbox-md checkbox-style-2 no-m"></span>
+                          </label>
+                        </div>
+                        <div class="col-auto">
+                          <div class="note color-white60">
+                            <label for="check_all">
+                              Chọn tất cả
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-right pt10-dropleft-mb pc_show">
+                      <span class="checkbox-show1" style="display: none;">
+                        <a href="pages/giao-dich-tuong-lai/huy-giao-dich-1.html"
+                          class="mr10 ubtn pl5-pc ubg-red-light ubtn-sm inline-block">
+                          <img src="vip-images/web/icons/primary/ic_trash.svg" class="ic-md" alt="">
+                          <span class="size14 pc_show">Hủy giao dịch (2)</span>
+                        </a>
+                      </span>
+                      <span class="checkbox-show2" style="display: none;">
+                        <a href="pages/giao-dich-tuong-lai/huy-giao-dich.html"
+                          class="mr10 ubtn pl5-pc ubg-red-light ubtn-sm inline-block">
+                          <img src="vip-images/web/icons/primary/ic_trash.svg" class="ic-md" alt="">
+                          <span class="size14 pc_show">Hủy giao dịch (2)</span>
+                        </a>
+                      </span>
+                      <a href="pdf-excel/giao-dich-tuong-lai.html"
+                        class="mr10 ubtn ubg-primary-light ubtn-sm inline-block">
+                        <span class="size14">Xuất PDF</span>
+                      </a>
+                      <a href="javascript:;" class="ubtn ubg-primary-light ubtn-sm inline-block">
+                        <span class="size14">Xuất Excel</span>
+                      </a>
+
+                    </div>
+                    <div class="col-md-6 col-12-mb mb5-mb pt10-mb mb_show">
+                      <div class="row fr-pc">
+                        <div class="col-6 col-auto-pc">
+                          <a href="pdf-excel/giao-dich-tuong-lai.html"
+                        class="ubtn ubg-primary-light ubtn-sm">
+                        <span class="size14">Xuất PDF</span>
+                      </a>
+                        </div>
+                        <div class="col-6 col-auto-pc">
+                          <a href="javascript:;" class="ubtn ubg-primary-light ubtn-sm">
+                            <span class="size14">Xuất Excel</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-info live-search-result checkbox-group boxmodule">
+                    <label for="" class="list-info-item row row-10 option2">
+                        <div class="col-auto col-auto1">
+                          <label class="checkbox checkbox-option1 circle circle-lg ubtn ubg-trans">
+                            <input type="checkbox" class="hidden" name="checkbox1">
+                            <span class="checkbox-ic checkbox-md checkbox-style-2 ripple-checkbox no-m"></span>
+                          </label>
+                        </div>
+                        <span class="radio-text span-wrap col"
+                        onclick="window.location.href='pages/chuyen-tien/chuyen-tien-theo-lo-cho-xu-ly.html'">
+                          <div class="row-flex row-reponsive">
+                            <div class="col-flex col2-flex">
+                              <div class="row">
+                                <div class="col col-100-mb">
+                                  <div class="size14 color-primary">Ngày đặt lệnh: 23/08/2021</div>
+                                  <div class="color-white">Chuyển tiền theo lô ngoài EIB</div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="size14 color-white38">Ngày GD: 27/08/2021</div>
+                                  <div class="color-white">200,000 VND</div>
+                                </div>
+                                <div class="col-md-3 text-right-pc pt10-mb">
+                                  <span class="status status_process">
+                                    Chờ xử lý
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </span>
+                      </label>
+                      <label for="" class="list-info-item row row-10 option2">
+                        <div class="col-auto col-auto1">
+                          <label class="checkbox checkbox-option1 circle circle-lg ubtn ubg-trans">
+                            <input type="checkbox" class="hidden" name="checkbox1">
+                            <span class="checkbox-ic checkbox-md checkbox-style-2 ripple-checkbox no-m"></span>
+                          </label>
+                        </div>
+                        <span class="radio-text span-wrap col"
+                          onclick="window.location.href='pages/chuyen-tien/chuyen-tien-theo-lo-da-huy.html'">
+                          <div class="row-flex row-reponsive">
+                            <div class="col-flex col2-flex">
+                              <div class="row">
+                                <div class="col col-100-mb">
+                                  <div class="size14 color-primary">Ngày đặt lệnh: 23/08/2021</div>
+                                  <div class="color-white">Chuyển tiền theo lô ngoài EIB</div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="size14 color-white38">Ngày GD: 27/08/2021</div>
+                                  <div class="color-white">200,000 VND</div>
+                                </div>
+                                <div class="col-md-3 text-right-pc pt10-mb">
+                                  <span class="status status_error">
+                                    Đã hủy
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </span>
+                      </label>
+                      <label for="" class="list-info-item row row-10 option2">
+                        <div class="col-auto col-auto1">
+                          <label class="checkbox checkbox-option1 circle circle-lg ubtn ubg-trans">
+                            <input type="checkbox" class="hidden" name="checkbox1">
+                            <span class="checkbox-ic checkbox-md checkbox-style-2 ripple-checkbox no-m"></span>
+                          </label>
+                        </div>
+                        <span class="radio-text span-wrap col"
+                        onclick="window.location.href='pages/chuyen-tien/chuyen-tien-theo-lo-da-xu-ly.html'">
+                          <div class="row-flex row-reponsive">
+                            <div class="col-flex col2-flex">
+                              <div class="row">
+                                <div class="col col-100-mb">
+                                  <div class="size14 color-primary">Ngày đặt lệnh: 23/08/2021</div>
+                                  <div class="color-white">Chuyển tiền theo lô ngoài EIB</div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="size14 color-white38">Ngày GD: 27/08/2021</div>
+                                  <div class="color-white">200,000 VND</div>
+                                </div>
+                                <div class="col-md-3 text-right-pc pt10-mb">
+                                  <span class="status status_cuccessful">
+                                    Đã xử lý
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </span>
+                      </label>
+                      
+
+                </div>
+                <div class="blank-section d-flex align-items-center justify-content-center flex-column hidden">
+                  <div class="blank-ic">
+                    <img src="vip-images/web/icons/dark/ic_blank-folder.svg" alt="">
+                  </div>
+                  <div class="blank-txt text-center">
+                    Không tìm thấy kết quả
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="row row-20 justify-content-center">
+      <div class="inline-block">
+        <a href="#">
+          <div class="footer-item color-white-3 hover-line hover-c"><img
+              src="vip-images/base/icons/footer/footer_ic01.svg"> <span>Hướng dẫn sử dụng</span></div>
+        </a>
+      </div>
+      <div class="inline-block">
+        <a href="#">
+          <div class="footer-item color-white-3 hover-line hover-c"><img
+              src="vip-images/base/icons/footer/footer_ic02.svg"> <span>Hướng dẫn bảo mật</span></div>
+        </a>
+      </div>
+      <div class="inline-block">
+        <a href="#">
+          <div class="footer-item color-white-3 hover-line hover-c"><img
+              src="vip-images/base/icons/footer/footer_ic03.svg"> <span>Hướng dẫn sử dụng Smart OTP</span></div>
+        </a>
+      </div>
+      <div class="inline-block">
+        <a href="#">
+          <div class="footer-item color-white-3 hover-line hover-c"><img
+              src="vip-images/base/icons/footer/footer_ic04.svg"> <span>Quy định sử dụng</span></div>
+        </a>
+      </div>
+      <div class="inline-block">
+        <a href="#">
+          <div class="footer-item color-white-3 hover-line hover-c"><img
+              src="vip-images/base/icons/footer/footer_ic05.svg"> <span>Liên hệ</span></div>
+        </a>
+      </div>
+
+    </div>
+    <div class="copyright_slider show_mb">© 2021 Eximbank</div>
+  </footer>
+  <div class="row-bottom w-100 ">
+    <div class="row row-padding-bottom mb_show">
+      <div class=""></div>
+      <div class="col-12 text-center">
+        <span class="checkbox-show1" style="display: none;">
+          <a href="pages/giao-dich-tuong-lai/huy-giao-dich-1.html"
+            class="mr10 ubtn pl5-pc ubg-red-light ubtn-sm inline-block">
+            <img src="vip-images/web/icons/primary/ic_trash.svg" class="ic-md" alt="">
+            <span class="size14">Hủy giao dịch (2)</span>
+          </a>
+        </span>
+        <span class="checkbox-show2" style="display: none;">
+          <a href="pages/giao-dich-tuong-lai/huy-giao-dich.html"
+            class="mr10 ubtn pl5-pc ubg-red-light ubtn-sm inline-block">
+            <img src="vip-images/web/icons/primary/ic_trash.svg" class="ic-md" alt="">
+            <span class="size14">Hủy giao dịch (2)</span>
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+<!--==========================General=========================-->
+<!--jquery-->
+
+<script src="js/vendors/jquery/jquery.bundles.js"></script>
+<script src="js/vendors/jquery/jquery.init.js"></script>
+<!--jquery end-->
+
+<!--bootstrap-->
+<script src="js/vendors/bootstrap/bootstrap.bundles.js"></script>
+<script src="js/vendors/bootstrap/bootstrap.init.js"></script>
+<!--bootstrap end-->
+<!--==========================General End=========================-->
+<!--==========================Only for this page=========================-->
+<!--carousel-->
+<script type="text/javascript" src="js/vendors/owlcarousel/owl.carousel.bundles.js"></script>
+<script type="text/javascript" src="js/vendors/owlcarousel/owl.carousel.init.js"></script>
+<!--carousel end-->
+<!--select2-->
+<script src="js/vendors/select2/select2.bundles.js"></script>
+<script src="js/vendors/select2/select2.init.js"></script>
+<!--select2 end-->
+<!--croppie-->
+<!--<script src="js/vendors/croppie/croppie.bundles.js"></script>
+<script src="js/vendors/croppie/croppie.init.js"></script>-->
+<!--croppie end-->
+<!-- lightpick -->
+<script src="js/vendors/lightpick/lightpick.bundles.js"></script>
+<script src="js/vendors/lightpick/lightpick.init.js"></script>
+<!-- lightpick -->
+<script src="js/custom.js"></script>
+<script src="js/otp.js"></script>
+<!-- JS demo co the xoa -->
+<script>
+  $(document).ready(function () {
+    $(".option_check").on("change", function () {
+      var val = $(this).find('option:selected').val();
+      if (val == 'option2') {
+        $(".option1").hide();
+        $(".option2").show();
+        $(".option3").hide();
+      }
+      else if (val == 'option1') {
+        $(".option1").show();
+        $(".option2").show();
+        $(".option3").show();
+      }
+
+      else if (val == 'option3') {
+        $(".option1").hide();
+        $(".option2").hide();
+        $(".option3").show();
+      }
+    });
+
+    $('input#check_all[type=checkbox]').change(function () {
+      if ($(this).is(":checked")) {
+        $(".checkbox-show1").show();
+        $(".checkbox-show2").hide();
+      }
+      else {
+        $(".checkbox-show1").hide();
+        $(".checkbox-show2").show();
+      }
+    });
+
+    $('.checkbox-option1>input[type=checkbox]').change(function () {
+      if ($(this).is(":checked")) {
+        $(".checkbox-show1").show();
+        $(".checkbox-show2").hide();
+      }
+      else {
+        $(".checkbox-show1").hide();
+        $(".checkbox-show2").show();
+      }
+    });
+
+    $('.checkbox-option2>input[type=checkbox]').change(function () {
+      if ($(this).is(":checked")) {
+        $(".checkbox-show1").hide();
+        $(".checkbox-show2").show();
+      }
+      else {
+        $(".checkbox-show1").show();
+        $(".checkbox-show2").hide();
+      }
+    });
+
+  });
+</script>
+<!-- JS demo co the xoa end-->
+<!--==========================Only for this page=========================-->
+<div class="modal" id="modal-profile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Cập nhật ảnh đại diện</h2>
+        <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple"
+          data-dismiss="modal">
+          <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body isolated-scroll text-center">
+        <div class="p-upload p-upload-wrap">
+          <div id="p-upload-crop" class="p-upload-container"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="text-right">
+          <div class="inline-block">
+            <a href="#" class="no-m ubtn ubtn-link ubtn-md ripple" data-dismiss="modal">
+              <span class="ubtn-text">Hủy</span>
+            </a>
+          </div>
+          <div class="inline-block">
+            <a href="#" class="no-m ubtn ubg-primary ubtn-md btn-toast2" data-dismiss="modal">
+              <span class="ubtn-text">Cập nhật</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>

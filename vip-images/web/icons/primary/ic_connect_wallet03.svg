@@ -1,0 +1,36 @@
+<svg id="icon_48px_Lien_ke_vi_Del" data-name="icon 48px / Lien ke vi / Del" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.014" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.134" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_1088" data-name="Ellipse 1088" cx="24" cy="24" r="24" fill="rgba(255,255,255,0.08)"/>
+  <g id="Group_20404" data-name="Group 20404">
+    <rect id="Rectangle_6166" data-name="Rectangle 6166" width="36" height="36" transform="translate(6 6)" fill="none"/>
+    <g id="Group_20068" data-name="Group 20068" transform="translate(-198 -993)">
+      <g id="Group_20067" data-name="Group 20067" transform="translate(208 1003)">
+        <g id="archive" transform="translate(0 0)">
+          <path id="Vector" d="M9.8,28h8.4c7,0,9.8-2.8,9.8-9.8V9.8c0-7-2.8-9.8-9.8-9.8H9.8C2.8,0,0,2.8,0,9.8v8.4C0,25.2,2.8,28,9.8,28Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+          <path id="Vector-2" data-name="Vector" d="M7.83,22.371h6.711c5.593,0,7.83-2.237,7.83-7.83V7.83c0-5.593-2.237-7.83-7.83-7.83H7.83C2.237,0,0,2.237,0,7.83v6.711C0,20.134,2.237,22.371,7.83,22.371Z" transform="translate(2.815 2.815)" fill="#fff7e5"/>
+          <path id="Vector-3" data-name="Vector" d="M0,0H28V28H0Z" transform="translate(0 0)" fill="none" opacity="0"/>
+          <g id="link" transform="translate(2.8 2.8)">
+            <g id="Group_20070" data-name="Group 20070" transform="translate(2.304 12.128)">
+              <path id="Vector-4" data-name="Vector" d="M.735,7.025H-.126A.874.874,0,0,1-1,6.151a.874.874,0,0,1,.874-.874H.735a2.265,2.265,0,1,0,0-4.53H-.126A.874.874,0,0,1-1-.126.874.874,0,0,1-.126-1H.735a4.012,4.012,0,1,1,0,8.025Z" transform="translate(8.413 1)" fill="#72501b"/>
+              <path id="Vector-5" data-name="Vector" d="M3.868,7.025H3.012A4.012,4.012,0,0,1,3.012-1h.856a.874.874,0,0,1,.874.874.874.874,0,0,1-.874.874H3.012a2.265,2.265,0,0,0,0,4.53h.856a.874.874,0,1,1,0,1.748Z" transform="translate(1 1)" fill="#72501b"/>
+              <path id="Vector-6" data-name="Vector" d="M4.439.748H-.126A.874.874,0,0,1-1-.126.874.874,0,0,1-.126-1H4.439a.874.874,0,0,1,.874.874A.874.874,0,0,1,4.439.748Z" transform="translate(4.424 4.139)" fill="#72501b"/>
+            </g>
+            <path id="Vector-7" data-name="Vector" d="M0,0H22.4V22.4H0Z" transform="translate(22.4 22.4) rotate(180)" fill="none" opacity="0"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_19071" data-name="Group 19071" transform="translate(222.933 1003)">
+        <path id="Path_16414" data-name="Path 16414" d="M6.533,0a6.533,6.533,0,1,0,6.533,6.533A6.533,6.533,0,0,0,6.533,0Z" transform="translate(0)" fill="#f9c734"/>
+        <path id="Path_16495" data-name="Path 16495" d="M0,0V6.272" transform="translate(8.751 4.316) rotate(45)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Path_16496" data-name="Path 16496" d="M0,0V6.272" transform="translate(8.751 8.751) rotate(135)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

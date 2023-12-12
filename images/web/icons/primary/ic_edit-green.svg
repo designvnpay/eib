@@ -1,0 +1,7 @@
+<svg id="ic_edit_green" data-name="ic/edit/green" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_7" data-name="Group 7" transform="translate(3 1)">
+    <path id="Stroke_1" data-name="Stroke 1" d="M4.568,18.409H.652A.652.652,0,0,1,0,17.756V13.841L13.65.191a.652.652,0,0,1,.922,0l3.645,3.645a.652.652,0,0,1,0,.922Z" transform="translate(0.077 0.077)" fill="none" stroke="#72bf00" stroke-miterlimit="10" stroke-width="1.36"/>
+    <path id="Stroke_3" data-name="Stroke 3" d="M0,0,4.568,4.568" transform="translate(10.98 3.015)" fill="none" stroke="#72bf00" stroke-miterlimit="10" stroke-width="1.36"/>
+    <path id="Stroke_5" data-name="Stroke 5" d="M0,.056H18.409" transform="translate(0.077 21.856)" fill="none" stroke="#72bf00" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.36"/>
+  </g>
+</svg>

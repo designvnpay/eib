@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="24" viewBox="0 0 36 24">
+  <g id="flag_swishland" data-name="flag / swishland" transform="translate(-491 -483)">
+    <rect id="Rectangle_11037" data-name="Rectangle 11037" width="36" height="24" transform="translate(491 483)" fill="none"/>
+    <g id="Group_21076" data-name="Group 21076" transform="translate(493.737 396.724)">
+      <path id="Path_19463" data-name="Path 19463" d="M30,108.276H.526A.526.526,0,0,1,0,107.75V88.8a.526.526,0,0,1,.526-.526H30a.526.526,0,0,1,.526.526V107.75A.526.526,0,0,1,30,108.276Z" fill="#ff4b55"/>
+      <path id="Path_19464" data-name="Path 19464" d="M162.172,154.281h-3.684V150.6a.526.526,0,0,0-.526-.526H154.8a.526.526,0,0,0-.526.526v3.684h-3.684a.526.526,0,0,0-.526.526v3.158a.526.526,0,0,0,.526.526h3.684v3.684a.526.526,0,0,0,.526.526h3.158a.526.526,0,0,0,.526-.526v-3.684h3.684a.526.526,0,0,0,.526-.526v-3.158A.526.526,0,0,0,162.172,154.281Z" transform="translate(-141.12 -58.11)" fill="#f5f5f5"/>
+    </g>
+  </g>
+</svg>

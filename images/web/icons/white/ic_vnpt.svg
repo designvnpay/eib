@@ -1,0 +1,31 @@
+<svg id="ic_vnpt" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Rectangle_270" data-name="Rectangle 270" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <g id="white_38_x_38_10_" data-name="white_38_x_38 (10)" transform="translate(-1.212 -1.211)">
+    <path id="Path_415" data-name="Path 415" stroke="#fff" d="M4.737,4.737H22.212v9.41H4.737Zm0,13.442H22.212M4.737,22.212h8.737" fill="none" transform="translate(0 0)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3" fill-rule="evenodd"/>
+  </g>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

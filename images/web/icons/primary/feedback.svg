@@ -1,0 +1,23 @@
+<svg id="feedback" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.453" x2="1" y2="0.448" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7ed9ff"/>
+      <stop offset="0.531" stop-color="#00a1e4"/>
+      <stop offset="1" stop-color="#0073bc"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6171" data-name="Rectangle 6171" width="64" height="64" fill="none"/>
+  <g id="Group_18983" data-name="Group 18983" transform="translate(-514 -947)">
+    <rect id="Rectangle_6156" data-name="Rectangle 6156" width="38.5" height="30.25" rx="2" transform="translate(524 966.5)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_6157" data-name="Rectangle 6157" width="30.25" height="22" rx="1" transform="translate(528.125 970.625)" fill="#fff"/>
+    <path id="Path_16428" data-name="Path 16428" d="M25.366,27.949a1.5,1.5,0,0,1-.751-.2L12.544,20.768l1.5-2.6,11.316,6.543,11.176-6.539,1.515,2.589L26.123,27.744A1.5,1.5,0,0,1,25.366,27.949Z" transform="translate(517.525 957.599)" fill="#0073bc"/>
+    <g id="Group_19050" data-name="Group 19050" transform="translate(548.75 961)">
+      <path id="Rectangle_6158" data-name="Rectangle 6158" d="M2,0H17.25a2,2,0,0,1,2,2V17.25a2,2,0,0,1-2,2H1a1,1,0,0,1-1-1V2A2,2,0,0,1,2,0Z" fill="#f7b500"/>
+      <g id="Group_18982" data-name="Group 18982" transform="translate(3.208 8.021)">
+        <circle id="Ellipse_1122" data-name="Ellipse 1122" cx="1.604" cy="1.604" r="1.604" transform="translate(0 0)" fill="#0073bc"/>
+        <circle id="Ellipse_1123" data-name="Ellipse 1123" cx="1.604" cy="1.604" r="1.604" transform="translate(4.813 0)" fill="#0073bc"/>
+        <circle id="Ellipse_1124" data-name="Ellipse 1124" cx="1.604" cy="1.604" r="1.604" transform="translate(9.625 0)" fill="#0073bc"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg id="invoice_ic05" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.108" y1="0.093" x2="0.867" y2="0.874" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7ed9ff"/>
+      <stop offset="0.531" stop-color="#00a1e4"/>
+      <stop offset="1" stop-color="#0073bc"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_10968" data-name="Rectangle 10968" width="48" height="48" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <g id="Group_20160" data-name="Group 20160" transform="translate(-158.978 -1694.086)">
+    <path id="Path_16521" data-name="Path 16521" d="M-28.193,9.863l-.293-2.61a17.323,17.323,0,0,1,8.7,0l-.3,2.607a1.392,1.392,0,0,0,.884,1.454l4.3,1.655a1.4,1.4,0,0,0,1.7-.6L-11.335,9.2A1.394,1.394,0,0,0-11.7,7.373,20.853,20.853,0,0,0-24.125,3.212,20.428,20.428,0,0,0-36.581,7.378a1.4,1.4,0,0,0-.365,1.828l1.861,3.175a1.4,1.4,0,0,0,1.7.6l4.292-1.661A1.392,1.392,0,0,0-28.2,9.863Z" transform="translate(207.118 1701.271)" fill="#f7b500"/>
+    <path id="Rectangle_6287" data-name="Rectangle 6287" d="M11,0h0A11,11,0,0,1,22,11v3.857A3.143,3.143,0,0,1,18.857,18H3.143A3.143,3.143,0,0,1,0,14.857V11A11,11,0,0,1,11,0Z" transform="translate(171.977 1713.692)" fill="url(#linear-gradient)"/>
+    <path id="Rectangle_6288" data-name="Rectangle 6288" d="M8,0H8a8,8,0,0,1,8,8V9.867A2.133,2.133,0,0,1,13.867,12H2.133A2.133,2.133,0,0,1,0,9.867V8A8,8,0,0,1,8,0Z" transform="translate(174.977 1716.737)" fill="#fff"/>
+    <path id="Path_16525" data-name="Path 16525" d="M3,0A3,3,0,1,1,0,3,3,3,0,0,1,3,0Z" transform="translate(179.977 1719.692)" fill="#0073bc"/>
+  </g>
+</svg>

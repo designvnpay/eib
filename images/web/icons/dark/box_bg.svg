@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6400" data-name="Rectangle 6400" width="800" height="800" transform="translate(-11279 8239)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_6389" data-name="Rectangle 6389" width="1828.57" height="3314.29" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="box_bg" transform="translate(11279 -8239)" opacity="0.85" clip-path="url(#clip-path)">
+    <g id="box_bg-2" data-name="box_bg" transform="translate(-11621.857 7439)" clip-path="url(#clip-path-2)">
+      <path id="Subtraction_7" data-name="Subtraction 7" d="M86171.4,70742.9H1828.57C818.68,70742.9,0,69924.2,0,68914.3V30601.7a1827.783,1827.783,0,0,1,86.286-556.684c876.914-39.773,1563.66-677.832,1563.66-1452.689,0-801.369-739.429-1453.939-1648.23-1454.74C0,27110.6,0,27084.1,0,27058.9V1828.57C0,818.679,818.68,0,1828.57,0H86171.4C87181.3,0,88000,818.679,88000,1828.57V27058.9c0,26.285,0,52.8-1.711,78.742-908.922.8-1648.344,676.457-1648.344,1506.4a1433.484,1433.484,0,0,0,464.9,1048.23,1716.014,1716.014,0,0,0,1128.813,457.137,1833.79,1833.79,0,0,1,56.359,452L88000,68914.3C88000,69924.2,87181.3,70742.9,86171.4,70742.9Z" transform="translate(-12457.256 -26742.857)" fill="#212121"/>
+    </g>
+  </g>
+</svg>

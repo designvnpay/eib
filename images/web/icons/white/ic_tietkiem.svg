@@ -1,0 +1,26 @@
+<svg id="ic_tietkiem" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="24" height="24" fill="#fff" opacity="0"/>
+  <path id="op2" d="M15.7,19h-1.14a.806.806,0,0,1-.806-.8V16.518h-4.7V18.2a.806.806,0,0,1-.806.8H7.044a.806.806,0,0,1-.8-.8V16.082l-.011,0A38.68,38.68,0,0,1,0,13.264V10.211H1.342A4.244,4.244,0,0,1,3.958,8.065L3.892,3.1A8.282,8.282,0,0,1,6.776,6.187a6.587,6.587,0,0,1,1.923-.9,10.46,10.46,0,0,1,2.938-.368h.14a10.275,10.275,0,0,1,4.434.961,4.772,4.772,0,0,1,2.733,3.363c.018.09.031.164.042.232a6.078,6.078,0,0,1-1.09,4.352A4.822,4.822,0,0,1,16.5,15.109V18.2A.806.806,0,0,1,15.7,19ZM3.925,9.943a.47.47,0,1,0,.47.47A.47.47,0,0,0,3.925,9.943Zm15.059-.706v0h.009a13.668,13.668,0,0,1,1.369-.129ZM14.86,3.422H8.017a3.421,3.421,0,0,1,6.843,0Z" transform="translate(2.5 2.5)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

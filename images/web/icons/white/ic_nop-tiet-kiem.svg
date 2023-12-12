@@ -1,0 +1,36 @@
+<svg id="ic_nop-tiet-kiem" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Rectangle_271" data-name="Rectangle 271" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <g id="white_38_x_38_12_" data-name="white_38_x_38 (12)" transform="translate(-0.593 -0.174)">
+    <path id="Path_420" data-name="Path 420" d="M14.779,4.991A2.588,2.588,0,0,1,12.226,7.74,2.923,2.923,0,0,1,9.279,4.991V3.174h5.5V4.99Z" transform="translate(-1.711 0)" fill="none" stroke="#fff" stroke-width="1.36" fill-rule="evenodd"/>
+    <path id="Path_421" data-name="Path 421" d="M2.932,20.212V16.405a7.389,7.389,0,0,1,13.9-3.488m.874,9.97H2.93a1.338,1.338,0,0,1,0-2.675H5.418M9.4,17.95v1.062m0-6.98v1.062" transform="translate(0 -1.301)" fill="none" stroke="#fff" stroke-width="1.36" fill-rule="evenodd"/>
+    <path id="Path_422" data-name="Path 422" d="M9.957,17.657v.43a1.037,1.037,0,0,0,1.037,1.037h.531a1.038,1.038,0,0,0,1.038-1.037V17.8a.907.907,0,0,0-.58-.846l-1.446-.561a.909.909,0,0,1-.58-.847v-.212a1.037,1.037,0,0,1,1.037-1.037h.531a1.038,1.038,0,0,1,1.038,1.037" transform="translate(-1.862 -2.475)" fill="none" stroke="#fff" stroke-width="1.36" fill-rule="evenodd"/>
+    <g id="Group_1955" data-name="Group 1955" transform="translate(12.009 11.125)">
+      <path id="Path_423" data-name="Path 423" d="M6.7,9.9,3.36,6.563l.885-.886L6.074,7.5V4.3H7.325V7.5L9.152,5.677l.886.886L6.7,9.9Zm0-8.769a5.525,5.525,0,1,0,5.524,5.525A5.525,5.525,0,0,0,6.7,1.133Z" transform="translate(-1.175 -1.133)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

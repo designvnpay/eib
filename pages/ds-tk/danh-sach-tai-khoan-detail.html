@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="../../.">
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <title>Eximbank</title>
+  <script src="js/include-html.js"></script>
+  <link rel="stylesheet" href="css/bundles.css">
+  <link rel="stylesheet" href="css/style.search.css">
+  <link rel="stylesheet" href="css/component.css">
+  <link rel="stylesheet" href="js/vendors/lightpick/css/lightpick.css"/>
+  <link rel="stylesheet" href="css/custom-vip.css">
+  <link rel="stylesheet" href="css/reponsive.css">
+  <link rel="shortcut icon" type="text/html" href="vip-images/favicon.svg">
+  <!--[if IE 9]><link rel="stylesheet" href="css/ie9.css" type="text/css" /><![endif]-->
+</head>
+
+<body>
+  <div include-html="page-components/menu.html"></div>
+  <script>
+    includeHTML();
+  </script>
+  <div class="main main--with-sidebar-both main--with-menu">
+    <div class="main-section">
+        
+    <div class="main-section-inner">
+      <div class="main-header">
+        <div class="row-flex">
+          <div class="col-flex coll-flex">
+            <h2>Tài khoản</h2>
+        <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot size12">
+            <li class="breadcrumb-item">
+                <a href="index.html" class="color-white38">Trang chủ</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="pages/ds-tk/danh-sach-tai-khoan.html" class="color-white38">Tài khoản</a>
+              </li>
+          <li class="breadcrumb-item">
+            <span class="color-primary">Tài khoản thanh toán</span>
+          </li>
+        </ul>            
+          </div>
+        </div>
+        
+        
+      </div>
+      <!--Begin account-->
+      <div class="box box--light">
+        <div class="row-flex row-reponsive">
+            <div class="col-flex col-flex-auto">
+                <img src="vip-images/web/icons/white/ic_acc01.svg" alt="" class="ic_acc">
+            </div>
+            <div class="col-flex col2-flex">
+              <div class="row">
+                <div class="col-md-7 pl0">
+                    <div class="size14 color-primary">Tài khoản thanh toán</div>
+                  <div class="txt color-white"> <span id="text_element">012345678919</span> <span onclick="copyToClipboard('text_element')" class="btn-copy" data-tooltip="tooltip" data-placement="right" title="Sao chép"></span>
+                  </div>
+                </div>
+                <div class="col-md-5 pl0">
+                    <div class="">
+                        <div class="size14 color-primary">Số dư khả dụng</div>
+                  <div class="txt color-white">30,000,000 VND</div>
+                    </div>                          
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-flex col-flex-right">
+                <button type="button" class="ubtn ubg-secondary ubtn-sm show-pc" data-toggle="modal" data-target="#account-info1">
+                    <span class="size14">Thông tin tài khoản
+                        <img src="images-general/svg/arrow_right.svg" alt="" class="ic_acc">
+                          
+                    </span>
+                  </button> 
+                  <div class="dropdown show-mobile">
+                    <button class="btn btn-menu dropdown-toggle" type="button" id="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                                                   
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="" style="min-width: 125px;">
+                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#account-info1">Thông tin tài khoản</a>
+                    </div>
+                  </div> 
+            </div>
+          </div>
+      </div>
+      <div class="box-normal mb20">
+          <div class="row funcion-col4 list-mb16 funcion-col4-acc">
+            <div class="col-xl-3 col-sm-12 col-md-6">
+               <a href="pages/chuyen-tien/index.html" class="ubtn ubg-black ubtn-md w100 lh40">
+                 <img class="ic-24" src="vip-images/web/icons/white/transfer.svg " alt="">
+                   <span class="size14 fw600 txt-upper">                                 
+                         Chuyển tiền                  
+                   </span>
+                  </a>
+           </div>
+           <div class="col-xl-3 col-sm-12 col-md-6">
+            <a href="pages/topup/" class="ubtn ubg-black ubtn-md w100 lh40">
+              <img class="ic-24" src="vip-images/web/icons/white/topup.svg" alt="">
+                <span class="size14 fw600 txt-upper">                                 
+                      Nạp tiền điện thoại                 
+                </span>
+               </a>
+        </div>
+        <div class="col-xl-3 col-sm-12 col-md-6">
+         <a href="pages/thanh-toan-hoa-don/" class="ubtn ubg-black ubtn-md w100 lh40">
+           <img class="ic-24" src="vip-images/web/icons/white/invoice.svg" alt="">
+           <span class="size14 fw600 txt-upper">                                 
+                  Thanh toán hóa đơn
+             </span>
+            </a>
+     </div>
+            <div class="col-xl-3 col-sm-12 col-md-6">
+                <a href="pages/tiet-kiem/tiet-kiem.html" class="ubtn ubg-black ubtn-md w100 lh40">
+                    <img class="ic-24" src="vip-images/web/icons/white/saving.svg" alt="">
+                    <span class="size14 fw600 txt-upper">
+                       Mở tài khoản tiết kiệm                  
+                    </span>
+                  </a>
+            </div>
+          </div>
+      </div>
+      <div class="box no-p box--light">
+        <div class="tabs tabs--his">
+            <div class="nav-tab">
+                <nav class="nav nav-pills flex-row max-width-360 width-auto">
+                    <a class="flex-fill text-center nav-link active w33percen" data-toggle="tab" href="#toanbo">Tất cả</a>
+                    <a class="flex-fill text-center nav-link w33percen" data-toggle="tab" href="#vao">Tiền vào</a>
+                    <a class="flex-fill text-center nav-link w33percen" data-toggle="tab" href="#ra">Tiền ra</a>
+                 </nav>
+            </div> 
+            <div class="nav-tab-search nav-tab-search-top">
+               <div class="row align-items-center list-mb16-mb">
+                  <div class="col">
+                     <div class="row align-items-center list-mb16-mb">
+                        <div class="col-md-3">
+                              <div class="input-group">
+                                 <input type="" class="input input-sm lite-picker datepicker-single input-label-change" value="" placeholder="Từ ngày" header-text="Từ ngày" required pickeddate-text="Từ ngày" autocorrect="off">
+                                 <div class="input-ic">
+                                    <img src="vip-images/web/icons/primary/ic_calendar.svg" class="ic-lg" alt="">
+                                 </div>
+                              </div>     
+                        </div>
+                        <div class="col-md-3">
+                            <div class="input-group">
+                               <input type="" class="input input-sm lite-picker datepicker-single input-label-change" value="" placeholder="Đến ngày" header-text="Đến ngày" required pickeddate-text="Đến ngày" autocorrect="off">
+                               <div class="input-ic">
+                                  <img src="vip-images/web/icons/primary/ic_calendar.svg" class="ic-lg" alt="">
+                               </div>
+                            </div>      
+                      </div>
+                      <div class="col col-12-mb">
+                        <button class="ubtn inline-block min-width100-mb ubg-primary ubtn-md" type="button"><span class="ubtn-text">Tìm kiếm</span>
+                        </button>
+                      </div>
+                     </div>
+
+                  </div>                   
+                   <div class="col-auto col-12-mb">
+                    <div class="row">
+                       <div class="col-6 col-auto-pc">
+                           <a href="pdf-excel/thong-tin-tai-khoan.html" target="blank" class="ubtn ubg-primary-light ubtn-md">
+                               Xuất PDF
+                            </a>
+                       </div>
+                       <div class="col-6 col-auto-pc">
+                             <a class="ubtn ubg-primary-light ubtn-md">
+                               Xuất Excel
+                             </a>
+                       </div>
+                    </div>
+                  </div>
+               </div>               
+                
+           </div>
+           <div class="nav-tab-search nav-tab-search-bottom">
+            <div class="row align-items-center list-mb16-mb">
+               <div class="col-md-7 text-left">
+                  <span class="color-white">Kết quả tìm kiếm</span>
+                </div>
+                <div class="col-md-5">
+                  <div class="input-group">
+                     <input type="text" class="live-search-box input input-ic-left input-md input-has-clear" value="" placeholder="Tìm kiếm" tabindex="0">
+                     <div class="input-line-bar"></div>
+                     <div class="input-ic">
+                        <img src="vip-images/web/icons/white/search_ic.svg" alt="" class="ic-md">
+                    </div>
+                     <div class="input-ic input-clear">
+                        <img src="vip-images/web/icons/white/ic_close2.svg" alt="" class="ic-md">
+                     </div>
+                  </div>
+                </div>
+            </div>               
+             
+        </div>          
+           <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="toanbo">
+                <div class="list-info">                    
+                    <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">PHI DICH VU NHAN TIN TU DONG (BSMS) THANG 6.2020</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+2,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">PHI DICH VU NHAN TIN TU DONG (BSMS) THANG 6.2020</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+2,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                            <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                            <div class="list-info-txt-main color-white">MB (270832) (Han gui tien an trua, 8tr chia cho 8 nguoi vay moi nguoi la 1tr nhe)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-white">-50,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">MB (270832) (Han gui tien an trua, 8tr chia cho 8 nguoi vay moi nguoi la 1tr nhe)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+5,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">PHI DICH VU NHAN TIN TU DONG (BSMS) THANG 6.2020</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+2,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">PHI DICH VU NHAN TIN TU DONG (BSMS) THANG 6.2020</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+2,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                            <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                            <div class="list-info-txt-main color-white">MB (270832) (Han gui tien an trua, 8tr chia cho 8 nguoi vay moi nguoi la 1tr nhe)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-white">-50,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">MB (270832) (Han gui tien an trua, 8tr chia cho 8 nguoi vay moi nguoi la 1tr nhe)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+5,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                 </div>
+                 <div class="box-button box-button-tab text-center clearfix">
+                    <button type="button" class="no-m inline-block ubtn ubg-secondary ubtn-md ripple">
+                      <span class="ubtn-text">Xem thêm</span>
+                    </button>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="vao">
+                 <div class="list-info">                    
+                    <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">PHI DICH VU NHAN TIN TU DONG (BSMS) THANG 6.2020</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+2,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">PHI DICH VU NHAN TIN TU DONG (BSMS) THANG 6.2020</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+2,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">MB (270832) (Han gui tien an trua, 8tr chia cho 8 nguoi vay moi nguoi la 1tr nhe)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+5,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">PHI DICH VU NHAN TIN TU DONG (BSMS) THANG 6.2020</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+2,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">PHI DICH VU NHAN TIN TU DONG (BSMS) THANG 6.2020</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+2,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">PHI DICH VU NHAN TIN TU DONG (BSMS) THANG 6.2020</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+2,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                            <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                            <div class="list-info-txt-main color-white">MB (270832) (Han gui tien an trua, 8tr chia cho 8 nguoi vay moi nguoi la 1tr nhe)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-white">-50,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                              <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                              <div class="list-info-txt-main color-white">MB (270832) (Han gui tien an trua, 8tr chia cho 8 nguoi vay moi nguoi la 1tr nhe)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-primary-light">+5,000,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                 </div>
+                 <div class="box-button box-button-tab text-center clearfix">
+                  <button type="button" class="no-m inline-block ubtn ubg-secondary ubtn-md ripple">
+                    <span class="ubtn-text">Xem thêm</span>
+                  </button>
+              </div>
+              </div>
+              <div class="tab-pane fade" id="ra">
+                <div class="list-info">
+                    <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                            <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                            <div class="list-info-txt-main color-white">MB (270832) (Han gui tien an trua, 8tr chia cho 8 nguoi vay moi nguoi la 1tr nhe)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-white">-50,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                            <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                            <div class="list-info-txt-main color-white">MB (270832) (Thanh toan online)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-white">-150,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                            <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                            <div class="list-info-txt-main color-white">MB (270832) (Han gui tien an trua, 8tr chia cho 8 nguoi vay moi nguoi la 1tr nhe)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-white">-50,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                            <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                            <div class="list-info-txt-main color-white">MB (270832) (Thanh toan online)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-white">-150,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                            <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                            <div class="list-info-txt-main color-white">MB (270832) (Han gui tien an trua, 8tr chia cho 8 nguoi vay moi nguoi la 1tr nhe)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-white">-50,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                            <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                            <div class="list-info-txt-main color-white">MB (270832) (Thanh toan online)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-white">-150,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                            <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                            <div class="list-info-txt-main color-white">MB (270832) (Han gui tien an trua, 8tr chia cho 8 nguoi vay moi nguoi la 1tr nhe)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-white">-50,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="list-info-item cursor plr30" data-toggle="modal" data-target="#account-info2">
+                        <div class="table">
+                           <div class="td-xs">
+                            <div class="list-info-txt-sub color-primary size14">15:00 - 22/10/2018</div>
+                            <div class="list-info-txt-main color-white">MB (270832) (Thanh toan online)</div>
+                           </div>
+                           <div class="td-xs text-right-xs-left no-wrap">
+                              <div class="list-info-txt-sub color-primary size14">Mã GD: 123900</div>
+                              <div class="list-info-txt-main color-white">-150,000 VND</div>
+                           </div>
+                        </div>
+                     </div>
+                 </div>
+                 <div class="box-button box-button-tab text-center clearfix">
+                  <button type="button" class="no-m inline-block ubtn ubg-secondary ubtn-md ripple">
+                    <span class="ubtn-text">Xem thêm</span>
+                  </button>
+              </div>
+              </div>
+           </div>
+        </div>
+     </div>
+    </div>
+  </div>
+  </div>
+  <div include-html="page-components/footer.html"></div>
+  <script>
+    includeHTML();
+  </script>
+<div class="modal fade" id="account-info1" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-right-top modal-md modal-dialog-scrollable" role="document" style="max-width:640px;">
+      <div class="modal-content">
+        <div class="modal-header text-left">
+          <h2 class="modal-title">Thông tin tài khoản</h2>
+          <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+            <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+          </button>
+        </div>
+        <div class="modal-body isolated-scroll">
+            <div class="list-info">
+                <div class="list-info-item">
+                   <div class="table">
+                      <div class="td">
+                         <div class="list-info-txt-sub color-white60">Chủ tài khoản</div>
+                      </div>
+                      <div class="td">
+                         <div class="list-info-txt-main text-right color-white fw600">Pham Anh Khoa</div>
+                      </div>
+                   </div>
+                </div>
+                <div class="list-info-item">
+                   <div class="table">
+                      <div class="td">
+                         <div class="list-info-txt-sub color-white60">Số tài khoản</div>
+                      </div>
+                      <div class="td">
+                         <div class="list-info-txt-main text-right color-white fw600">
+                            <div class="txt color-white"> <span id="text_element2">012345678919</span> <span onclick="copyToClipboard('text_element2')" class="btn-copy" data-tooltip="tooltip" data-placement="right" title="" data-original-title="Sao chép"></span>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div class="list-info-item">
+                   <div class="table">
+                      <div class="td">
+                         <div class="list-info-txt-sub color-white60">Số dư khả dụng</div>
+                      </div>
+                      <div class="td">
+                         <div class="list-info-txt-main text-right fw600 color-primary-light">200,000,000 VND</div>
+                      </div>
+                   </div>
+                </div>
+                <div class="list-info-item">
+                   <div class="table">
+                      <div class="td">
+                         <div class="list-info-txt-sub color-white60">Loại tiền</div>
+                      </div>
+                      <div class="td">
+                         <div class="list-info-txt-main text-right color-white fw600">VND</div>
+                      </div>
+                   </div>
+                </div>
+                <div class="list-info-item last">
+                    <div class="table">
+                       <div class="td">
+                          <div class="list-info-txt-sub color-white60">Chi nhánh mở</div>
+                       </div>
+                       <div class="td">
+                          <div class="list-info-txt-main text-right color-white fw600">Lang ha</div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="btn-bottom">
+                    <div class="table">
+                       <div class="td">
+                        <button class="fr no-m ubtn ubg-primary ubtn-md txt-upper" data-dismiss="modal">
+                            <span class="ubtn-text">Đóng</span>
+                          </button>
+                       </div>
+                    </div>
+                 </div>
+             </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="account-info2" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-right-top modal-md modal-dialog-scrollable" role="document" style="max-width: 640px;">
+      <div class="modal-content">
+        <div class="modal-header text-left">
+          <h2 class="modal-title">Chi tiết giao dịch</h2>
+          <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+            <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+          </button>
+        </div>
+        <div class="modal-body isolated-scroll">
+            <div class="list-info">
+                <div class="list-info-item">
+                   <div class="table">
+                      <div class="td">
+                         <div class="list-info-txt-sub color-white60">Thời gian giao dịch</div>
+                      </div>
+                      <div class="td">
+                         <div class="list-info-txt-main text-right color-white fw600">22:00 15/02/2020</div>
+                      </div>
+                   </div>
+                </div>
+                <div class="list-info-item">
+                    <div class="table">
+                       <div class="td">
+                          <div class="list-info-txt-sub color-white60">Số tiền giao dịch</div>
+                       </div>
+                       <div class="td">
+                          <div class="list-info-txt-main text-right fw600 color-primary-light">-500,000 VND</div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="list-info-item">
+                    <div class="table">
+                       <div class="td">
+                          <div class="list-info-txt-sub color-white60">Số dư còn lại</div>
+                       </div>
+                       <div class="td">
+                          <div class="list-info-txt-main text-right fw600 color-primary-light">200,000,000 VND</div>
+                       </div>
+                    </div>
+                 </div>
+                <div class="list-info-item last">
+                   <div class="table">
+                      <div class="td">
+                         <div class="list-info-txt-sub color-white60">Diễn giải</div>
+                      </div>
+                      <div class="td">
+                         <div class="list-info-txt-main text-right color-white fw600">TTHD VNSHOP - VNPAY, 05/2021,<br>MA KH: C21512E4Z0VM</div>
+                      </div>
+                   </div>
+                </div>
+                 <div class="btn-bottom">
+                    <div class="table">
+                       <div class="td">
+                        <button class="fr no-m ubtn ubg-primary ubtn-md txt-upper" data-dismiss="modal">
+                            <span class="ubtn-text">Đóng</span>
+                          </button>
+                       </div>
+                    </div>
+                 </div>
+             </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<!--==========================General=========================-->
+<!--jquery-->
+<script src="js/vendors/jquery/jquery.bundles.js"></script>
+<script src="js/vendors/jquery/jquery.init.js"></script>
+<!--jquery end-->
+<!--bootstrap-->
+<script src="js/vendors/bootstrap/bootstrap.bundles.js"></script>
+<script src="js/vendors/bootstrap/bootstrap.init.js"></script>
+<!--bootstrap end-->
+<!--==========================General End=========================-->
+<!--==========================Only for this page=========================-->
+<!--croppie-->
+<!--<script src="js/vendors/croppie/croppie.bundles.js"></script>
+<script src="js/vendors/croppie/croppie.init.js"></script>-->
+<!--croppie end-->
+<!-- lightpick -->
+<script src="js/vendors/lightpick/lightpick.bundles.js"></script>
+<script src="js/vendors/lightpick/lightpick.init.js"></script>
+<!-- lightpick -->
+<script src="js/custom.js"></script>
+<script src="js/otp.js"></script>
+<!--==========================Only for this page End=========================-->
+<div class="modal" id="modal-profile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-scrollable" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h2 class="modal-title">Cập nhật ảnh đại diện</h2>
+         <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+           <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+         </button>
+       </div>
+       <div class="modal-body isolated-scroll text-center">
+         <div class="p-upload p-upload-wrap">
+           <div id="p-upload-crop" class="p-upload-container"></div>
+         </div>
+       </div>
+       <div class="modal-footer">
+         <div class="text-right">
+             <div class="inline-block">
+               <a href="#" class="no-m ubtn ubtn-link ubtn-md ripple" data-dismiss="modal">
+                 <span class="ubtn-text">Hủy</span>
+               </a>              
+             </div>
+             <div class="inline-block">
+               <a href="#" class="no-m ubtn ubg-primary ubtn-md btn-toast2" data-dismiss="modal">
+                 <span class="ubtn-text">Cập nhật</span>
+               </a>              
+             </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</html>

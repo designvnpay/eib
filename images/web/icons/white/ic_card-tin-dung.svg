@@ -1,0 +1,37 @@
+<svg id="ic_card-tin-dung" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_248" data-name="Rectangle 248" width="24" height="24" fill="#fff" opacity="0"/>
+  <g id="Group_1788" data-name="Group 1788" transform="translate(-9343 1053)">
+    <g id="ic_taikhoan_ttttd" data-name="ic/taikhoan/ttttd" transform="translate(9345 -1049)">
+      <g id="Group_13" data-name="Group 13" transform="translate(0 0)">
+        <path id="Stroke_1" data-name="Stroke 1" d="M12.483,14.733H2.567A2.567,2.567,0,0,1,0,12.166v-9.6A2.568,2.568,0,0,1,2.567,0H17.433A2.568,2.568,0,0,1,20,2.567v9.6a2.568,2.568,0,0,1-2,2.5" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+        <path id="Stroke_3" data-name="Stroke 3" d="M0,.387H20" transform="translate(0 2.849)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+        <path id="Stroke_5" data-name="Stroke 5" d="M0,.387H20" transform="translate(0 5.977)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+        <path id="Stroke_7" data-name="Stroke 7" d="M0,.387H1.767" transform="translate(2.222 10.073)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.36"/>
+        <path id="Stroke_9" data-name="Stroke 9" d="M0,.387H1.768" transform="translate(5.598 10.073)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.36"/>
+        <path id="Fill_11" data-name="Fill 11" d="M3.871,7.742A3.871,3.871,0,1,1,7.742,3.871,3.876,3.876,0,0,1,3.871,7.742ZM1.942,3.561h0l-.62.62,1.8,1.8,3.3-3.3L5.8,2.068,3.124,4.743,1.942,3.561Z" transform="translate(11.17 9.952)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

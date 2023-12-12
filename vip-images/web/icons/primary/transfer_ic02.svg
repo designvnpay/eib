@@ -1,0 +1,17 @@
+<svg id="transfer_ic02" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.134" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6166" data-name="Rectangle 6166" width="36" height="36" fill="none"/>
+  <g id="Group_19059" data-name="Group 19059" transform="translate(-5.491 -5.399)">
+    <rect id="Rectangle_6244" data-name="Rectangle 6244" width="25.39" height="19.261" rx="2" transform="translate(9.5 13)" fill="url(#linear-gradient)"/>
+    <path id="Exclusion_18" data-name="Exclusion 18" d="M19.137,14.009H1a1,1,0,0,1-1-1V6.129H20.137v6.88A1,1,0,0,1,19.137,14.009Zm1-10.506H0V1A1,1,0,0,1,1,0H19.137a1,1,0,0,1,1,1V3.5Z" transform="translate(12.127 15.626)" fill="#fff7e5" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_757" data-name="Line 757" x1="4.377" transform="translate(14.315 27.008)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Union_40" data-name="Union 40" d="M12.257,9V7.7H0L3.5,2.45h8.755v-1.3A1,1,0,0,1,13.916.4L18.4,4.324a1,1,0,0,1,0,1.506L13.916,9.753a.982.982,0,0,1-.653.25A1,1,0,0,1,12.257,9Z" transform="translate(18.693 24.558)" fill="#f9c734"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg id="ic_contact" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_6259" data-name="Rectangle 6259" width="24" height="24" fill="none"/>
+  <g id="icon" transform="translate(-4 -6)">
+    <g id="Group_19611" data-name="Group 19611" transform="translate(9 9)">
+      <circle id="Ellipse_435" data-name="Ellipse 435" cx="4.139" cy="4.139" r="4.139" transform="translate(2.669 0)" fill="rgba(255,255,255,0.87)"/>
+      <path id="Path_16494" data-name="Path 16494" d="M1,15.7c0-3.492,3.151-6.323,7.038-6.323s7.038,2.831,7.038,6.323A108.491,108.491,0,0,1,1,15.7Z" transform="translate(-1 0.086)" fill="rgba(255,255,255,0.87)"/>
+    </g>
+  </g>
+</svg>

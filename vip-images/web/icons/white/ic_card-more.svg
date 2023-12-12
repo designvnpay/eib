@@ -1,0 +1,48 @@
+<svg id="ic_card-more" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Rectangle_182" data-name="Rectangle 182" fill="#fff" stroke="#fff" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <g id="Rectangle_182-2" data-name="Rectangle 182" fill="#fff" stroke="#fff" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <g id="Group_2799" data-name="Group 2799" transform="translate(463.987 -789.705)">
+    <g id="ic_home_cardservice_white" data-name="ic home cardservice white">
+      <path id="Stroke_5" data-name="Stroke 5" d="M-461.987,795.862h19.51" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+      <path id="Stroke_7" data-name="Stroke 7" d="M-461.987,798.966h19.51" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+      <path id="Stroke_9" data-name="Stroke 9" d="M-459.819,803h1.724" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+      <path id="Stroke_11" data-name="Stroke 11" d="M-456.526,803h1.726" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+      <path id="Path_655" data-name="Path 655" d="M-447.751,800.729" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+      <path id="Stroke_3" data-name="Stroke 3" d="M-451.068,807.224h-8.419a2.517,2.517,0,0,1-2.5-2.53v-9.46a2.517,2.517,0,0,1,2.5-2.529h14.5a2.518,2.518,0,0,1,2.5,2.53v9.46a2.262,2.262,0,0,1-1.832,2.315" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    </g>
+    <circle id="Ellipse_84" data-name="Ellipse 84" cx="3.963" cy="3.963" r="3.963" transform="translate(-451.713 803.262)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+    <g id="Group_2798" data-name="Group 2798">
+      <circle id="Ellipse_85" data-name="Ellipse 85" cx="0.501" cy="0.501" r="0.501" transform="translate(-450.183 806.723)" fill="#fff"/>
+      <circle id="Ellipse_86" data-name="Ellipse 86" cx="0.501" cy="0.501" r="0.501" transform="translate(-448.252 806.723)" fill="#fff"/>
+      <circle id="Ellipse_87" data-name="Ellipse 87" cx="0.501" cy="0.501" r="0.501" transform="translate(-446.321 806.723)" fill="#fff"/>
+    </g>
+  </g>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

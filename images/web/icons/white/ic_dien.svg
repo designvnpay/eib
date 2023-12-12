@@ -1,0 +1,26 @@
+<svg id="ic_dien" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="ic_electricitybill_white38x38_background" data-name="ic/electricitybill/white38x38 background" width="24" height="24" fill="none"/>
+  <path id="Stroke_1" data-name="Stroke 1" d="M11.653,8.562,4.84,20.634a.3.3,0,0,1-.554-.2l1.121-7.752H.3a.306.306,0,0,1-.259-.459L6.852.154a.3.3,0,0,1,.555.2L6.286,8.1h5.108A.306.306,0,0,1,11.653,8.562Z" transform="translate(6.469 1.606)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3"/>
+  <style type="text/css" media="screen"> 
+  path[stroke-width*='1.'] {
+      vector-effect: non-scaling-stroke;
+   }  
+   @media (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 2 !important;
+      }
+   }
+   @media screen and (min-width:0\0) and (min-width: 40px) {
+      path[stroke-width*='1.'] {
+         stroke-width: 1.1 !important;
+      }
+   }
+   @supports (-ms-accelerator: true) or (-ms-ime-align: auto) {
+      @media (min-width: 40px) {
+         path[stroke-width*="1."] {
+         stroke-width: 1.1 !important;
+         }
+      } 
+   }
+  </style>
+</svg>

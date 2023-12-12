@@ -1,0 +1,26 @@
+<svg id="Icon_Home_Password_-64px" data-name="Icon / Home / Password -64px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.251" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6170" data-name="Rectangle 6170" width="64" height="64" fill="none"/>
+  <g id="Group_18986" data-name="Group 18986" transform="translate(-571 -727)">
+    <g id="Group_18985" data-name="Group 18985" transform="translate(578 735)">
+      <path id="Exclusion_6" data-name="Exclusion 6" d="M19.587,34.483H8a8.009,8.009,0,0,1-8-8V8A8.009,8.009,0,0,1,8,0H19.587a8.009,8.009,0,0,1,8,8V26.483A8.009,8.009,0,0,1,19.587,34.483ZM9.173,5.172a4,4,0,0,0-4,4V29.31H22.415V9.173a4.005,4.005,0,0,0-4-4Z" transform="translate(8.62 0)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_6160" data-name="Rectangle 6160" width="44.828" height="31.034" rx="3" transform="translate(0 17.241)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_6161" data-name="Rectangle 6161" width="34.483" height="20.69" rx="1" transform="translate(5.172 22.414)" fill="#fff7e5"/>
+      <circle id="Ellipse_1128" data-name="Ellipse 1128" cx="3" cy="3" r="3" transform="translate(19.414 30.746)" fill="#72501b"/>
+    </g>
+    <g id="Group_18987" data-name="Group 18987" transform="translate(607.862 768.138)">
+      <path id="Path_16429" data-name="Path 16429" d="M10,0A10,10,0,1,1,0,10,10,10,0,0,1,10,0Z" fill="#f9c734"/>
+      <g id="Group_18984" data-name="Group 18984" transform="translate(5.833 5)">
+        <path id="Path_10172" data-name="Path 10172" d="M9.941,8.883c-.886.886-1.167,1.606-3.509,1.606A4.245,4.245,0,1,1,6.432,2,4.175,4.175,0,0,1,10.21,4.334" transform="translate(-2.187 -0.669)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_10173" data-name="Path 10173" d="M0,4.035.684,0,4.719.684" transform="translate(10 3.859) rotate(163)" fill="none" stroke="#72501b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

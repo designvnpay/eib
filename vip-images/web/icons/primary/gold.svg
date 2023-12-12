@@ -1,0 +1,24 @@
+<svg id="funtion_ic_gold" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3e0b8"/>
+      <stop offset="0.134" stop-color="#f9c734"/>
+      <stop offset="0.657" stop-color="#916b1f"/>
+      <stop offset="1" stop-color="#72501b"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_6170" data-name="Rectangle 6170" width="64" height="64" fill="none"/>
+  <g id="Group_18961" data-name="Group 18961" transform="translate(-197.926 -835)">
+    <g id="Group_18960" data-name="Group 18960" transform="translate(222.113 841)">
+      <path id="Union_22" data-name="Union 22" d="M0,33.368V0H22.244V33.368c0,3.84-4.979,6.951-11.122,6.951S0,37.207,0,33.368Z" transform="translate(3.158 10.109)" fill="#fff7e5"/>
+      <path id="Path_16413" data-name="Path 16413" d="M-99.874-26.766c-7.563,0-13.489-4.092-13.489-9.314V-71.815h26.98V-36.08C-86.383-30.858-92.309-26.766-99.874-26.766Zm-8.753-40.313v31c0,2.161,3.743,4.578,8.753,4.578s8.755-2.417,8.755-4.578v-31Z" transform="translate(113.363 78.766)" fill="url(#linear-gradient)"/>
+      <ellipse id="Ellipse_1078" data-name="Ellipse 1078" cx="13.49" cy="6.951" rx="13.49" ry="6.951" fill="#f9c734"/>
+    </g>
+    <g id="Group_18959" data-name="Group 18959" transform="translate(209.926 868.625)">
+      <path id="Path_16414" data-name="Path 16414" d="M12.188,0A12.188,12.188,0,1,1,0,12.188,12.187,12.187,0,0,1,12.188,0Z" fill="#f9c734"/>
+      <g id="Group_18958" data-name="Group 18958" transform="translate(7.661 3.349)">
+        <path id="Union_58" data-name="Union 58" d="M3.406,16.223V14.934A6.726,6.726,0,0,1,.359,13.488,1.225,1.225,0,0,1,2.086,11.75a4.6,4.6,0,0,0,2.5.875,2.082,2.082,0,0,0,1.512-.492.9.9,0,0,0,.3-.656.941.941,0,0,0-.605-.941A6.309,6.309,0,0,0,3.98,9.895c-.176-.043-.371-.094-.6-.156A3.662,3.662,0,0,1,1.117,8,3.7,3.7,0,0,1,.793,5.207a3.6,3.6,0,0,1,2.613-2.6V1.219a1.219,1.219,0,0,1,2.438,0v1.27A5.648,5.648,0,0,1,8.633,4.051L6.824,5.684V5.7a2.829,2.829,0,0,0-1.992-.863c-1.312.086-1.555.563-1.7,1.055a1.257,1.257,0,0,0,.117.922,1.222,1.222,0,0,0,.781.57c.215.063.41.113.586.164A8.529,8.529,0,0,1,7,8.418a3.353,3.353,0,0,1,1.836,3.023v.023a3.39,3.39,0,0,1-1.051,2.43A4.293,4.293,0,0,1,5.844,14.93v1.293a1.219,1.219,0,0,1-2.437,0Z" fill="#72501b"/>
+      </g>
+    </g>
+  </g>
+</svg>

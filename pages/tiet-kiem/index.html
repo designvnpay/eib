@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="../../.">
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <title>Eximbank</title>
+  <script src="js/include-html.js"></script>
+  <link rel="stylesheet" href="css/bundles.css">
+  <link rel="stylesheet" href="css/style.search.css">
+  <link rel="stylesheet" href="css/component.css">
+  <link rel="stylesheet" href="css/custom-vip.css">
+  <link rel="stylesheet" href="css/reponsive.css">
+  <link rel="shortcut icon" type="text/html" href="vip-images/favicon.svg">
+  <!--[if IE 9]><link rel="stylesheet" href="css/ie9.css" type="text/css" /><![endif]-->
+</head>
+
+<body>
+  <div include-html="page-components/menu.html"></div>
+  <script>
+    includeHTML();
+  </script>
+  <div class="main main--with-sidebar-both main--with-menu">
+    <div class="main-section">
+        
+      <div class="main-section-inner max-width-770">
+      <div class="main-header">
+        <div class="row-flex">
+          <div class="col-flex coll-flex">
+            <h2>Tiết kiệm</h2>
+            <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot size12">
+              <li class="breadcrumb-item">
+                  <a href="index.html" class="color-white38">Trang chủ</a>
+                </li>
+            <li class="breadcrumb-item">
+              <span class="color-primary">Tiết kiệm</span>
+            </li>
+          </ul>          
+          </div>
+        </div>
+      </div>
+      <div class="banner-box" style="background-image:url(temp/banner1.png);">
+        <div class="row">
+          <div class="col text-right pl0">
+            <div class="banner-txt">
+              <h3 class="size16 mb5"><b>Lãi suất hấp dẫn Tiền gửi linh hoạt !</b></h3>
+              <p class="size14 mb10">Tiền gửi nhiều kỳ hạn, linh hoạt ngày đáo hạn</p>
+              <a href="#" class="no-m ubtn ubg-primary ubtn-sm ripple inline-block">
+                <b class="size15">Tìm hiểu ngay</b>
+              </a>
+            </div>            
+          </div>
+        </div>
+      </div>
+      <!--Begin account-->
+      <div class="box-saving">
+        <div class="box box--light box--accordion">
+          <div class="accordion accordion-snap p accordion-arrow">
+            <div class="accordion-arrow__item">
+              <div class="box--accordion-header accordion-arrow__control h4 ripple">
+                   <div class="d-flex">
+                    <div class="d-flex flex-column">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="title-style">
+                            <div class="color-white mt5 size20 fw600">Danh sách tài khoản</div>
+                          </div>
+                        </div>
+                        <div class="col-md-8 mt10-mb text-right-pc">
+                            <div class="row fr-pc">
+                              <div class="col-6 col-auto-pc pl0">
+                                <a href="pages/tiet-kiem/tiet-kiem.html" class="ubtn ubg-primary-light ubtn-sm">
+                                  Mở tiết kiệm
+                                </a>
+                              </div>
+                              <div class="col-6 col-auto-pc pl0">
+                                <a href="pages/tiet-kiem/tat-toan.html" class="ubtn ubg-primary-light ubtn-sm">
+                                  Tất toán tiết kiệm
+                                </a>
+                              </div>
+                              <div class="col col-auto-pc pl0 mt10-mb">
+                                <a href="pages/tiet-kiem/dang-ky-chuyen-lai.html" class="ubtn ubg-primary-light ubtn-sm">
+                                  Đăng ký chuyển lãi
+                                </a>
+                              </div>
+                          </div>                      
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+              </div>
+              <div class="accordion-arrow__content show">
+                <div class="list-link list-link-sm list-link-no-ml"> 
+                  <div class="list-link-item-show">
+                    <div class="box-list">
+                      <div class="height30"></div>
+                      <div class="list-link-item box--light">
+                        <a href="#" class="link_adsolute" data-toggle="modal" data-target="#account-saving"></a>
+                        <div class="row-flex">
+                          <div class="col-flex col1-flex">
+                            <div class="txt color-white38"> 01
+                            </div>
+                          </div>
+                          <div class="col-flex col2-flex">
+                            <div class="row">
+                              <div class="col-md-5">
+                                <div class="txt color-white"> <span id="text_element">012345678919</span> <span onclick="copyToClipboard('text_element')" class="btn-copy" data-tooltip="tooltip" data-placement="right" title="Sao chép"></span>
+                                </div>
+                                <div class="size14 color-primary">Ngày mở: 21/05/2021</div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="size14 color-primary">Số dư gốc</div>
+                                <div class="txt color-white">30,000,000 VND</div>
+                              </div>
+                              <div class="col-md-3 text-right-pc">
+                                <div class="size14 color-primary">Đáo hạn ngày</div>
+                                    <div class="txt color-white">07/05/2021</div>
+                              </div>
+                            </div>
+                            
+                          </div>                        
+                          <div class="col-flex col3-flex">
+                            <div class="dropdown">
+                              <button class="btn btn-menu dropdown-toggle" type="button" id="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                                                   
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="" style="min-width: 125px;">
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#account-saving">Thông tin tài khoản</a>
+                                <a class="dropdown-item" href="pages/tiet-kiem/tat-toan.html">Tất toán tiết kiệm</a>
+                                <a class="dropdown-item" href="pages/tiet-kiem/dang-ky-chuyen-lai.html">Đăng ký chuyển lãi</a>
+                              </div>
+                            </div> 
+                          </div>
+                        </div>
+                      </div>
+                      <div class="list-link-item box--light">
+                        <a href="#" class="link_adsolute" data-toggle="modal" data-target="#account-saving"></a>
+                        <div class="row-flex">
+                          <div class="col-flex col1-flex">
+                            <div class="txt color-white38"> 02
+                            </div>
+                          </div>
+                          <div class="col-flex col2-flex">
+                            <div class="row">
+                              <div class="col-md-5">
+                                <div class="txt color-white"> <span id="text_element">012345678919</span> <span onclick="copyToClipboard('text_element')" class="btn-copy" data-tooltip="tooltip" data-placement="right" title="Sao chép"></span>
+                                </div>
+                                <div class="size14 color-primary">Ngày mở: 21/05/2021</div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="size14 color-primary">Số dư gốc</div>
+                                <div class="txt color-white">30,000,000 VND</div>
+                              </div>
+                              <div class="col-md-3 text-right-pc">
+                                <div class="size14 color-primary">Đáo hạn ngày</div>
+                                    <div class="txt color-white">07/05/2021</div>
+                              </div>
+                            </div>
+                            
+                          </div>                        
+                          <div class="col-flex col3-flex">
+                            <div class="dropdown">
+                              <button class="btn btn-menu dropdown-toggle" type="button" id="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                                                   
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="" style="min-width: 125px;">
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#account-saving">Thông tin tài khoản</a>
+                                <a class="dropdown-item" href="pages/tiet-kiem/tat-toan.html">Tất toán tiết kiệm</a>
+                                <a class="dropdown-item" href="pages/tiet-kiem/dang-ky-chuyen-lai.html">Đăng ký chuyển lãi</a>
+                              </div>
+                            </div> 
+                          </div>
+                        </div>
+                      </div>
+                      <div class="list-link-item box--light">
+                        <a href="#" class="link_adsolute" data-toggle="modal" data-target="#account-saving"></a>
+                        <div class="row-flex">
+                          <div class="col-flex col1-flex">
+                            <div class="txt color-white38"> 03
+                            </div>
+                          </div>
+                          <div class="col-flex col2-flex">
+                            <div class="row">
+                              <div class="col-md-5">
+                                <div class="txt color-white"> <span id="text_element">012345678919</span> <span onclick="copyToClipboard('text_element')" class="btn-copy" data-tooltip="tooltip" data-placement="right" title="Sao chép"></span>
+                                </div>
+                                <div class="size14 color-primary">Ngày mở: 21/05/2021</div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="size14 color-primary">Số dư gốc</div>
+                                <div class="txt color-white">30,000,000 VND</div>
+                              </div>
+                              <div class="col-md-3 text-right-pc">
+                                <div class="size14 color-primary">Đáo hạn ngày</div>
+                                    <div class="txt color-white">07/05/2021</div>
+                              </div>
+                            </div>
+                            
+                          </div>                        
+                          <div class="col-flex col3-flex">
+                            <div class="dropdown">
+                              <button class="btn btn-menu dropdown-toggle" type="button" id="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                                                   
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="" style="min-width: 125px;">
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#account-saving">Thông tin tài khoản</a>
+                                <a class="dropdown-item" href="pages/tiet-kiem/tat-toan.html">Tất toán tiết kiệm</a>
+                                <a class="dropdown-item" href="pages/tiet-kiem/dang-ky-chuyen-lai.html">Đăng ký chuyển lãi</a>
+                              </div>
+                            </div> 
+                          </div>
+                        </div>
+                      </div>
+                      <div class="list-link-item box--light">
+                        <a href="#" class="link_adsolute" data-toggle="modal" data-target="#account-saving"></a>
+                        <div class="row-flex">
+                          <div class="col-flex col1-flex">
+                            <div class="txt color-white38"> 04
+                            </div>
+                          </div>
+                          <div class="col-flex col2-flex">
+                            <div class="row">
+                              <div class="col-md-5">
+                                <div class="txt color-white"> <span id="text_element">012345678919</span> <span onclick="copyToClipboard('text_element')" class="btn-copy" data-tooltip="tooltip" data-placement="right" title="Sao chép"></span>
+                                </div>
+                                <div class="size14 color-primary">Ngày mở: 21/05/2021</div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="size14 color-primary">Số dư gốc</div>
+                                <div class="txt color-white">30,000,000 VND</div>
+                              </div>
+                              <div class="col-md-3 text-right-pc">
+                                <div class="size14 color-primary">Đáo hạn ngày</div>
+                                    <div class="txt color-white">07/05/2021</div>
+                              </div>
+                            </div>
+                            
+                          </div>                        
+                          <div class="col-flex col3-flex">
+                            <div class="dropdown">
+                              <button class="btn btn-menu dropdown-toggle" type="button" id="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">                                                   
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="" style="min-width: 125px;">
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#account-saving">Thông tin tài khoản</a>
+                                <a class="dropdown-item" href="pages/tiet-kiem/tat-toan.html">Tất toán tiết kiệm</a>
+                                <a class="dropdown-item" href="pages/tiet-kiem/dang-ky-chuyen-lai.html">Đăng ký chuyển lãi</a>
+                              </div>
+                            </div> 
+                          </div>
+                        </div>
+                      </div>
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+      <!--End account-->
+    </div>
+  </div>
+  </div>
+  <div include-html="page-components/footer.html"></div>
+  <script>
+    includeHTML();
+  </script>
+  <div class="modal fade" id="account-saving" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-right-top modal-md modal-dialog-scrollable" role="document" style="max-width:640px;">
+      <div class="modal-content">
+        <div class="modal-header text-left">
+          <h2 class="modal-title">Thông tin tài khoản</h2>
+          <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+            <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+          </button>
+        </div>
+        <div class="modal-body isolated-scroll">
+            <div class="list-info">              
+             <div class="list-info-item">
+              <div class="table">
+                 <div class="td">
+                    <div class="list-info-txt-sub color-white60">Tên chủ tài khoản</div>
+                 </div>
+                 <div class="td">
+                    <div class="list-info-txt-main text-right color-white fw600">Nguyen Thi Quyen</div>
+                 </div>
+              </div>
+           </div>
+           <div class="list-info-item">
+            <div class="table">
+               <div class="td">
+                  <div class="list-info-txt-sub color-white60">Số tài khoản</div>
+               </div>
+               <div class="td">
+                  <div class="list-info-txt-main text-right color-white fw600">012345678919</div>
+               </div>
+            </div>
+         </div>
+             <div class="list-info-item">
+              <div class="table">
+                 <div class="td">
+                    <div class="list-info-txt-sub color-white60">Chi nhánh</div>
+                 </div>
+                 <div class="td">
+                    <div class="list-info-txt-main text-right color-white fw600">Eximbank Trương Định</div>
+                 </div>
+              </div>
+           </div>
+           <div class="list-info-item">
+            <div class="table">
+               <div class="td">
+                  <div class="list-info-txt-sub color-white60">Loại tiền</div>
+               </div>
+               <div class="td">
+                  <div class="list-info-txt-main text-right color-white fw600">VND</div>
+               </div>
+            </div>
+         </div>
+         <div class="list-info-item">
+          <div class="table">
+             <div class="td">
+                <div class="list-info-txt-sub color-white60">Lãi suất</div>
+             </div>
+             <div class="td">
+                <div class="list-info-txt-main text-right color-white fw600">4,2% /Năm</div>
+             </div>
+          </div>
+       </div>
+       <div class="list-info-item">
+        <div class="table">
+           <div class="td">
+              <div class="list-info-txt-sub color-white60">Kỳ hạn lãi tiếp theo</div>
+           </div>
+           <div class="td">
+              <div class="list-info-txt-main text-right color-white fw600">20/06/2021</div>
+           </div>
+        </div>
+     </div>
+     <div class="list-info-item">
+      <div class="table">
+         <div class="td">
+            <div class="list-info-txt-sub color-white60">Kỳ hạn</div>
+         </div>
+         <div class="td">
+            <div class="list-info-txt-main text-right color-white fw600">1 tháng</div>
+         </div>
+      </div>
+   </div>
+   <div class="list-info-item">
+    <div class="table">
+       <div class="td">
+          <div class="list-info-txt-sub color-white60">Ngày mở</div>
+       </div>
+       <div class="td">
+          <div class="list-info-txt-main text-right color-white fw600">22/09/2021</div>
+       </div>
+    </div>
+ </div>
+ <div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Ngày đáo hạn</div>
+     </div>
+     <div class="td">
+        <div class="list-info-txt-main text-right color-white fw600">22/10/2021</div>
+     </div>
+  </div>
+</div>
+                <div class="list-info-item">
+                    <div class="table">
+                       <div class="td">
+                          <div class="list-info-txt-sub color-white60">Số tiền gửi</div>
+                       </div>
+                       <div class="td">
+                          <div class="list-info-txt-main text-right fw600 color-primary-light">200,000,000 VND</div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="list-info-item last">
+                    <div class="table">
+                       <div class="td">
+                          <div class="list-info-txt-sub color-white60">Số tiền lãi</div>
+                       </div>
+                       <div class="td">
+                          <div class="list-info-txt-main text-right fw600 color-primary-light">5,000,000 VND</div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="btn-bottom">
+                    <div class="table">
+                       <div class="td">
+                        <button class="fr no-m ubtn ubg-primary ubtn-md txt-upper" data-dismiss="modal">
+                            <span class="ubtn-text">Đóng</span>
+                          </button>
+                       </div>
+                    </div>
+                 </div>
+             </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="account-lending" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-right-top modal-md modal-dialog-scrollable" role="document" style="max-width:640px;">
+      <div class="modal-content">
+        <div class="modal-header text-left">
+          <h2 class="modal-title">Thông tin khế ước vay</h2>
+          <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+            <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+          </button>
+        </div>
+        <div class="modal-body isolated-scroll">
+            <div class="list-info">
+              <div class="list-info-item">
+                <div class="table">
+                   <div class="td">
+                      <div class="list-info-txt-sub color-white60">Tên sản phẩm</div>
+                   </div>
+                   <div class="td">
+                      <div class="list-info-txt-main text-right color-white fw600">DH-CBV CHAP CBNV EIB</div>
+                   </div>
+                </div>
+             </div>
+             <div class="list-info-item">
+              <div class="table">
+                 <div class="td">
+                    <div class="list-info-txt-sub color-white60">Hợp đồng tín dụng</div>
+                 </div>
+                 <div class="td">
+                    <div class="list-info-txt-main text-right color-white fw600">2108lav6610000008</div>
+                 </div>
+              </div>
+           </div>
+           <div class="list-info-item">
+            <div class="table">
+               <div class="td">
+                  <div class="list-info-txt-sub color-white60">Số khế ước</div>
+               </div>
+               <div class="td">
+                  <div class="list-info-txt-main text-right color-white fw600">12211221111111</div>
+               </div>
+            </div>
+         </div>
+         <div class="list-info-item">
+          <div class="table">
+             <div class="td">
+                <div class="list-info-txt-sub color-white60">Chi nhánh quản lý</div>
+             </div>
+             <div class="td">
+                <div class="list-info-txt-main text-right color-white fw600">Eximbank Trương Định</div>
+             </div>
+          </div>
+       </div>
+       <div class="list-info-item">
+        <div class="table">
+           <div class="td">
+              <div class="list-info-txt-sub color-white60">Số tiền cho vay</div>
+           </div>
+           <div class="td">
+              <div class="list-info-txt-main text-right fw600 color-primary-light">1,000,000</div>
+           </div>
+        </div>
+     </div>
+     <div class="list-info-item">
+      <div class="table">
+         <div class="td">
+            <div class="list-info-txt-sub color-white60">Dư nợ vay</div>
+         </div>
+         <div class="td">
+            <div class="list-info-txt-main text-right fw600 color-primary-light">5,000,000</div>
+         </div>
+      </div>
+   </div>
+   <div class="list-info-item">
+    <div class="table">
+       <div class="td">
+          <div class="list-info-txt-sub color-white60">Loại tiền</div>
+       </div>
+       <div class="td">
+          <div class="list-info-txt-main text-right color-white fw600">VND</div>
+       </div>
+    </div>
+ </div>
+ <div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Ngày giải ngân</div>
+     </div>
+     <div class="td">
+        <div class="list-info-txt-main text-right color-white fw600">20/10/2019</div>
+     </div>
+  </div>
+</div>
+<div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Ngày đáo hạn</div>
+     </div>
+     <div class="td">
+        <div class="list-info-txt-main text-right color-white fw600">20/10/2021</div>
+     </div>
+  </div>
+</div>
+<div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Lãi suất</div>
+     </div>
+     <div class="td">
+        <div class="list-info-txt-main text-right color-white fw600">10% /Năm</div>
+     </div>
+  </div>
+</div>
+<div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Ngày thanh toán gốc tiếp theo</div>
+     </div>
+     <div class="td">
+        <div class="list-info-txt-main text-right color-white fw600">20/06/2019</div>
+     </div>
+  </div>
+</div>
+<div class="list-info-item">
+  <div class="table">
+     <div class="td">
+        <div class="list-info-txt-sub color-white60">Số tiền gốc tạm tính</div>
+     </div>
+     <div class="td">
+        <div class="list-info-txt-main text-right fw600 color-primary-light">1,500,000</div>
+     </div>
+  </div>
+</div>
+
+                <div class="list-info-item last">
+                   <div class="table">
+                      <div class="td">
+                         <div class="list-info-txt-sub color-white60">Ngày thanh toán lãi tiếp theo</div>
+                      </div>
+                      <div class="td">
+                         <div class="list-info-txt-main text-right color-white fw600">20/06/2019</div>
+                      </div>
+                   </div>
+                </div>
+                 <div class="btn-bottom">
+                    <div class="table">
+                       <div class="td">
+                        <button class="fr no-m ubtn ubg-primary ubtn-md txt-upper btn-toast" data-dismiss="modal">
+                            <span class="ubtn-text">Đóng</span>
+                          </button>
+                       </div>
+                    </div>
+                 </div>
+             </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<!--==========================General=========================-->
+<!--jquery-->
+<script src="js/vendors/jquery/jquery.bundles.js"></script>
+<script src="js/vendors/jquery/jquery.init.js"></script>
+<!--jquery end-->
+<!--bootstrap-->
+<script src="js/vendors/bootstrap/bootstrap.bundles.js"></script>
+<script src="js/vendors/bootstrap/bootstrap.init.js"></script>
+<!--bootstrap end-->
+<!--==========================General End=========================-->
+<!--==========================Only for this page=========================-->
+<!--croppie-->
+<!--<script src="js/vendors/croppie/croppie.bundles.js"></script>
+<script src="js/vendors/croppie/croppie.init.js"></script>-->
+<!--croppie end-->
+<script src="js/custom.js"></script>
+<script src="js/otp.js"></script>
+<!--==========================Only for this page End=========================-->
+<div class="modal" id="modal-profile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-sm modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Cập nhật ảnh đại diện</h2>
+        <button type="button" class="ubtn ubg-blank ubtn-circle-md modal-close ripple-100 legitRipple" data-dismiss="modal">
+          <img width="24" height="24" src="vip-images/base/icons/close/base.svg" alt="">
+        </button>
+      </div>
+      <div class="modal-body isolated-scroll text-center">
+        <div class="p-upload p-upload-wrap">
+          <div id="p-upload-crop" class="p-upload-container"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="text-right">
+            <div class="inline-block">
+              <a href="#" class="no-m ubtn ubtn-link ubtn-md ripple" data-dismiss="modal">
+                <span class="ubtn-text">Hủy</span>
+              </a>              
+            </div>
+            <div class="inline-block">
+              <a href="#" class="no-m ubtn ubg-primary ubtn-md btn-toast2" data-dismiss="modal">
+                <span class="ubtn-text">Cập nhật</span>
+              </a>              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="toast-br" aria-live="polite" aria-atomic="true">
+  <div id="toast-br" class="toast toast1 toast-success fade" data-delay="3000" style="position: absolute; top: auto; left:50%; bottom: 30px;max-width: 100%;min-width: 330px;">
+    <div class="toast-header">
+      <img src="vip-images/web/icons/white/toast_ic_check.svg" class="rounded mr-2" alt="">
+      <span class="mr-auto">Nội dung nghiệp vụ cung cấp!</span>
+      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="toast-body">
+      
+    </div>
+  </div>
+</div>
+</html>

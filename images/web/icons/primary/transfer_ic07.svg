@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.108" y1="0.093" x2="0.867" y2="0.874" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7ed9ff"/>
+      <stop offset="0.531" stop-color="#00a1e4"/>
+      <stop offset="1" stop-color="#0073bc"/>
+    </linearGradient>
+  </defs>
+  <g id="transfer_ic07" transform="translate(-11.292 20.489)">
+    <circle id="Ellipse_1088" data-name="Ellipse 1088" cx="24" cy="24" r="24" transform="translate(11.292 -20.489)" fill="none"/>
+    <g id="icon_64px_transfer_to_paper" data-name="icon 64px / transfer / to paper" transform="translate(11.292 -20.489)">
+      <rect id="Rectangle_10967" data-name="Rectangle 10967" width="48" height="48" fill="none"/>
+      <g id="Group_20149" data-name="Group 20149" transform="translate(7.5 11.25)">
+        <rect id="Rectangle_6248" data-name="Rectangle 6248" width="29.792" height="22.6" rx="2" fill="url(#linear-gradient)"/>
+        <path id="Path_16488" data-name="Path 16488" d="M1.027,0H22.6a1.027,1.027,0,0,1,1.027,1.027V15.409A1.027,1.027,0,0,1,22.6,16.437H1.027A1.027,1.027,0,0,1,0,15.409V1.027A1.027,1.027,0,0,1,1.027,0Z" transform="translate(3.082 3.082)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+        <g id="Group_17392" data-name="Group 17392" transform="translate(5.907 6.421)">
+          <path id="Path_10448" data-name="Path 10448" d="M6.144,12.88a.77.77,0,0,1-.77-.77,1.874,1.874,0,0,0-1.791-1.943,1.874,1.874,0,0,0-1.791,1.943.77.77,0,1,1-1.541,0A3.415,3.415,0,0,1,3.582,8.625a3.415,3.415,0,0,1,3.332,3.484A.77.77,0,0,1,6.144,12.88Z" transform="translate(-0.25 -3.12)" fill="#0073bc"/>
+          <path id="Ellipse_435" data-name="Ellipse 435" d="M1.746-.75a2.5,2.5,0,1,1-2.5,2.5A2.5,2.5,0,0,1,1.746-.75Zm0,3.451a.955.955,0,1,0-.955-.955A.956.956,0,0,0,1.746,2.7Z" transform="translate(1.524 0.75)" fill="#0073bc"/>
+        </g>
+        <path id="Line_758" data-name="Line 758" d="M6.184.791H.02A.77.77,0,0,1,.02-.75H6.184a.77.77,0,0,1,0,1.541Z" transform="translate(15.903 8.198)" fill="#f7b500"/>
+        <path id="Line_759" data-name="Line 759" d="M6.184.791H.02A.77.77,0,0,1,.02-.75H6.184a.77.77,0,0,1,0,1.541Z" transform="translate(15.903 12.307)" fill="#f7b500"/>
+        <path id="Union_39" data-name="Union 39" d="M14.382,10.576V8.671H0L4.109,2.507H14.382V.6a1,1,0,0,1,1.659-.752l5.7,4.987a1,1,0,0,1,0,1.506l-5.7,4.987a.982.982,0,0,1-.653.25A1,1,0,0,1,14.382,10.576Z" transform="translate(10.786 13.93)" fill="#f7b500"/>
+      </g>
+    </g>
+  </g>
+</svg>
