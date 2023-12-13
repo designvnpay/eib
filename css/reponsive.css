@@ -909,6 +909,10 @@
   }
 }
 @media (max-width: 767px) {
+  .box-radio-tab .radio {display: block; text-align: center;}
+  .box-radio-tab .ml12 {
+    margin-left: 0;
+}
   .bg:not(.bg--login) {
     background-size: contain;
     height: 320px;

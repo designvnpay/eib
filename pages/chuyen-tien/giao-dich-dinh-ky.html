@@ -570,7 +570,7 @@
                                     class="dropdown-inner"
                                     href="javascript:;"
                                     data-toggle="modal"
-                                    data-target="#modal-delete"
+                                    data-target="#modal-cancel"
                                   >
                                     <div class="dropdown-ic">
                                       <img
@@ -2142,6 +2142,55 @@
     </div>
     <div
       class="modal fade"
+      id="modal-cancel"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby=""
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-small modal-dialog-scrollable"
+        role="document"
+      >
+        <div class="modal-content text-center">
+          <div class="modal-header justify-content-center">
+            <h2 class="modal-title">Thông báo</h2>
+          </div>
+          <div class="modal-body pb0">
+            <p class="no-m size14">
+              Quý khách có chắc chắn muốn hủy giao dịch ra khỏi danh sách giao
+              dịch định kỳ
+            </p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <div class="row row-15 align-items-center inline-block">
+              <div class="inline-block">
+                <div class="ubtn-wrap-width-sm">
+                  <button
+                    class="ubtn ubtn-md ubtn-gray ripple no-m"
+                    data-dismiss="modal"
+                  >
+                    <span class="ubtn-text">Hủy</span>
+                  </button>
+                </div>
+              </div>
+              <div class="inline-block">
+                <div class="ubtn-wrap-width-sm">
+                  <a
+                    class="ubtn ubg-primary ubtn-md ripple no-m btn-toast3"
+                    data-dismiss="modal"
+                  >
+                    <span class="ubtn-text">Đồng ý</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
       id="modal-pause"
       tabindex="-1"
       role="dialog"
@@ -2323,7 +2372,7 @@
             class="rounded mr-2"
             alt=""
           />
-          <span class="mr-auto">Xóa giao dịch định kỳ thành công</span>
+          <span class="mr-auto">Nội dung thông báo nghiệp vụ cung cấp</span>
           <button
             type="button"
             class="ml-2 mb-1 close"
