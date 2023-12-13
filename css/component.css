@@ -3431,7 +3431,11 @@ app-modal-receipt-print {
     padding: 15px;
     border-radius: 8px;
 }
-
+.box-radio-show .box-wrap-15 .box {
+    margin-bottom: 0;
+    padding: 12px;
+    border-radius: 8px;
+}
 .box--light-8 {
     background-color: rgba(255, 255, 255, 0.08);
 }
@@ -6209,3 +6213,4 @@ a.ubg-white-light {color: var(--color-white);}
 .radio-wrap input[type=radio]:checked~.box-checked-light>.radio>.icon_mask, .radio-wrap input[type=radio]:checked~.box-checked-light>.radio>.color-white {
     color: var(--color-primary-light)
 }
+.pt24 {padding-top: 24px;}
